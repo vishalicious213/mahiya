@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* HEADER */
+
+#header {
+  display: flex;
+  justify-content: center;
+}
+
+#logo-container {
+  border: 1px solid red;
+  width: 10rem;
+}
+
+#logo {
+  border: 1px solid orange;
+  width: 100%;
+}
+
+/* PROJECTS */
+
+#byline-container {
+  width: 50%;
+}
+
+#byline {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25rem;
+}
+
+#highlight {
+  background: #fffb8f;
+}
+
+/* 
+font-family: 'Lora', serif;
+font-family: 'Playfair Display', serif;
+
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap');
+</style>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Lora&family=Playfair+Display&display=swap" rel="stylesheet"> */

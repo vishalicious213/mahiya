@@ -3,8 +3,8 @@ import React from 'react'
 function Header() {
     return (
       <div id="header">
-          <div>
-            <img src='../img/logo17.png' alt='Mahiya Hoque'></img>
+          <div id='logo-container'>
+            <img id='logo' src='../img/logo17.png' alt='Mahiya Hoque'></img>
           </div>
       </div>
     )
