@@ -11,7 +11,7 @@ function App() {
         <Sidebar />
       </div>
 
-      <section>
+      <section id='main'>
         <Header />
         <Projects />
         <Footer />

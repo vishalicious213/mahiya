@@ -69,6 +69,14 @@ code {
   display: flex;
 }
 
+.project-images {
+  width: 70%;
+}
+
+.app-img {
+  width: 50%;
+}
+
 .project-title {
   font-family: 'Playfair Display', serif;
   font-size: 1.1rem;

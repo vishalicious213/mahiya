@@ -1,6 +1,12 @@
 .App {
   border: 1px solid red;
   display: flex;
+  justify-content: center;
+}
+
+#main {
+  border: 1px solid green;
+  /* width: 60%; */
 }
 
 #split {

@@ -19,12 +19,12 @@ function Projects() {
 
             <div className='project'>
               <div className='project-info'>
-                <div className='project-images'>
-                  <a href='http://www.mahiya.design/plant-watering-app/'>
-                    <img id='app-img' src={plant1} alt='plant-watering app'></img>
-                    <img id='app-img' src={plant2} alt='plant-watering app'></img>
-                  </a>
-                </div>
+
+                <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
+                    <img className='app-img' src={plant1} alt='plant-watering app'></img>
+                    <img className='app-img' src={plant2} alt='plant-watering app'></img>
+                </a>
+
                 <div className='project-text-container'>
                   <div>
                     <p className='project-title'>Plant watering app</p>
@@ -39,12 +39,12 @@ function Projects() {
 
             <div className='project'>
               <div className='project-info'>
-                <div className='project-images'>
-                  <a href='http://www.mahiya.design/activity-tracker-app/'>
-                    <img id='app-img' src={activity1} alt='activity-tracker app'></img>
-                    <img id='app-img' src={activity2} alt='activity-tracker app'></img>
-                  </a>
-                </div>
+
+                <a className='project-images' href='http://www.mahiya.design/activity-tracker-app/'>
+                  <img className='app-img' src={activity1} alt='activity-tracker app'></img>
+                  <img className='app-img' src={activity2} alt='activity-tracker app'></img>
+                </a>
+
                 <div className='project-text-container'>
                   <div>
                     <p className='project-title'>Activity tracker app</p>
@@ -59,12 +59,12 @@ function Projects() {
 
             <div className='project'>
               <div className='project-info'>
-                <div className='project-images'>
-                  <a href='http://www.mahiya.design/mealventory-app/'>
-                    <img id='app-img' src={meal1} alt='mealventory app'></img>
-                    <img id='app-img' src={meal2} alt='mealventory app'></img>
-                  </a>
-                </div>
+
+                <a className='project-images' href='http://www.mahiya.design/mealventory-app/'>
+                  <img className='app-img' src={meal1} alt='mealventory app'></img>
+                  <img className='app-img' src={meal2} alt='mealventory app'></img>
+                </a>
+
                 <div className='project-text-container'>
                   <div>
                     <p className='project-title'>Mealventory app</p>
