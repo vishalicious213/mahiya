@@ -1,14 +1,21 @@
 import Header from './components/Header'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
+import Sidebar from './components/Sidebar'
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header />
-      <Projects />
-      <Footer />
+      <div id='split'>
+        <Sidebar />
+      </div>
+
+      <section>
+        <Header />
+        <Projects />
+        <Footer />
+      </section>
     </div>
   );
 }

@@ -5,7 +5,6 @@ import activity1 from '../img/activity-tracker-app1.png'
 import activity2 from '../img/activity-tracker-app2.png'
 import meal1 from '../img/mealventory-app1.png'
 import meal2 from '../img/mealventory-app2.png'
-import right_arrow from '../img/right_arrow.svg'
 
 function Projects() {
     return (
@@ -34,7 +33,7 @@ function Projects() {
                 </div>
               </div>
               <div>
-              <img className='right-arrow' src={right_arrow} alt='right-arrow'></img>
+                <i className="fas fa-arrow-right"></i>
               </div>
             </div>
 
@@ -48,13 +47,13 @@ function Projects() {
                 </div>
                 <div className='project-text-container'>
                   <div>
-                    <p className='project-title'>Plant watering app</p>
+                    <p className='project-title'>Activity tracker app</p>
                     <p className='project-role'>UX & UI</p>
                   </div>
                 </div>
               </div>
               <div>
-              <img className='right-arrow' src={right_arrow} alt='right-arrow'></img>
+                <i className="fas fa-arrow-right"></i>
               </div>
             </div>
 
@@ -68,13 +67,13 @@ function Projects() {
                 </div>
                 <div className='project-text-container'>
                   <div>
-                    <p className='project-title'>Plant watering app</p>
+                    <p className='project-title'>Mealventory app</p>
                     <p className='project-role'>UX & UI</p>
                   </div>
                 </div>
               </div>
               <div>
-              <img className='right-arrow' src={right_arrow} alt='right-arrow'></img>
+                <i className="fas fa-arrow-right"></i>
               </div>
             </div>
 
@@ -82,6 +81,6 @@ function Projects() {
         </section>
       </div>
     )
-  }
+}
   
   export default Projects;
