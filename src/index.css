@@ -31,8 +31,18 @@ code {
 
 /* PROJECTS */
 
+#projects {
+  display: flex;
+  justify-content: center;
+}
+
+#project-section {
+  border: 1px solid red;
+  width: 55%;
+}
+
 #byline-container {
-  width: 50%;
+  /* width: 50%; */
 }
 
 #byline {
@@ -42,6 +52,40 @@ code {
 
 #highlight {
   background: #fffb8f;
+}
+
+#project-section-title {
+  font-family: 'Playfair Display', serif;
+  color: gray;
+}
+
+.project {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
+
+.project-info {
+  display: flex;
+}
+
+.project-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.project-text-container {
+  border: 1px solid orange;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.right-arrow {
+  border: 1px solid red;
+  color: darkturquoise;
+  width: 2rem;
 }
 
 /* 
