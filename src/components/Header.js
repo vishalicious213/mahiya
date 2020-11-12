@@ -4,7 +4,7 @@ function Header() {
     return (
       <div id="header">
           <div>
-              <img src='https://github.com/vishalicious213/mahiya/blob/main/public/img/logo17.jpg' alt='Mayiha Hoque'></img>
+            <img src='../img/logo17.png' alt='Mahiya Hoque'></img>
           </div>
       </div>
     )
