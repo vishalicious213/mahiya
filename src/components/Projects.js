@@ -21,8 +21,10 @@ function Projects() {
             <div className='project'>
               <div className='project-info'>
                 <div className='project-images'>
-                  <img id='app-img' src={plant1} alt='plant-watering app'></img>
-                  <img id='app-img' src={plant2} alt='plant-watering app'></img>
+                  <a href='http://www.mahiya.design/plant-watering-app/'>
+                    <img id='app-img' src={plant1} alt='plant-watering app'></img>
+                    <img id='app-img' src={plant2} alt='plant-watering app'></img>
+                  </a>
                 </div>
                 <div className='project-text-container'>
                   <div>
@@ -39,8 +41,10 @@ function Projects() {
             <div className='project'>
               <div className='project-info'>
                 <div className='project-images'>
-                  <img id='app-img' src={activity1} alt='plant-watering app'></img>
-                  <img id='app-img' src={activity2} alt='plant-watering app'></img>
+                  <a href='http://www.mahiya.design/activity-tracker-app/'>
+                    <img id='app-img' src={activity1} alt='activity-tracker app'></img>
+                    <img id='app-img' src={activity2} alt='activity-tracker app'></img>
+                  </a>
                 </div>
                 <div className='project-text-container'>
                   <div>
@@ -57,8 +61,10 @@ function Projects() {
             <div className='project'>
               <div className='project-info'>
                 <div className='project-images'>
-                  <img id='app-img' src={meal1} alt='plant-watering app'></img>
-                  <img id='app-img' src={meal2} alt='plant-watering app'></img>
+                  <a href='http://www.mahiya.design/mealventory-app/'>
+                    <img id='app-img' src={meal1} alt='mealventory app'></img>
+                    <img id='app-img' src={meal2} alt='mealventory app'></img>
+                  </a>
                 </div>
                 <div className='project-text-container'>
                   <div>

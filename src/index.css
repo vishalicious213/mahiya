@@ -20,12 +20,12 @@ code {
 }
 
 #logo-container {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 12rem;
 }
 
 #logo {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   width: 100%;
 }
 
@@ -37,7 +37,7 @@ code {
 }
 
 #project-section {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 55%;
 }
 
@@ -76,16 +76,27 @@ code {
 }
 
 .project-text-container {
-  border: 1px solid orange;
+  /* border: 1px solid orange; */
   display: flex;
   align-items: center;
   margin-left: 1rem;
 }
 
 .right-arrow {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: darkturquoise;
   width: 2rem;
+}
+
+/* FOOTER */
+
+#footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 7.75rem;
+  background: #3a3a3a;
+  color: white;
 }
 
 /* 
