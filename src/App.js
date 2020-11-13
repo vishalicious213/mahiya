@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
+import { Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -20,6 +21,8 @@ function App() {
         <div className="footer">
             <Footer />
         </div>
+
+        <Route exact path='/' component={App} />
     </div>    
   );
 }
