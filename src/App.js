@@ -1,13 +1,16 @@
-import Header from './components/Header'
-import Projects from './components/Projects'
-import Footer from './components/Footer'
-import Sidebar from './components/Sidebar'
-import './App.css';
+// import Header from './components/Header'
+// import Projects from './components/Projects'
+// import Footer from './components/Footer'
+// import Sidebar from './components/Sidebar'
+import Grid from './components/Grid'
+// import './grid.css'
+// import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div id='split'>
+      <Grid />
+      {/* <div id='split'>
         <Sidebar />
       </div>
 
@@ -15,7 +18,7 @@ function App() {
         <Header />
         <Projects />
         <Footer />
-      </section>
+      </section> */}
     </div>
   );
 }

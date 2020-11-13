@@ -21,4 +21,9 @@
   text-align: right;
   color: gray;
   font-size: 1.25rem;
+  transition-duration: 1s;
+}
+
+.side-menu-item:hover {
+  color: darkturquoise;
 }

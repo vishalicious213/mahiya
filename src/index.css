@@ -15,8 +15,10 @@ code {
 /* HEADER */
 
 #header {
+  border: 1px solid purple;
   display: flex;
-  justify-content: center;
+  width: 55%;
+  /* justify-content: center; */
 }
 
 #logo-container {
@@ -37,7 +39,7 @@ code {
 }
 
 #project-section {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   width: 55%;
 }
 
@@ -63,13 +65,17 @@ code {
   display: flex;
   justify-content: space-between;
   margin-bottom: 3rem;
+  /* background: gainsboro; */
 }
 
 .project-info {
+  /* border: 1px solid orange; */
   display: flex;
+  width: 90%;
 }
 
 .project-images {
+  /* border: 1px solid red; */
   width: 70%;
 }
 
@@ -77,23 +83,22 @@ code {
   width: 50%;
 }
 
-.project-title {
-  font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
 .project-text-container {
-  /* border: 1px solid orange; */
   display: flex;
   align-items: center;
   margin-left: 1rem;
 }
 
+.project-title {
+  /* border: 1px solid purple; */
+  font-family: 'Playfair Display', serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .fa-arrow-right {
   /* border: 1px solid red; */
   color: darkturquoise;
-  /* width: 2rem; */
   font-size: 1.75rem;
 }
 
