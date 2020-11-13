@@ -7,17 +7,17 @@ import Sidebar from './components/Sidebar'
 
 function App() {
   return (
-    <div class="wrapper">
-        <div class="header">
+    <div className="wrapper">
+        <div className="header">
             <Header />
         </div>
-        <div class="sidebar">
+        <div className="sidebar">
             <Sidebar />
         </div>
-        <div class="content">
+        <div className="content">
             <Projects />
         </div>
-        <div class="footer">
+        <div className="footer">
             <Footer />
         </div>
     </div>    
