@@ -4,7 +4,8 @@ import Header from './components/Header'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
-import { Route } from 'react-router-dom';
+// import AboutMe from './components/AboutMe'
+// import { Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -22,7 +23,8 @@ function App() {
             <Footer />
         </div>
 
-        <Route exact path='/' component={App} />
+        {/* <Route exact path='/' component={App} /> */}
+        {/* <Route path='/about-me' component={AboutMe} /> */}
     </div>    
   );
 }
