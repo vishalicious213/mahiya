@@ -33,7 +33,9 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <i className="fas fa-arrow-right"></i>
+                <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
+                  <i className="fas fa-arrow-right"></i>
+                </a>
               </div>
             </div>
 
@@ -53,7 +55,9 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <i className="fas fa-arrow-right"></i>
+                <a className='project-images' href='http://www.mahiya.design/activity-tracker-app/'>
+                  <i className="fas fa-arrow-right"></i>
+                </a>
               </div>
             </div>
 
@@ -73,7 +77,9 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <i className="fas fa-arrow-right"></i>
+                <a className='project-images' href='http://www.mahiya.design/mealventory-app/'>
+                  <i className="fas fa-arrow-right"></i>
+                </a>
               </div>
             </div>
 

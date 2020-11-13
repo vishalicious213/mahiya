@@ -43,6 +43,10 @@ code {
   margin-top: 2rem;
 }
 
+#sidebar > a {
+  text-decoration: none;
+}
+
 .side-menu-item {
   /* outline: 1px solid red; */
   margin: .25rem;
