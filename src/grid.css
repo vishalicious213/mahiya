@@ -1,11 +1,14 @@
 .header {
     grid-area: hd;
+    margin-left: 1rem;
 }
 .footer {
     grid-area: ft;
 }
 .content {
     grid-area: main;
+    margin-left: 1rem;
+    /* background: pink; */
 }
 .sidebar {
     grid-area: sd;
@@ -15,7 +18,7 @@
     display: grid;
     grid-auto-rows: minmax(100px, auto);
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: auto auto auto;
     grid-template-areas: 
       "hd hd sd"
       "main main main"
@@ -30,6 +33,10 @@
           "sd sd main main main main main main main"
           "ft ft ft   ft   ft   ft   ft   ft   ft";
     }
+
+    .header, .content {
+        margin-left: 0;
+    }
 }
 
 * {box-sizing: border-box;}
@@ -40,7 +47,7 @@
 }
 
 .wrapper > div {
-    outline: 1px solid orange;
+    /* outline: 1px solid orange; */
     /* padding: 1em; */
     /* margin: .25rem; */
 }

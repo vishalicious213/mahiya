@@ -15,15 +15,15 @@ code {
 /* HEADER */
 
 #header {
-  outline: 1px solid purple;
+  /* outline: 1px solid purple; */
   display: flex;
-  width: 55%;
+  width: 100%;
   /* justify-content: center; */
 }
 
 #logo-container {
   /* border: 1px solid red; */
-  width: 12rem;
+  width: 87.5%;
 }
 
 #logo {
@@ -31,7 +31,38 @@ code {
   width: 100%;
 }
 
+@media (min-width: 768px) {
+  #logo-container {
+    width: 57.5%;
+  }
+}
+
 /* SIDEBAR */
+
+.side-menu-item {
+  /* outline: 1px solid red; */
+  margin: .25rem;
+}
+
+.side-menu-item:hover {
+  color: darkturquoise;
+}
+
+@media (min-width: 768px) {
+  #sidebar {
+    margin-right: 2rem;
+    position: sticky;
+    top: 2rem;
+  }
+  
+  .side-menu-item {
+    text-align: right;
+    color: gray;
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    transition-duration: 1s;
+  }
+}
 
 /* #split {
   border: 1px solid orange;
@@ -41,34 +72,17 @@ code {
   align-items: flex-end;
 } */
 
-#sidebar {
-  margin-right: 2rem;
-  position: sticky;
-  top: 1rem;
-}
-
-.side-menu-item {
-  text-align: right;
-  color: gray;
-  font-size: 1.25rem;
-  transition-duration: 1s;
-}
-
-.side-menu-item:hover {
-  color: darkturquoise;
-}
-
 /* PROJECTS */
 
 #projects {
   display: flex;
   justify-content: flex-start;
-  background: pink;
+  /* background: pink; */
 }
 
 #project-section {
-  border: 1px solid red;
-  width: 55%;
+  /* border: 1px solid red; */
+  max-width: 95%;
 }
 
 #byline-container {
