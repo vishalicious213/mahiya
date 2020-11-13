@@ -39,6 +39,10 @@ code {
 
 /* SIDEBAR */
 
+#sidebar {
+  margin-top: 2rem;
+}
+
 .side-menu-item {
   /* outline: 1px solid red; */
   margin: .25rem;
