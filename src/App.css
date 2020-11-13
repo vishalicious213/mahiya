@@ -8,22 +8,3 @@
   border: 1px solid green;
   /* width: 60%; */
 }
-
-#split {
-  border: 1px solid orange;
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-}
-
-.side-menu-item {
-  text-align: right;
-  color: gray;
-  font-size: 1.25rem;
-  transition-duration: 1s;
-}
-
-.side-menu-item:hover {
-  color: darkturquoise;
-}

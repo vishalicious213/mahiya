@@ -28,7 +28,7 @@
         grid-template-areas: 
           "sd sd hd   hd   hd   hd   hd   hd   hd"
           "sd sd main main main main main main main"
-          "sd sd ft   ft   ft   ft   ft   ft   ft";
+          "ft ft ft   ft   ft   ft   ft   ft   ft";
     }
 }
 
@@ -40,7 +40,7 @@
 }
 
 .wrapper > div {
-    /* border: 1px solid orange;
-    padding: 1em;
-    margin: .25rem; */
+    outline: 1px solid orange;
+    /* padding: 1em; */
+    /* margin: .25rem; */
 }
