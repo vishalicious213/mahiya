@@ -1,6 +1,7 @@
 import React from 'react'
 import leftArrow from '../img/left-arrow.png'
 // import { Link } from 'react-router-dom'
+import '../styles/sidebar.css';
 
 function Sidebar() {
     return (

@@ -5,6 +5,7 @@ import activity1 from '../img/activity-tracker-app1.png'
 import activity2 from '../img/activity-tracker-app2.png'
 import meal1 from '../img/mealventory-app1.png'
 import meal2 from '../img/mealventory-app2.png'
+import '../styles/projects.css';
 
 function Projects() {
     return (

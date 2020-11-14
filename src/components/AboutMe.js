@@ -2,6 +2,7 @@ import React from 'react'
 import ContactForm from './ContactForm'
 import aboutme from '../img/about-me.jpg'
 import activity1 from '../img/activity-tracker-app1.png'
+import '../styles/about-me.css';
 
 function AboutMe() {
   return (
