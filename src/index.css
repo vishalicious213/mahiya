@@ -21,6 +21,7 @@ code {
 .text-content {
   font-family: 'Raleway', sans-serif;
   font-size: 1.3rem;
+  line-height: 1.75;
   color: var(--text-color);
 }
 
@@ -69,9 +70,10 @@ code {
 
 #sidebar {
   margin-top: 2rem;
+  outline: 1px solid red;
 }
 
-#sidebar > a {
+#sidebar-top > a, #sidebar-bottom > a {
   text-decoration: none;
 }
 
@@ -84,11 +86,16 @@ code {
   color: darkturquoise;
 }
 
+#sidebar-bottom {
+  display: none;
+}
+
 @media (min-width: 768px) {
   #sidebar {
     margin-right: 2rem;
     position: sticky;
     top: 2rem;
+    height: 100vh;
   }
   
   .side-menu-item {
@@ -98,15 +105,44 @@ code {
     margin-bottom: 1rem;
     transition-duration: 1s;
   }
-}
 
-/* #split {
-  border: 1px solid orange;
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-} */
+  #sidebar-bottom {
+    outline: 1px solid red;
+    display: block;
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+  }
+
+  #sidebar-bottom-button-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  #sidebar-bottom-button-container > p {
+    margin-right: .25rem;
+    margin-left: .5rem;
+    color: gray;
+    font-size: 1.25rem;
+    transition-duration: 1s;
+  }
+
+  #sidebar-bottom-button-container > p:hover {
+    color: darkturquoise;
+  }
+
+  .side-menu-arrow {
+    border: 1px solid var(--text-color);
+    border-radius: 50%;
+    padding: .5rem;
+    transition-duration: 1s;
+  }
+
+  .side-menu-arrow:hover {
+    border: 1px solid darkturquoise;
+  }
+}
 
 /* PROJECTS */
 
@@ -169,6 +205,28 @@ code {
   /* border: 1px solid red; */
   color: darkturquoise;
   font-size: 1.75rem;
+}
+
+/* ABOUT ME */
+
+#about-me {
+  /* max-width: 700px; */
+}
+
+#about-me-top {
+  outline: 1px solid green;
+  display: flex;
+}
+
+#about-me-img-container {
+  outline: 1px solid red;
+  width: 150%;
+  margin: 1rem;
+}
+
+#about-me-img {
+  outline: 1px solid blue;
+  width: 100%;
 }
 
 /* FOOTER */
