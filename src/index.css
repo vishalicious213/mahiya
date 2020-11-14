@@ -66,16 +66,6 @@ code {
   }
 }
 
-/* FOOTER */
-
-#footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 7.75rem;
-  background: #3a3a3a;
-  color: white;
-}
 
 /* 
 font-family: 'Lora', serif;

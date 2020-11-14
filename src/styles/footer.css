@@ -1,0 +1,20 @@
+#footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer-icons {
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    border: 2px solid #08979C;
+    border-radius: 50%;
+    margin: .75rem;
+  }
+  
+  #globe-icon {background-image: url(../img/footer/globe.svg);}
+  #linkedin-icon {background-image: url(../img/footer/linkedin.svg);}
+  #medium-icon {background-image: url(../img/footer/medium.svg);}
+  #email-icon {background-image: url(../img/footer/email.svg);}
