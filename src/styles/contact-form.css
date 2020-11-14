@@ -1,0 +1,33 @@
+#contact-form {
+    width: 55%;
+    text-align: center;
+    padding-bottom: 5.5rem;
+    border-bottom: 1px solid var(--text-color);
+    margin-bottom: 2.5rem;
+}
+
+input, textarea {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.1rem;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #D9D9D9;
+    box-sizing: border-box;
+    border-radius: .25rem;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
+
+textarea {
+    height: 5.5rem;
+}
+
+button {
+    width: 100%;
+    border: 1px solid darkturquoise;
+    border-radius: .25rem;
+    background: darkturquoise;
+    color: white;
+    padding: .75rem;
+    font-family: 'Raleway', sans-serif;
+}

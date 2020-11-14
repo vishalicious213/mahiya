@@ -1,7 +1,7 @@
 import React from 'react'
+import ContactForm from './ContactForm'
 import aboutme from '../img/about-me.jpg'
 import activity1 from '../img/activity-tracker-app1.png'
-import meal1 from '../img/mealventory-app1.png'
 
 function AboutMe() {
   return (
@@ -24,12 +24,12 @@ function AboutMe() {
         <p className='text-content'>I’m also coming up with a tool  that friends and colleagues can use to queue their favorite songs insteading of needing to pause and wait while somebody finds their favorite song on YouTube or spotify (ughh!!)</p>
 
         <h3 className='text-header'>I would love to meet you to hear about your adventures!</h3>
-        <p>FORM</p>
+        <ContactForm />
 
         <h3 className='text-header'>My Projects</h3>
         <div className='project-images'>
             <img className='app-img' src={activity1} alt='activity-tracker app'></img>
-            <img className='app-img' src={meal1} alt='mealventory app'></img>
+            <img className='app-img' src={activity1} alt='activity-tracker app'></img>
         </div>        
     </div>    
   );
