@@ -1,3 +1,7 @@
+:root {
+  --text-color: #595959;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,6 +14,31 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* GLOBAL */
+
+.text-content {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.75;
+  color: var(--text-color);
+}
+
+.text-header {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  color: var(--text-color);
+}
+
+#byline-container {
+  /* width: 50%; */
+}
+
+#byline {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.25rem;
+  color: var(--text-color);
 }
 
 /* HEADER */
@@ -37,135 +66,11 @@ code {
   }
 }
 
-/* SIDEBAR */
-
-#sidebar {
-  margin-top: 2rem;
-}
-
-#sidebar > a {
-  text-decoration: none;
-}
-
-.side-menu-item {
-  /* outline: 1px solid red; */
-  margin: .25rem;
-}
-
-.side-menu-item:hover {
-  color: darkturquoise;
-}
-
-@media (min-width: 768px) {
-  #sidebar {
-    margin-right: 2rem;
-    position: sticky;
-    top: 2rem;
-  }
-  
-  .side-menu-item {
-    text-align: right;
-    color: gray;
-    font-size: 1.25rem;
-    margin-bottom: 1rem;
-    transition-duration: 1s;
-  }
-}
-
-/* #split {
-  border: 1px solid orange;
-  width: 20%;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-} */
-
-/* PROJECTS */
-
-#projects {
-  display: flex;
-  justify-content: flex-start;
-  /* background: pink; */
-}
-
-#project-section {
-  /* border: 1px solid red; */
-  max-width: 95%;
-}
-
-#byline-container {
-  /* width: 50%; */
-}
-
-#byline {
-  font-family: 'Playfair Display', serif;
-  font-size: 2.25rem;
-}
-
-#highlight {
-  background: #fffb8f;
-}
-
-#project-section-title {
-  font-family: 'Playfair Display', serif;
-  color: gray;
-}
-
-.project {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 3rem;
-  /* background: gainsboro; */
-}
-
-.project-info {
-  /* border: 1px solid orange; */
-  display: flex;
-  width: 90%;
-}
-
-.project-images {
-  /* border: 1px solid red; */
-  width: 70%;
-}
-
-.app-img {
-  width: 50%;
-}
-
-.project-text-container {
-  display: flex;
-  align-items: center;
-  margin-left: 1rem;
-}
-
-.project-title {
-  /* border: 1px solid purple; */
-  font-family: 'Playfair Display', serif;
-  font-size: 1.1rem;
-  font-weight: 600;
-}
-
-.fa-arrow-right {
-  /* border: 1px solid red; */
-  color: darkturquoise;
-  font-size: 1.75rem;
-}
-
-/* FOOTER */
-
-#footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 7.75rem;
-  background: #3a3a3a;
-  color: white;
-}
 
 /* 
 font-family: 'Lora', serif;
 font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
 
 
 <style>

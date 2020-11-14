@@ -1,0 +1,60 @@
+#projects {
+    display: flex;
+    justify-content: flex-start;
+    /* background: pink; */
+  }
+  
+  #project-section {
+    /* border: 1px solid red; */
+    max-width: 95%;
+  }
+  
+  #highlight {
+    background: #fffb8f;
+  }
+  
+  #project-section-title {
+    font-family: 'Playfair Display', serif;
+    color: gray;
+  }
+  
+  .project {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3rem;
+    /* background: gainsboro; */
+  }
+  
+  .project-info {
+    /* border: 1px solid orange; */
+    display: flex;
+    width: 90%;
+  }
+  
+  .project-images {
+    /* border: 1px solid red; */
+    width: 70%;
+  }
+  
+  .app-img {
+    width: 50%;
+  }
+  
+  .project-text-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
+  .project-title {
+    /* border: 1px solid purple; */
+    font-family: 'Playfair Display', serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+  }
+  
+  .fa-arrow-right {
+    /* border: 1px solid red; */
+    color: darkturquoise;
+    font-size: 1.75rem;
+  }

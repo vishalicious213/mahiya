@@ -1,11 +1,26 @@
 import React from 'react'
+import '../styles/footer.css'
 
 function Footer() {
     return (
-      <div id="footer">
-          <p id='copyright'>Copyright © 2020, Mahiya Hoque</p>
+      <div id='footer'>
+        <a href='http://www.mahiya.design/'>
+          <div className='footer-icons' id='globe-icon'></div>
+        </a>
+
+        <a href='http://www.mahiya.design/'>
+          <div className='footer-icons' id='linkedin-icon'></div>
+        </a>
+
+        <a href='http://www.mahiya.design/'>
+          <div className='footer-icons' id='medium-icon'></div>
+        </a>
+
+        <a href='http://www.mahiya.design/'>
+          <div className='footer-icons' id='email-icon'></div>
+        </a>
       </div>
     )
 }
-  
-  export default Footer;
+
+export default Footer;
