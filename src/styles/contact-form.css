@@ -1,5 +1,5 @@
 #contact-form {
-    width: 55%;
+    width: 90%;
     text-align: center;
     padding-bottom: 5.5rem;
     border-bottom: 1px solid var(--text-color);
@@ -30,4 +30,10 @@ button {
     color: white;
     padding: .75rem;
     font-family: 'Raleway', sans-serif;
+}
+
+@media (min-width: 768px) {
+    #contact-form{
+        width: 75%;
+    }
 }
