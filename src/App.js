@@ -4,11 +4,11 @@ import Header from './components/Header'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
-import AboutMe from './components/AboutMe'
+// import AboutMe from './components/AboutMe'
 
 function App() {
-  // let content = <Projects />
-  let content = <AboutMe />
+  let content = <Projects />
+  // let content = <AboutMe />
 
   return (
     <div className="wrapper">
