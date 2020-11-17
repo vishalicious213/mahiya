@@ -1,0 +1,14 @@
+#case-studies {
+    display: flex;
+    justify-content: flex-start;
+    background: pink;
+}
+
+#app-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.25rem;
+    color: #531DAB;
+
+}

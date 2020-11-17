@@ -1,7 +1,7 @@
 #projects {
     display: flex;
     justify-content: flex-start;
-    /* background: pink; */
+    background: pink;
   }
   
   #project-section {
