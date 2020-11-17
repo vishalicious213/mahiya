@@ -1,7 +1,14 @@
 #case-studies {
     display: flex;
     flex-direction: column;
-    background: pink;
+    outline: 1px solid red;
+}
+
+#case-studies > p {
+    font: raleway;
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin: 0;
 }
 
 #app-title {
@@ -11,4 +18,19 @@
     font-size: 2.25rem;
     color: #531DAB;
 
+}
+
+.case-font {
+    font: raleway;
+    font-size: 1.2rem;
+}
+
+.case-font-gray {
+    color: #8C8C8C;
+}
+
+.case-section-font {
+    font: raleway;
+    font-size: 1.3rem;
+    font-weight: 700;
 }
