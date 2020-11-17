@@ -49,7 +49,63 @@ function Plants() {
           <li>It’s hard to keep up with which plants have been watered, which haven’t and their individual watering needs.</li>
           <li>It’s hard to identify plants when you have a lot of them at home.</li>
           <li>It’s challenging to remember the varying needs of each plant because house plants tend to have particular care instructions.</li>
-        </ul>        
+        </ul>
+
+        <p>Creating empathy</p>
+        <p>Because I’m not the one experiencing these challanges, I needed to empathize with the planters who do. I defined the typical planter who needs a solution to these challenges.</p>
+
+        <p>The Feng Shui Enthusiast</p>
+        <div>
+          <p>Loves adopting plants, but can’t get them organized to save her life. Her partner thinks she owns too many plants for their small apartment. She feels frustrated because often these plants have different needs and not many ways to tell them apart.</p>
+          {/* <img></img> */}
+        </div>
+        <p>I put myself in her shoes and stopped at every point in her journey to understand her needs, goals, and frustrations.</p>
+
+        {/* <img>chart</img> */}
+
+        <p>Information Architecture</p>
+        <p>Using my new found growth, I was ready to create the userflow using some predetermined tasks.</p>
+        {/* <div>
+          <img></img>
+          <img></img>
+        </div> */}
+
+        {/* <img>arrow</img> */}
+
+        {/* <img>tree diagram</img> */}
+
+        <p>How might we differentiate between watered and unwatered plants?</p>
+        <p>I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate.</p>
+
+        {/* <div>
+          <img></img>
+          <img></img>
+          <img></img>
+          <img></img>
+          <img></img>
+          <img></img>
+          <img></img>
+        </div> */}
+
+        <p>Tracking watering</p>
+        <p>Because indoor plant care is individual to each plants, users need to be able to see water history and set watering frequencies for them.</p>
+
+        {/* <img></img> */}
+
+        <p>In an earlier exploration, I used filters denoting dehydrated plants from the rest. In this version, tapping on the plant would make the filter go away and it would hence be marked watered.</p>
+
+        {/* <img></img> */}
+
+        <p>Final solution</p>
+        <p>I thought if a water droplet could signify dehydration, then perhaps you could tap that plant and mark it watered. But this is where I needed to get grounded with the goal of my users: they need to see all the plants that are dehydrated at once.</p>
+
+        {/* <div>
+          <img></img>
+          <img></img>
+          <img></img>
+        </div> */}
+
+        <p>Prototype</p>
       </div>
     )
 }
