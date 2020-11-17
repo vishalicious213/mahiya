@@ -1,16 +1,24 @@
 import './App.css';
-import React from 'react'
+// import React, { useContext } from 'react'
+import React, { useState } from 'react'
 import Header from './components/Header'
 import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
-// import AboutMe from './components/AboutMe'
+import AboutMe from './components/AboutMe'
+import { ContentContext } from './components/ContentContext'
 
 function App() {
-  let content = <Projects />
+  const [content, setContent] = useState(<Projects />)
+  // const [content, setContent] = useState(<AboutMe />)
+  // const [content] = useContext(ContentContext)
+  // console.log(content)
+  // let content = <Projects />
   // let content = <AboutMe />
+  // let content = 1
 
   return (
+    // <ContentProvider>
     <div className="wrapper">
         <div className="header">
             <Header />
@@ -21,11 +29,13 @@ function App() {
         <div className="content">
             {/* <Projects /> */}
             {content}
+            {/* {content === 1 ? <Projects /> : <AboutMe />} */}
         </div>
         <div className="footer">
             <Footer />
         </div>
-    </div>    
+    </div>
+    // </ContentProvider>
   );
 }
 
