@@ -29,12 +29,12 @@ function Activity() {
 
         <p className='case-font'>Designed to positively reinforce tracking progress, motivating users feel motivated to be active.</p>
         <p className='case-font-gray'>DURATION</p>
-        <p className='darker-text'>6 weeks</p>
+        <p className='darker-text'>4 weeks</p>
         <p className='case-font-gray'>CROSSFUNCTIONAL TEAM</p>
         <p className='darker-text'>Front-end developers, back-end developers, project lead and UX</p>
 
         <h3 className='case-section-font'>Problem</h3>
-        <p className='case-font'>Building a schedule around ensuring that all your plants are watered is actually pretty difficult. Water my Plants helps to solve those problems by providing an easy to use interface for creating a plant watering schedule that will remind users to water their plants on a regular basis.</p>
+        <p className='case-font'>There’s no real way begin a healthy lifestyle if you’re of the older population and someone who’s very busy with life. All the products and workout programs out there do not address the challenges that hold back a lot of individuals from getting fit.</p>
 
         <p className='case-section-font'>Solution overview</p>
         <div className='app-screen-container'>
@@ -42,15 +42,16 @@ function Activity() {
           <img className='app-screen' src={img2} alt='plant watering app screenshot'></img>
         </div>
 
-        <section className='blue-section'>
-          <h3 className='case-section-font'>How might we help planters remember to water their plants?</h3>
-          <p className='case-font'>The problem is pretty broad. I thought maybe everybody needed watering reminder. But my mother who is an avid gardner seemed to not need any help remembering to water. So I asked:</p>
-          <ol className='alpha-list'>
-            <li className='bold'>who needs reminder to water their plants?</li>
-            <li className='bold'>what are they using now to remember to water?</li>
-            <li className='bold'>what factors are contributing to their plants growth or deterioration?</li>
-          </ol>
-        </section>
+        <h3 className='case-section-font'>What are the current solutions accomplishing and where are they failing?</h3>
+        <p className='case-font'>Plenty of workout apps and programs aim to:</p>
+        <ul>
+          <li>allow logging and tracking workouts, and personalize routines for users</li>
+        </ul>
+        <p className='case-font'>but they fail to:</p>
+        <ul>
+          <li>track progress toward a specific goal</li>
+          <li>fails to consider the inactive population, made up of the elderly, and people with health conditions, and busy people without a work-life balance.</li>
+        </ul>
 
         <h3 className='case-section-font'>Key takeaways</h3>
         <p className='case-font'>I spoke with four planters and my mother about their gardening needs, goals, and blockers. Here are my key takeaways:</p>
