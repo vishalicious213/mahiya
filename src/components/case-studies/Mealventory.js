@@ -17,31 +17,37 @@ function Meal() {
       <div className='case-studies'>
         <h2 className='app-title' id='app-title-3'>Mealventory app</h2>
 
-        <p className='case-font'>Designed to positively reinforce tracking progress, motivating users feel motivated to be active.</p>
-        <p className='case-font-gray'>DURATION</p>
+        <p className='case-font'>Designed to eliminate food waste and save money meal-planning.</p>
+        {/* <p className='case-font-gray'>DURATION</p>
         <p className='darker-text'>4 weeks</p>
         <p className='case-font-gray'>CROSSFUNCTIONAL TEAM</p>
-        <p className='darker-text'>Front-end developers, back-end developers, project lead and UX</p>
+        <p className='darker-text'>Front-end developers, back-end developers, project lead and UX</p> */}
 
         <h3 className='case-section-font'>Problem</h3>
-        <p className='case-font'>There’s no real way begin a healthy lifestyle if you’re of the older population and someone who’s very busy with life. All the products and workout programs out there do not address the challenges that hold back a lot of individuals from getting fit.</p>
+        <p className='case-font'>Inventorying grocery is a daunting task. The process requires throwing away bad food, figuring out what to do with the food that’s still good, coming up with a meal plan and making a grocery list.</p>
 
         <p className='case-section-font'>Solution overview</p>
         <div className='app-screen-container'>
           <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
           <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
         </div>
 
-        <h3 className='case-section-font'>What are the current solutions accomplishing and where are they failing?</h3>
-        <p className='case-font'>Plenty of workout apps and programs aim to:</p>
-        <ul>
-          <li>allow logging and tracking workouts, and personalize routines for users</li>
-        </ul>
-        <p className='case-font'>but they fail to:</p>
-        <ul>
-          <li>track progress toward a specific goal</li>
-          <li>fails to consider the inactive population, made up of the elderly, and people with health conditions, and busy people without a work-life balance.</li>
-        </ul>
+        <h3 className='case-section-font'>Accounting for all the food.</h3>
+        <p className='case-font'>One of the things meal planning apps often offer is listing your food into a container, typically it’s called a pantry. But the downside to having only a pantry is if you’re someone with multiple pantries or freezers, you won’t know how to locate your food without additional context.</p>
+        
+        <h3 className='case-section-font'>So how might we come up with a food organization system for everyone?</h3>
+        <p className='case-font'>Initially I thought I was solving for how to organize your food and I thought it would be beneficial to give users the option to organize however they wish. In thinking this way, I considered tags. I thoughts tags are used by some popular apps like airtable as a way of grouping like items.</p>
+        <div className='app-screen-container'>
+          <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
+          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+        </div>
+
+        <div className='app-screen-container'>
+          <p className='case-font'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
+          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+        </div>
+        
 
         <h3 className='case-section-font'>What contributes to stagnation in activity levels?</h3>
         <p className='case-font'>Because none of us on the team are fitness trainers, we needed to find an expert who normally trains the elderly and busy adults. The following are some insights we got from Karin who trains this demographic.</p>
