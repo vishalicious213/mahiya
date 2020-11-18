@@ -99,15 +99,6 @@ function Activity() {
           <img className='app-screen-4' src={img6} alt='plant watering app screenshot'></img>
 
         <h3 className='case-section-font'>Final solution</h3>
-        <p className='case-font'>I thought if a water droplet could signify dehydration, then perhaps you could tap that plant and mark it watered. But this is where I needed to get grounded with the goal of my users: they need to see all the plants that are dehydrated at once.</p>
-
-        <div className='paper-img-container'>
-        <img className='app-screen-3' src={img18} alt='paper prototype for user interface'></img>
-        <img className='app-screen-3' src={img19} alt='paper prototype for user interface'></img>
-        <img className='app-screen-3' src={img20} alt='paper prototype for user interface'></img>
-        </div>
-
-        <h3 className='case-section-font'>Prototype</h3>
       </div>
     )
 }
