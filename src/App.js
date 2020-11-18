@@ -7,14 +7,16 @@ import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
 // import AboutMe from './components/AboutMe'
 // import Plants from './components/case-studies/PlantWateringApp'
-import Activity from './components/case-studies/ActivityTrackerApp'
+// import Activity from './components/case-studies/ActivityTrackerApp'
+import Meal from './components/case-studies/Mealventory'
 // import { ContentContext } from './components/ContentContext'
 
 function App() {
   // const [content, setContent] = useState(<Projects />)
   // const [content, setContent] = useState(<AboutMe />)
   // const [content] = useState(<Plants />)
-  const [content] = useState(<Activity />)
+  // const [content] = useState(<Activity />)
+  const [content] = useState(<Meal />)
 
   // const [content] = useContext(ContentContext)
   // console.log(content)
