@@ -6,17 +6,20 @@ import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
 import { Switch, Route } from 'react-router-dom';
 import AboutMe from './components/AboutMe';
+// import { ContentProvider } from './components/ContentContext'
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
-      {/* <App /> */}
+      {/* <ContentProvider> */}
+          <BrowserRouter>
+            {/* <App /> */}
 
-      <Switch>
-        <Route path='/about-me'><AboutMe /></Route>
-        <Route exact path='/'><App /></Route>
-      </Switch>
-    </BrowserRouter>
+            <Switch>
+              <Route path='/about-me'><AboutMe /></Route>
+              <Route exact path='/'><App /></Route>
+            </Switch>
+          </BrowserRouter>
+      {/* </ContentProvider> */}
   </React.StrictMode>,
   document.getElementById('root')
 );
