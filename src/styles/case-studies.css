@@ -52,3 +52,12 @@
     width: 30%;
     /* border: 1px solid green; */
 }
+
+.full-img {
+    width: 100%;
+}
+
+.down-arrow {
+    width: 5rem;
+    margin: 2rem auto;
+}

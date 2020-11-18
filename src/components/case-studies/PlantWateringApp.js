@@ -1,6 +1,8 @@
 import React from 'react'
 import img1 from '../../img/case-study/plants/1.png'
 import img2 from '../../img/case-study/plants/2.png'
+import img3 from '../../img/case-study/plants/3.jpg'
+import downArrow from '../../img/case-study/down-arrow.png'
 import '../../styles/case-studies.css';
 
 function Plants() {
@@ -33,14 +35,14 @@ function Plants() {
 
         <h3 className='case-section-font'>Key takeaways</h3>
         <p className='case-font'>I spoke with four planters and my mother about their gardening needs, goals, and blockers. Here are my key takeaways:</p>
-        {/* <img></img> */}
+        <img className='full-img' src={img3} alt='application design notes'></img>
         <ol className='alpha-list'>
           <li>Gardeners and those with large backyards tend not to need help with remembering to water.</li>
           <li>Most outdoor plants are easily taken care of with rain and missing water a few days does not harm them.</li>
           <li>Planters however, who do not have a large backyard or live indoor in small spaces have drastically different struggles-</li>
         </ol>
 
-        {/* <img>arrow</img> */}
+        <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
 
         <ul>
           <li>It’s hard to keep up with which plants have been watered, which haven’t and their individual watering needs.</li>
