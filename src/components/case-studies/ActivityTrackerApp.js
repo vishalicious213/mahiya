@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from '../../img/case-study/plants/1.jpg'
-import img2 from '../../img/case-study/plants/2.jpg'
+import img1 from '../../img/case-study/activity/1.jpg'
+import img2 from '../../img/case-study/activity/2.jpg'
 import img3 from '../../img/case-study/plants/3.jpg'
 import img4 from '../../img/case-study/plants/4.jpg'
 import img5 from '../../img/case-study/plants/5.jpg'
@@ -25,7 +25,7 @@ import '../../styles/case-studies.css';
 function Activity() {
     return (
       <div className='case-studies'>
-        <h2 id='app-title'>Activity tracker app</h2>
+        <h2 className='app-title' id='app-title-2'>Activity tracker app</h2>
 
         <p className='case-font'>Designed to positively reinforce tracking progress, motivating users feel motivated to be active.</p>
         <p className='case-font-gray'>DURATION</p>

@@ -6,7 +6,7 @@
     --text-color-darker: #262626;
 }
 
-#app-title {
+.app-title {
     font-family: Playfair Display;
     font-style: normal;
     font-weight: 700;
@@ -124,4 +124,10 @@
     width: 42.5%;
     margin-top: 1rem;
     margin-right: 1.5rem;
+}
+
+/* ACTIVITY TRACKER APP */
+
+#app-title-2 {
+    color: #f4511e;
 }
