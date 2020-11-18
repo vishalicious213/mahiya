@@ -81,47 +81,22 @@ function Activity() {
         <h3 className='case-section-font'>How might we track workouts the same way we track our tasks or habits?</h3>
         <p className='case-font'>Similar to how one might schedule tasks using google calendar and bullet journaling, you could schedule your physical activities in order to track your progression overtime.</p>
 
-        <h3 className='case-section-font'>The Feng Shui Enthusiast</h3>
-        <div className='text-and-img'>
-          <p className='case-font'>Loves adopting plants, but can’t get them organized to save her life. Her partner thinks she owns too many plants for their small apartment. She feels frustrated because often these plants have different needs and not many ways to tell them apart.</p>
-          <img className='face' src={img4} alt='smling womans face'></img>
+        {/* <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img> */}
+
+        <h3 className='case-section-font'>How might we create a new habit while tracking progress?</h3>
+        <p className='case-font'>One of the opportunities for habit trackers is they fail to show numerical progression toward a specific goal. For example, I want to quit smoking. If I set a goal for 21 days, I want to see what percentage of the way I have completed. Then say if I happen to fall off, seeing that I completed almost 90% of the way to my 21 day goal, will remind me to keep going.</p>
+
+        {/* <div>
+          <img className='full-img' src={img5} alt='user experience chart'></img>
+          <img className='full-img' src={img5} alt='user experience chart'></img>
         </div>
-        <p className='case-font'>I put myself in her shoes and stopped at every point in her journey to understand her needs, goals, and frustrations.</p>
+        <img className='full-img' src={img5} alt='user experience chart'></img> */}
 
-        <img className='full-img' src={img5} alt='user experience chart'></img>
+        <h3 className='case-section-font'>Pandemic and compromises.</h3>
+        <p className='case-font'>Because we went into COVID and having very limited resources, we made many compromises in regards to our solution. For example we had to draw constraints around what workouts we could offer. Eventhough we had the expertise of Karin who could draw up various workout plans for our demographic, we didn’t have enough time to create a whole new API. So we opted to using a prebuilt API that came with a number of workouts.</p>
+        <p className='case-font'>We also didn’t have enough time to create a carousel of workouts to visually inspire users. So we resorted to using a dropdown with all the workouts in it.</p>
 
-        <h3 className='case-section-font'>Information Architecture</h3>
-        <p className='case-font'>Using my new found growth, I was ready to create the userflow using some predetermined tasks.</p>
-        <div>
           <img className='app-screen-4' src={img6} alt='plant watering app screenshot'></img>
-          <img className='app-screen-4' src={img7} alt='plant watering app screenshot'></img>
-        </div>
-
-        <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
-
-        <img className='full-img' src={img8} alt='hierarchical tree chart'></img>
-
-        <h3 className='case-section-font'>How might we differentiate between watered and unwatered plants?</h3>
-        <p className='case-font'>I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate.</p>
-
-        <div className='paper-img-container'>
-        <img className='paper-img' src={img9} alt='paper prototype for user interface'></img>
-        <img className='paper-img' src={img10} alt='paper prototype for user interface'></img>
-        <img className='paper-img' src={img11} alt='paper prototype for user interface'></img>
-        <img className='paper-img' src={img12} alt='paper prototype for user interface'></img>
-        <img className='paper-img' src={img13} alt='paper prototype for user interface'></img>
-        <img className='paper-img' src={img14} alt='paper prototype for user interface'></img>
-        <img className='paper-img' src={img15} alt='paper prototype for user interface'></img>
-        </div>
-
-        <h3 className='case-section-font'>Tracking watering</h3>
-        <p className='case-font'>Because indoor plant care is individual to each plants, users need to be able to see water history and set watering frequencies for them.</p>
-
-        <img className='app-screen-2' src={img16} alt='paper prototype for user interface'></img>
-
-        <p className='case-font'>In an earlier exploration, I used filters denoting dehydrated plants from the rest. In this version, tapping on the plant would make the filter go away and it would hence be marked watered.</p>
-
-        <img className='app-screen-2' src={img17} alt='paper prototype for user interface'></img>
 
         <h3 className='case-section-font'>Final solution</h3>
         <p className='case-font'>I thought if a water droplet could signify dehydration, then perhaps you could tap that plant and mark it watered. But this is where I needed to get grounded with the goal of my users: they need to see all the plants that are dehydrated at once.</p>
