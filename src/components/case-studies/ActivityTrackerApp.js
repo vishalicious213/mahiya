@@ -9,17 +9,7 @@ import img7 from '../../img/case-study/activity/7.png'
 import img8 from '../../img/case-study/activity/8.jpg'
 import img9 from '../../img/case-study/activity/9.jpg'
 import img10 from '../../img/case-study/activity/10.jpg'
-import img11 from '../../img/case-study/plants/11.jpg'
-import img12 from '../../img/case-study/plants/12.jpg'
-import img13 from '../../img/case-study/plants/13.jpg'
-import img14 from '../../img/case-study/plants/14.jpg'
-import img15 from '../../img/case-study/plants/15.jpg'
-import img16 from '../../img/case-study/plants/16.jpg'
-import img17 from '../../img/case-study/plants/17.jpg'
-import img18 from '../../img/case-study/plants/18.jpg'
-import img19 from '../../img/case-study/plants/19.jpg'
-import img20 from '../../img/case-study/plants/20.jpg'
-import downArrow from '../../img/case-study/down-arrow.png'
+import img11 from '../../img/case-study/activity/11.jpg'
 import '../../styles/case-studies.css';
 
 function Activity() {
@@ -38,8 +28,8 @@ function Activity() {
 
         <p className='case-section-font'>Solution overview</p>
         <div className='app-screen-container'>
-          <img className='app-screen' src={img1} alt='plant watering app screenshot'></img>
-          <img className='app-screen' src={img2} alt='plant watering app screenshot'></img>
+          <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
+          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
         </div>
 
         <h3 className='case-section-font'>What are the current solutions accomplishing and where are they failing?</h3>
@@ -72,37 +62,37 @@ function Activity() {
         <h3 className='case-section-font'>Movement within task management and habit trackers.</h3>
         <p className='case-font'>Google calendar is popularly used to schedule tasks and for following through with plans. It shows completed tasks on the calendar giving a sense of achievement.</p>
 
-        <img className='third-img' src={img3} alt='user experience chart'></img>
+        <img className='third-img' src={img3} alt='Google Calendar schedule'></img>
 
         <p className='case-font'>Being an active member of the bullet journal community, I can attest to our movement inspired through seeing  prior achievements. Journaling tracks activities, allowing you to visualize your progress and consistency.</p>
 
         <div className='app-screen-container'>
-          <img className='app-screen' src={img4} alt='plant watering app screenshot'></img>
-          <img className='app-screen' src={img5} alt='plant watering app screenshot'></img>
+          <img className='app-screen' src={img4} alt='journaling in the app'></img>
+          <img className='app-screen' src={img5} alt='journaling on paper'></img>
         </div>
 
         <h3 className='case-section-font'>How might we track workouts the same way we track our tasks or habits?</h3>
         <p className='case-font'>Similar to how one might schedule tasks using google calendar and bullet journaling, you could schedule your physical activities in order to track your progression overtime.</p>
 
         <div className='app-screen-container'>
-          <img className='app-screen' src={img6} alt='plant watering app screenshot'></img>
-          <img className='app-screen' src={img7} alt='plant watering app screenshot'></img>
+          <img className='app-screen' src={img6} alt='app - activity scheduler'></img>
+          <img className='app-screen' src={img7} alt='app - activity scheduler'></img>
         </div>
 
         <h3 className='case-section-font'>How might we create a new habit while tracking progress?</h3>
         <p className='case-font'>One of the opportunities for habit trackers is they fail to show numerical progression toward a specific goal. For example, I want to quit smoking. If I set a goal for 21 days, I want to see what percentage of the way I have completed. Then say if I happen to fall off, seeing that I completed almost 90% of the way to my 21 day goal, will remind me to keep going.</p>
 
         <div className='app-screen-container'>
-          <img className='third-img' src={img8} alt='user experience chart'></img>
-          <img className='third-img' src={img9} alt='user experience chart'></img>
+          <img className='third-img' src={img8} alt='app - dashboard mockup'></img>
+          <img className='third-img' src={img9} alt='app - dashboard mockup'></img>
         </div>
-        <img className='two-thirds-img' src={img10} alt='user experience chart'></img>
+        <img className='two-thirds-img' src={img10} alt='app - dashboard mockup'></img>
 
         <h3 className='case-section-font'>Pandemic and compromises.</h3>
         <p className='case-font'>Because we went into COVID and having very limited resources, we made many compromises in regards to our solution. For example we had to draw constraints around what workouts we could offer. Eventhough we had the expertise of Karin who could draw up various workout plans for our demographic, we didn’t have enough time to create a whole new API. So we opted to using a prebuilt API that came with a number of workouts.</p>
         <p className='case-font'>We also didn’t have enough time to create a carousel of workouts to visually inspire users. So we resorted to using a dropdown with all the workouts in it.</p>
 
-          <img className='app-screen-4' src={img6} alt='plant watering app screenshot'></img>
+        <img className='app-screen' src={img11} alt='app - customize workout'></img>
 
         <h3 className='case-section-font'>Final solution</h3>
       </div>
