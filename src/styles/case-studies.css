@@ -52,6 +52,7 @@
 
 .app-screen-container {
     /* border: 1px solid blue; */
+    margin: 1rem 0;
     width: 100%;
 }
 

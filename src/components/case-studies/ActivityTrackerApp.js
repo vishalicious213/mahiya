@@ -62,7 +62,9 @@ function Activity() {
         <h3 className='case-section-font'>Movement within task management and habit trackers.</h3>
         <p className='case-font'>Google calendar is popularly used to schedule tasks and for following through with plans. It shows completed tasks on the calendar giving a sense of achievement.</p>
 
-        <img className='third-img' src={img3} alt='Google Calendar schedule'></img>
+        <div className='app-screen-container'>
+          <img className='third-img' src={img3} alt='Google Calendar schedule'></img>
+        </div>
 
         <p className='case-font'>Being an active member of the bullet journal community, I can attest to our movement inspired through seeing  prior achievements. Journaling tracks activities, allowing you to visualize your progress and consistency.</p>
 
@@ -92,7 +94,9 @@ function Activity() {
         <p className='case-font'>Because we went into COVID and having very limited resources, we made many compromises in regards to our solution. For example we had to draw constraints around what workouts we could offer. Eventhough we had the expertise of Karin who could draw up various workout plans for our demographic, we didn’t have enough time to create a whole new API. So we opted to using a prebuilt API that came with a number of workouts.</p>
         <p className='case-font'>We also didn’t have enough time to create a carousel of workouts to visually inspire users. So we resorted to using a dropdown with all the workouts in it.</p>
 
-        <img className='app-screen' src={img11} alt='app - customize workout'></img>
+        <div className='app-screen-container'>
+          <img className='app-screen' src={img11} alt='app - customize workout'></img>
+        </div>
 
         <h3 className='case-section-font'>Final solution</h3>
       </div>
