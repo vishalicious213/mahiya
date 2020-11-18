@@ -76,39 +76,15 @@ function Meal() {
           <img className='third-img' src={img3} alt='Google Calendar schedule'></img>
         </div>
 
-        <p className='case-font'>Being an active member of the bullet journal community, I can attest to our movement inspired through seeing  prior achievements. Journaling tracks activities, allowing you to visualize your progress and consistency.</p>
+        <h3 className='case-section-font'>What might we include in the recipe?</h3>
+        <p className='case-font'>In thinking about recipes, I considered what things are important for cooking. I took these ideas from popular apps like Yummili and Mealime.</p>
+        <p className='case-font'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
+        <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
+        <p className='case-font'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
+        <p className='case-font'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
 
-        <div className='app-screen-container'>
-          <img className='app-screen' src={img4} alt='journaling in the app'></img>
-          <img className='app-screen' src={img5} alt='journaling on paper'></img>
-        </div>
-
-        <h3 className='case-section-font'>How might we track workouts the same way we track our tasks or habits?</h3>
-        <p className='case-font'>Similar to how one might schedule tasks using google calendar and bullet journaling, you could schedule your physical activities in order to track your progression overtime.</p>
-
-        <div className='app-screen-container'>
-          <img className='app-screen' src={img6} alt='app - activity scheduler'></img>
-          <img className='app-screen' src={img7} alt='app - activity scheduler'></img>
-        </div>
-
-        <h3 className='case-section-font'>How might we create a new habit while tracking progress?</h3>
-        <p className='case-font'>One of the opportunities for habit trackers is they fail to show numerical progression toward a specific goal. For example, I want to quit smoking. If I set a goal for 21 days, I want to see what percentage of the way I have completed. Then say if I happen to fall off, seeing that I completed almost 90% of the way to my 21 day goal, will remind me to keep going.</p>
-
-        <div className='app-screen-container'>
-          <img className='third-img' src={img8} alt='app - dashboard mockup'></img>
-          <img className='third-img' src={img9} alt='app - dashboard mockup'></img>
-        </div>
-        <img className='two-thirds-img' src={img10} alt='app - dashboard mockup'></img>
-
-        <h3 className='case-section-font'>Pandemic and compromises.</h3>
-        <p className='case-font'>Because we went into COVID and having very limited resources, we made many compromises in regards to our solution. For example we had to draw constraints around what workouts we could offer. Eventhough we had the expertise of Karin who could draw up various workout plans for our demographic, we didn’t have enough time to create a whole new API. So we opted to using a prebuilt API that came with a number of workouts.</p>
-        <p className='case-font'>We also didn’t have enough time to create a carousel of workouts to visually inspire users. So we resorted to using a dropdown with all the workouts in it.</p>
-
-        <div className='app-screen-container'>
-          <img className='app-screen' src={img11} alt='app - customize workout'></img>
-        </div>
-
-        <h3 className='case-section-font'>Final solution</h3>
+        <h3 className='case-section-font'>Choosing color</h3>
+        <p className='case-font'>Blue denotes dependability, demands reliability. A lot of banking apps use this color for these reasons. I also noticed tracker apps generally tend to use a shade of blue. And because Mealventory is tracking your food, it aligns perfectly with our goal.</p>
       </div>
     )
 }
