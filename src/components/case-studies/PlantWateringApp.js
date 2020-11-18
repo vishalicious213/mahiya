@@ -42,13 +42,15 @@ function Plants() {
           <img className='app-screen' src={img2} alt='plant watering app screenshot'></img>
         </div>
 
-        <h3 className='case-section-font'>How might we help planters remember to water their plants?</h3>
-        <p className='case-font'>The problem is pretty broad. I thought maybe everybody needed watering reminder. But my mother who is an avid gardner seemed to not need any help remembering to water. So I asked:</p>
-        <ol className='alpha-list'>
-          <li>who needs reminder to water their plants?</li>
-          <li>what are they using now to remember to water?</li>
-          <li>what factors are contributing to their plants growth or deterioration?</li>
-        </ol>
+        <section className='blue-section'>
+          <h3 className='case-section-font'>How might we help planters remember to water their plants?</h3>
+          <p className='case-font'>The problem is pretty broad. I thought maybe everybody needed watering reminder. But my mother who is an avid gardner seemed to not need any help remembering to water. So I asked:</p>
+          <ol className='alpha-list'>
+            <li className='bold'>who needs reminder to water their plants?</li>
+            <li className='bold'>what are they using now to remember to water?</li>
+            <li className='bold'>what factors are contributing to their plants growth or deterioration?</li>
+          </ol>
+        </section>
 
         <h3 className='case-section-font'>Key takeaways</h3>
         <p className='case-font'>I spoke with four planters and my mother about their gardening needs, goals, and blockers. Here are my key takeaways:</p>
@@ -56,7 +58,7 @@ function Plants() {
         <ol className='alpha-list'>
           <li>Gardeners and those with large backyards tend not to need help with remembering to water.</li>
           <li>Most outdoor plants are easily taken care of with rain and missing water a few days does not harm them.</li>
-          <li>Planters however, who do not have a large backyard or live indoor in small spaces have drastically different struggles-</li>
+          <li className='bold'>Planters however, who do not have a large backyard or live indoor in small spaces have drastically different struggles-</li>
         </ol>
 
         <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
@@ -82,8 +84,8 @@ function Plants() {
         <h3 className='case-section-font'>Information Architecture</h3>
         <p className='case-font'>Using my new found growth, I was ready to create the userflow using some predetermined tasks.</p>
         <div>
-          <img className='app-screen' src={img6} alt='plant watering app screenshot'></img>
-          <img className='app-screen' src={img7} alt='plant watering app screenshot'></img>
+          <img className='app-screen-4' src={img6} alt='plant watering app screenshot'></img>
+          <img className='app-screen-4' src={img7} alt='plant watering app screenshot'></img>
         </div>
 
         <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
