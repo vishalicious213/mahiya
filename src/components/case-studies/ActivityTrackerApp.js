@@ -53,25 +53,33 @@ function Activity() {
           <li>fails to consider the inactive population, made up of the elderly, and people with health conditions, and busy people without a work-life balance.</li>
         </ul>
 
-        <h3 className='case-section-font'>Key takeaways</h3>
-        <p className='case-font'>I spoke with four planters and my mother about their gardening needs, goals, and blockers. Here are my key takeaways:</p>
-        <img className='full-img' src={img3} alt='application design notes'></img>
+        <h3 className='case-section-font'>What contributes to stagnation in activity levels?</h3>
+        <p className='case-font'>Because none of us on the team are fitness trainers, we needed to find an expert who normally trains the elderly and busy adults. The following are some insights we got from Karin who trains this demographic.</p>
         <ol className='alpha-list'>
-          <li>Gardeners and those with large backyards tend not to need help with remembering to water.</li>
-          <li>Most outdoor plants are easily taken care of with rain and missing water a few days does not harm them.</li>
-          <li className='bold'>Planters however, who do not have a large backyard or live indoor in small spaces have drastically different struggles-</li>
+          <li>In the long-run the older population strive for mobility.</li>
+          <li>The older population commonly find themselves frustrated with complex gym equipments and technologies that are confusing and overwhelming to learn.</li>
+          <li>Busy individuals and beginners though want a work-life balance to relieve stress, however can’t find the time to self-care.</li>
+          <li>Overtime because we are habitual beings, we become accustomed to the mundane pattern of life, unable to break free from it.</li>
         </ol>
 
-        <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
+        <h3 className='case-section-font'>How can we relieve this stagnation?</h3>
+        <ol className='alpha-list'>
+          <li>we could create a gaming feature where you build an entire body over time by working out specific parts of your body (aka muscle isolation).</li>
+          <li>we could track progress overtime rather than tracking numerical data which can have the opposite effect.</li>
+          <li>we could take a page from habit trackers and task management communities and see how they inspire movement.</li>
+        </ol>
 
-        <ul className='blue-list'>
-          <li>It’s hard to keep up with which plants have been watered, which haven’t and their individual watering needs.</li>
-          <li>It’s hard to identify plants when you have a lot of them at home.</li>
-          <li>It’s challenging to remember the varying needs of each plant because house plants tend to have particular care instructions.</li>
-        </ul>
+        <h3 className='case-section-font'>Movement within task management and habit trackers.</h3>
+        <p className='case-font'>Google calendar is popularly used to schedule tasks and for following through with plans. It shows completed tasks on the calendar giving a sense of achievement.</p>
 
-        <h3 className='case-section-font'>Creating empathy</h3>
-        <p className='case-font'>Because I’m not the one experiencing these challanges, I needed to empathize with the planters who do. I defined the typical planter who needs a solution to these challenges.</p>
+        {/* <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img> */}
+
+        <p className='case-font'>Being an active member of the bullet journal community, I can attest to our movement inspired through seeing  prior achievements. Journaling tracks activities, allowing you to visualize your progress and consistency.</p>
+
+        {/* <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img> */}
+
+        <h3 className='case-section-font'>How might we track workouts the same way we track our tasks or habits?</h3>
+        <p className='case-font'>Similar to how one might schedule tasks using google calendar and bullet journaling, you could schedule your physical activities in order to track your progression overtime.</p>
 
         <h3 className='case-section-font'>The Feng Shui Enthusiast</h3>
         <div className='text-and-img'>
