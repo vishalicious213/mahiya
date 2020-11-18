@@ -1,36 +1,54 @@
-#case-studies {
+.case-studies {
     display: flex;
     flex-direction: column;
     outline: 1px solid red;
+    --text-color: #595959;
+    --text-color-darker: #262626;
 }
 
-#case-studies > p {
+#app-title {
+    font-family: Playfair Display;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.25rem;
+    color: #531DAB;
+    margin: 1rem 0;
+}
+
+.case-font, .darker-text {
     font: raleway;
     font-size: 1.2rem;
     color: var(--text-color);
     margin: 0;
 }
 
-#app-title {
-    font-family: Playfair Display;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.25rem;
-    color: #531DAB;
-
-}
-
-.case-font {
-    font: raleway;
-    font-size: 1.2rem;
+.darker-text {
+    color: var(--text-color-darker);
 }
 
 .case-font-gray {
     color: #8C8C8C;
+    /* border: 1px solid red; */
 }
 
 .case-section-font {
     font: raleway;
     font-size: 1.3rem;
     font-weight: 700;
+    color: var(--text-color);
+    border: 1px solid orange;
+}
+
+.alpha-list {
+    list-style-type: lower-alpha;
+}
+
+.app-screen-container {
+    /* border: 1px solid blue; */
+    width: 100%;
+}
+
+.app-screen {
+    width: 30%;
+    /* border: 1px solid green; */
 }
