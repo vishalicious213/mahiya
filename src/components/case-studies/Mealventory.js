@@ -47,26 +47,30 @@ function Meal() {
           <p className='case-font'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
           <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
         </div>
-        
 
-        <h3 className='case-section-font'>What contributes to stagnation in activity levels?</h3>
-        <p className='case-font'>Because none of us on the team are fitness trainers, we needed to find an expert who normally trains the elderly and busy adults. The following are some insights we got from Karin who trains this demographic.</p>
-        <ol className='alpha-list'>
-          <li>In the long-run the older population strive for mobility.</li>
-          <li>The older population commonly find themselves frustrated with complex gym equipments and technologies that are confusing and overwhelming to learn.</li>
-          <li>Busy individuals and beginners though want a work-life balance to relieve stress, however can’t find the time to self-care.</li>
-          <li>Overtime because we are habitual beings, we become accustomed to the mundane pattern of life, unable to break free from it.</li>
-        </ol>
+        <p className='case-font'>Coming up with the inventory flow has not been easy. At first I was under the impression that you could leave food outside the containers. But I later realized that the whole idea behind this app is to save you money and food but that won’t happen if we’re unorganized from the beginning.  If I encourage users to not have to add food into their individual categories then I’m creating more work for them in the future.</p>
 
-        <h3 className='case-section-font'>How can we relieve this stagnation?</h3>
-        <ol className='alpha-list'>
-          <li>we could create a gaming feature where you build an entire body over time by working out specific parts of your body (aka muscle isolation).</li>
-          <li>we could track progress overtime rather than tracking numerical data which can have the opposite effect.</li>
-          <li>we could take a page from habit trackers and task management communities and see how they inspire movement.</li>
-        </ol>
+        <div>
+          <div><img className='app-screen' src={img2} alt='activity tracker app screenshot'></img></div>
+          <div>
+            <div><img className='app-screen' src={img2} alt='activity tracker app screenshot'></img></div>
+            <p className='case-font'>So I grounded myself to the goal of this app which really is to get organized around the food I already have. By tracking what I have, I will spend less money at the grocery store.</p>
+          </div>
+        </div>
 
-        <h3 className='case-section-font'>Movement within task management and habit trackers.</h3>
-        <p className='case-font'>Google calendar is popularly used to schedule tasks and for following through with plans. It shows completed tasks on the calendar giving a sense of achievement.</p>
+        <div className='app-screen-container'>
+          <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
+          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+        </div>
+
+        <h3 className='case-section-font'>The meal plan</h3>
+        <p className='case-font'>Now that I’m aware what food I have, I need an idea of what to cook. The goal behind the problem is automating the whole process of meal planning, from taking inventory to figuring out what I’ll be eating to what I need to get from the store. The idea is to save time, money, and food.</p>
+        <p className='case-font'>So while thinking through the meal plan flow, it made sense to automatically generate a meal plan based on user preferences and in-stock items. But because this requires a professional cook to create this feature, I decided to include a meal suggestion instead.</p>
+
+        <h3 className='case-section-font'>How might we add meals?</h3>
+        <p className='case-font'>The three main ways a user is able to add meals is through the app’s suggestions, through their own cookbook, which is a collection of their own recipes, and import from an outside resource.</p>
+        <p className='case-font'>Finally, user needs to be able to delete anything that was added recently or otherwise change up anything that was done.</p>
 
         <div className='app-screen-container'>
           <img className='third-img' src={img3} alt='Google Calendar schedule'></img>
