@@ -44,7 +44,7 @@ function Plants() {
 
         <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
 
-        <ul>
+        <ul className='blue-list'>
           <li>It’s hard to keep up with which plants have been watered, which haven’t and their individual watering needs.</li>
           <li>It’s hard to identify plants when you have a lot of them at home.</li>
           <li>It’s challenging to remember the varying needs of each plant because house plants tend to have particular care instructions.</li>

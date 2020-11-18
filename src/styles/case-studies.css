@@ -15,7 +15,7 @@
     margin: 1rem 0;
 }
 
-.case-font, .darker-text {
+.case-font, .darker-text, li {
     font: raleway;
     font-size: 1.2rem;
     color: var(--text-color);
@@ -60,4 +60,16 @@
 .down-arrow {
     width: 5rem;
     margin: 2rem auto;
+}
+
+.blue-list {
+    background: #F0F5FF;
+    width: 60%;
+    margin: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+}
+
+.blue-list > li {
+    margin: 0 2rem;
 }
