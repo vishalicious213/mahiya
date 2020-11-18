@@ -2,6 +2,8 @@ import React from 'react'
 import img1 from '../../img/case-study/plants/1.png'
 import img2 from '../../img/case-study/plants/2.png'
 import img3 from '../../img/case-study/plants/3.jpg'
+import img4 from '../../img/case-study/plants/4.jpg'
+import img5 from '../../img/case-study/plants/5.png'
 import downArrow from '../../img/case-study/down-arrow.png'
 import '../../styles/case-studies.css';
 
@@ -54,13 +56,13 @@ function Plants() {
         <p className='case-font'>Because I’m not the one experiencing these challanges, I needed to empathize with the planters who do. I defined the typical planter who needs a solution to these challenges.</p>
 
         <h3 className='case-section-font'>The Feng Shui Enthusiast</h3>
-        <div>
+        <div className='text-and-img'>
           <p className='case-font'>Loves adopting plants, but can’t get them organized to save her life. Her partner thinks she owns too many plants for their small apartment. She feels frustrated because often these plants have different needs and not many ways to tell them apart.</p>
-          {/* <img></img> */}
+          <img className='face' src={img4} alt='smling womans face'></img>
         </div>
         <p className='case-font'>I put myself in her shoes and stopped at every point in her journey to understand her needs, goals, and frustrations.</p>
 
-        {/* <img>chart</img> */}
+        <img className='full-img' src={img5} alt='user experience chart'></img>
 
         <h3 className='case-section-font'>Information Architecture</h3>
         <p className='case-font'>Using my new found growth, I was ready to create the userflow using some predetermined tasks.</p>

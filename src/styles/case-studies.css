@@ -73,3 +73,12 @@
 .blue-list > li {
     margin: 0 2rem;
 }
+
+.text-and-img {
+    display: flex;
+}
+
+.face {
+    width: 20%;
+    border-radius: 50%;
+}
