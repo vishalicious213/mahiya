@@ -2,14 +2,14 @@ import React from 'react'
 import img1 from '../../img/case-study/meal/1.jpg'
 import img2 from '../../img/case-study/meal/2.jpg'
 import img3 from '../../img/case-study/meal/3.jpg'
-import img4 from '../../img/case-study/activity/4.jpg'
-import img5 from '../../img/case-study/activity/5.jpg'
-import img6 from '../../img/case-study/activity/6.png'
-import img7 from '../../img/case-study/activity/7.png'
-import img8 from '../../img/case-study/activity/8.jpg'
-import img9 from '../../img/case-study/activity/9.jpg'
-import img10 from '../../img/case-study/activity/10.jpg'
-import img11 from '../../img/case-study/activity/11.jpg'
+import img4 from '../../img/case-study/meal/4.jpg'
+import img5 from '../../img/case-study/meal/5.jpg'
+// import img6 from '../../img/case-study/meal/6.png'
+// import img7 from '../../img/case-study/meal/7.png'
+// import img8 from '../../img/case-study/meal/8.jpg'
+// import img9 from '../../img/case-study/meal/9.jpg'
+// import img10 from '../../img/case-study/meal/10.jpg'
+// import img11 from '../../img/case-study/meal/11.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
@@ -18,10 +18,6 @@ function Meal() {
         <h2 className='app-title' id='app-title-3'>Mealventory app</h2>
 
         <p className='case-font'>Designed to eliminate food waste and save money meal-planning.</p>
-        {/* <p className='case-font-gray'>DURATION</p>
-        <p className='darker-text'>4 weeks</p>
-        <p className='case-font-gray'>CROSSFUNCTIONAL TEAM</p>
-        <p className='darker-text'>Front-end developers, back-end developers, project lead and UX</p> */}
 
         <h3 className='case-section-font'>Problem</h3>
         <p className='case-font'>Inventorying grocery is a daunting task. The process requires throwing away bad food, figuring out what to do with the food that’s still good, coming up with a meal plan and making a grocery list.</p>
@@ -39,8 +35,8 @@ function Meal() {
         <h3 className='case-section-font'>So how might we come up with a food organization system for everyone?</h3>
         <p className='case-font'>Initially I thought I was solving for how to organize your food and I thought it would be beneficial to give users the option to organize however they wish. In thinking this way, I considered tags. I thoughts tags are used by some popular apps like airtable as a way of grouping like items.</p>
         <div className='app-screen-container'>
-          <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
-          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-6' src={img4} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-6' src={img5} alt='activity tracker app screenshot'></img>
         </div>
 
         <div className='app-screen-container'>
