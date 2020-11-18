@@ -7,6 +7,13 @@ import img5 from '../../img/case-study/plants/5.png'
 import img6 from '../../img/case-study/plants/6.png'
 import img7 from '../../img/case-study/plants/7.png'
 import img8 from '../../img/case-study/plants/8.png'
+import img9 from '../../img/case-study/plants/9.jpg'
+import img10 from '../../img/case-study/plants/10.jpg'
+import img11 from '../../img/case-study/plants/11.jpg'
+import img12 from '../../img/case-study/plants/12.jpg'
+import img13 from '../../img/case-study/plants/13.jpg'
+import img14 from '../../img/case-study/plants/14.jpg'
+import img15 from '../../img/case-study/plants/15.jpg'
 import downArrow from '../../img/case-study/down-arrow.png'
 import '../../styles/case-studies.css';
 
@@ -81,15 +88,15 @@ function Plants() {
         <h3 className='case-section-font'>How might we differentiate between watered and unwatered plants?</h3>
         <p className='case-font'>I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate.</p>
 
-        {/* <div>
-          <img></img>
-          <img></img>
-          <img></img>
-          <img></img>
-          <img></img>
-          <img></img>
-          <img></img>
-        </div> */}
+        <div className='paper-img-container'>
+        <img className='paper-img' src={img9} alt='paper prototype for user interface'></img>
+        <img className='paper-img' src={img10} alt='paper prototype for user interface'></img>
+        <img className='paper-img' src={img11} alt='paper prototype for user interface'></img>
+        <img className='paper-img' src={img12} alt='paper prototype for user interface'></img>
+        <img className='paper-img' src={img13} alt='paper prototype for user interface'></img>
+        <img className='paper-img' src={img14} alt='paper prototype for user interface'></img>
+        <img className='paper-img' src={img15} alt='paper prototype for user interface'></img>
+        </div>
 
         <h3 className='case-section-font'>Tracking watering</h3>
         <p className='case-font'>Because indoor plant care is individual to each plants, users need to be able to see water history and set watering frequencies for them.</p>

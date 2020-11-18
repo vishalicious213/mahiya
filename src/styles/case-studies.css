@@ -82,3 +82,15 @@
     width: 20%;
     border-radius: 50%;
 }
+
+.paper-img-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.paper-img {
+    width: 22%;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+}
