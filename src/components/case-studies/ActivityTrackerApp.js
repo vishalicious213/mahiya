@@ -1,14 +1,14 @@
 import React from 'react'
 import img1 from '../../img/case-study/activity/1.jpg'
 import img2 from '../../img/case-study/activity/2.jpg'
-import img3 from '../../img/case-study/plants/3.jpg'
-import img4 from '../../img/case-study/plants/4.jpg'
-import img5 from '../../img/case-study/plants/5.jpg'
-import img6 from '../../img/case-study/plants/6.png'
-import img7 from '../../img/case-study/plants/7.png'
-import img8 from '../../img/case-study/plants/8.jpg'
-import img9 from '../../img/case-study/plants/9.jpg'
-import img10 from '../../img/case-study/plants/10.jpg'
+import img3 from '../../img/case-study/activity/3.jpg'
+import img4 from '../../img/case-study/activity/4.jpg'
+import img5 from '../../img/case-study/activity/5.jpg'
+import img6 from '../../img/case-study/activity/6.png'
+import img7 from '../../img/case-study/activity/7.png'
+import img8 from '../../img/case-study/activity/8.jpg'
+import img9 from '../../img/case-study/activity/9.jpg'
+import img10 from '../../img/case-study/activity/10.jpg'
 import img11 from '../../img/case-study/plants/11.jpg'
 import img12 from '../../img/case-study/plants/12.jpg'
 import img13 from '../../img/case-study/plants/13.jpg'
@@ -72,25 +72,31 @@ function Activity() {
         <h3 className='case-section-font'>Movement within task management and habit trackers.</h3>
         <p className='case-font'>Google calendar is popularly used to schedule tasks and for following through with plans. It shows completed tasks on the calendar giving a sense of achievement.</p>
 
-        {/* <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img> */}
+        <img className='third-img' src={img3} alt='user experience chart'></img>
 
         <p className='case-font'>Being an active member of the bullet journal community, I can attest to our movement inspired through seeing  prior achievements. Journaling tracks activities, allowing you to visualize your progress and consistency.</p>
 
-        {/* <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img> */}
+        <div className='app-screen-container'>
+          <img className='app-screen' src={img4} alt='plant watering app screenshot'></img>
+          <img className='app-screen' src={img5} alt='plant watering app screenshot'></img>
+        </div>
 
         <h3 className='case-section-font'>How might we track workouts the same way we track our tasks or habits?</h3>
         <p className='case-font'>Similar to how one might schedule tasks using google calendar and bullet journaling, you could schedule your physical activities in order to track your progression overtime.</p>
 
-        {/* <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img> */}
+        <div className='app-screen-container'>
+          <img className='app-screen' src={img6} alt='plant watering app screenshot'></img>
+          <img className='app-screen' src={img7} alt='plant watering app screenshot'></img>
+        </div>
 
         <h3 className='case-section-font'>How might we create a new habit while tracking progress?</h3>
         <p className='case-font'>One of the opportunities for habit trackers is they fail to show numerical progression toward a specific goal. For example, I want to quit smoking. If I set a goal for 21 days, I want to see what percentage of the way I have completed. Then say if I happen to fall off, seeing that I completed almost 90% of the way to my 21 day goal, will remind me to keep going.</p>
 
-        {/* <div>
-          <img className='full-img' src={img5} alt='user experience chart'></img>
-          <img className='full-img' src={img5} alt='user experience chart'></img>
+        <div className='app-screen-container'>
+          <img className='third-img' src={img8} alt='user experience chart'></img>
+          <img className='third-img' src={img9} alt='user experience chart'></img>
         </div>
-        <img className='full-img' src={img5} alt='user experience chart'></img> */}
+        <img className='two-thirds-img' src={img10} alt='user experience chart'></img>
 
         <h3 className='case-section-font'>Pandemic and compromises.</h3>
         <p className='case-font'>Because we went into COVID and having very limited resources, we made many compromises in regards to our solution. For example we had to draw constraints around what workouts we could offer. Eventhough we had the expertise of Karin who could draw up various workout plans for our demographic, we didn’t have enough time to create a whole new API. So we opted to using a prebuilt API that came with a number of workouts.</p>

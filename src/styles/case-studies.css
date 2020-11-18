@@ -131,3 +131,18 @@
 #app-title-2 {
     color: #f4511e;
 }
+
+.third-img {
+    width: 33%;
+    margin-top: 1rem;
+}
+
+.half-img {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.two-thirds-img {
+    width: 66%;
+    margin-top: 1rem;
+}
