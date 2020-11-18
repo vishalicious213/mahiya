@@ -14,6 +14,8 @@ import img12 from '../../img/case-study/plants/12.jpg'
 import img13 from '../../img/case-study/plants/13.jpg'
 import img14 from '../../img/case-study/plants/14.jpg'
 import img15 from '../../img/case-study/plants/15.jpg'
+import img16 from '../../img/case-study/plants/16.png'
+import img17 from '../../img/case-study/plants/17.png'
 import downArrow from '../../img/case-study/down-arrow.png'
 import '../../styles/case-studies.css';
 
@@ -101,11 +103,11 @@ function Plants() {
         <h3 className='case-section-font'>Tracking watering</h3>
         <p className='case-font'>Because indoor plant care is individual to each plants, users need to be able to see water history and set watering frequencies for them.</p>
 
-        {/* <img></img> */}
+        <img className='app-screen-2' src={img16} alt='paper prototype for user interface'></img>
 
         <p className='case-font'>In an earlier exploration, I used filters denoting dehydrated plants from the rest. In this version, tapping on the plant would make the filter go away and it would hence be marked watered.</p>
 
-        {/* <img></img> */}
+        <img className='app-screen-2' src={img17} alt='paper prototype for user interface'></img>
 
         <h3 className='case-section-font'>Final solution</h3>
         <p className='case-font'>I thought if a water droplet could signify dehydration, then perhaps you could tap that plant and mark it watered. But this is where I needed to get grounded with the goal of my users: they need to see all the plants that are dehydrated at once.</p>
