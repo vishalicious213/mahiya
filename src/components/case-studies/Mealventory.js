@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from '../../img/case-study/activity/1.jpg'
-import img2 from '../../img/case-study/activity/2.jpg'
-import img3 from '../../img/case-study/activity/3.jpg'
+import img1 from '../../img/case-study/meal/1.jpg'
+import img2 from '../../img/case-study/meal/2.jpg'
+import img3 from '../../img/case-study/meal/3.jpg'
 import img4 from '../../img/case-study/activity/4.jpg'
 import img5 from '../../img/case-study/activity/5.jpg'
 import img6 from '../../img/case-study/activity/6.png'
@@ -28,9 +28,9 @@ function Meal() {
 
         <p className='case-section-font'>Solution overview</p>
         <div className='app-screen-container'>
-          <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
-          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
-          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-5' src={img1} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-5' src={img2} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-5' src={img2} alt='activity tracker app screenshot'></img>
         </div>
 
         <h3 className='case-section-font'>Accounting for all the food.</h3>
