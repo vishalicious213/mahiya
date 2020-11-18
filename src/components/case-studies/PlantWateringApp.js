@@ -4,6 +4,9 @@ import img2 from '../../img/case-study/plants/2.png'
 import img3 from '../../img/case-study/plants/3.jpg'
 import img4 from '../../img/case-study/plants/4.jpg'
 import img5 from '../../img/case-study/plants/5.png'
+import img6 from '../../img/case-study/plants/6.png'
+import img7 from '../../img/case-study/plants/7.png'
+import img8 from '../../img/case-study/plants/8.png'
 import downArrow from '../../img/case-study/down-arrow.png'
 import '../../styles/case-studies.css';
 
@@ -66,14 +69,14 @@ function Plants() {
 
         <h3 className='case-section-font'>Information Architecture</h3>
         <p className='case-font'>Using my new found growth, I was ready to create the userflow using some predetermined tasks.</p>
-        {/* <div>
-          <img></img>
-          <img></img>
-        </div> */}
+        <div>
+          <img className='app-screen' src={img6} alt='plant watering app screenshot'></img>
+          <img className='app-screen' src={img7} alt='plant watering app screenshot'></img>
+        </div>
 
-        {/* <img>arrow</img> */}
+        <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
 
-        {/* <img>tree diagram</img> */}
+        <img className='full-img' src={img8} alt='hierarchical tree chart'></img>
 
         <h3 className='case-section-font'>How might we differentiate between watered and unwatered plants?</h3>
         <p className='case-font'>I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate.</p>
