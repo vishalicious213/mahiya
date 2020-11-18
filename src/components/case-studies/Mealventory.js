@@ -4,8 +4,8 @@ import img2 from '../../img/case-study/meal/2.jpg'
 import img3 from '../../img/case-study/meal/3.jpg'
 import img4 from '../../img/case-study/meal/4.jpg'
 import img5 from '../../img/case-study/meal/5.jpg'
-// import img6 from '../../img/case-study/meal/6.png'
-// import img7 from '../../img/case-study/meal/7.png'
+import img6 from '../../img/case-study/meal/6.jpg'
+// import img7 from '../../img/case-study/meal/7.jpg'
 // import img8 from '../../img/case-study/meal/8.jpg'
 // import img9 from '../../img/case-study/meal/9.jpg'
 // import img10 from '../../img/case-study/meal/10.jpg'
@@ -39,9 +39,9 @@ function Meal() {
           <img className='app-screen-6' src={img5} alt='activity tracker app screenshot'></img>
         </div>
 
-        <div className='app-screen-container'>
-          <p className='case-font'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
-          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+        <div className='app-screen-container text-and-img'>
+          <p className='case-font fify-percent'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
+          <img className='app-screen fifty-percent' src={img6} alt='activity tracker app screenshot'></img>
         </div>
 
         <p className='case-font'>Coming up with the inventory flow has not been easy. At first I was under the impression that you could leave food outside the containers. But I later realized that the whole idea behind this app is to save you money and food but that won’t happen if we’re unorganized from the beginning.  If I encourage users to not have to add food into their individual categories then I’m creating more work for them in the future.</p>
