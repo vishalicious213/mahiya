@@ -5,11 +5,12 @@ import img3 from '../../img/case-study/meal/3.jpg'
 import img4 from '../../img/case-study/meal/4.jpg'
 import img5 from '../../img/case-study/meal/5.jpg'
 import img6 from '../../img/case-study/meal/6.jpg'
-// import img7 from '../../img/case-study/meal/7.jpg'
-// import img8 from '../../img/case-study/meal/8.jpg'
-// import img9 from '../../img/case-study/meal/9.jpg'
-// import img10 from '../../img/case-study/meal/10.jpg'
-// import img11 from '../../img/case-study/meal/11.jpg'
+import img7 from '../../img/case-study/meal/7.jpg'
+import img8 from '../../img/case-study/meal/8.jpg'
+import img9 from '../../img/case-study/meal/9.jpg'
+import img10 from '../../img/case-study/meal/10.jpg'
+import img11 from '../../img/case-study/meal/11.jpg'
+import img12 from '../../img/case-study/meal/12.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
@@ -46,18 +47,18 @@ function Meal() {
 
         <p className='case-font'>Coming up with the inventory flow has not been easy. At first I was under the impression that you could leave food outside the containers. But I later realized that the whole idea behind this app is to save you money and food but that won’t happen if we’re unorganized from the beginning.  If I encourage users to not have to add food into their individual categories then I’m creating more work for them in the future.</p>
 
-        <div>
-          <div><img className='app-screen' src={img2} alt='activity tracker app screenshot'></img></div>
-          <div>
-            <div><img className='app-screen' src={img2} alt='activity tracker app screenshot'></img></div>
-            <p className='case-font'>So I grounded myself to the goal of this app which really is to get organized around the food I already have. By tracking what I have, I will spend less money at the grocery store.</p>
+        <div className='text-and-img'>
+          <div className='fifty-percent'><img className='ninety' src={img7} alt='activity tracker app screenshot'></img></div>
+          <div className='text-and-img-2 fifty-percent'>
+            <div><img className='ninety' src={img8} alt='activity tracker app screenshot'></img></div>
+            <p className='case-font ninety'>So I grounded myself to the goal of this app which really is to get organized around the food I already have. By tracking what I have, I will spend less money at the grocery store.</p>
           </div>
         </div>
 
-        <div className='app-screen-container'>
-          <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
-          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
-          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+        <div className='app-screen-container-2'>
+          <img className='app-screen-5' src={img9} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-5' src={img10} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-5' src={img11} alt='activity tracker app screenshot'></img>
         </div>
 
         <h3 className='case-section-font'>The meal plan</h3>
@@ -69,7 +70,7 @@ function Meal() {
         <p className='case-font'>Finally, user needs to be able to delete anything that was added recently or otherwise change up anything that was done.</p>
 
         <div className='app-screen-container'>
-          <img className='third-img' src={img3} alt='Google Calendar schedule'></img>
+          <img className='third-img' src={img12} alt='Google Calendar schedule'></img>
         </div>
 
         <h3 className='case-section-font'>What might we include in the recipe?</h3>

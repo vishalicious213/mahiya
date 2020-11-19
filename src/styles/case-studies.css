@@ -64,6 +64,7 @@
 .full-img {
     width: 100%;
     margin-top: 1rem;
+    outline: 1px solid red;
 }
 
 .down-arrow {
@@ -166,4 +167,22 @@
 
 .fifty-percent {
     width: 50%;
+}
+
+.text-and-img-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ninety {
+    width: 90%;
+    margin-top: 1rem;
+}
+
+.app-screen-container-2 {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem 0;
+    width: 100%;
 }
