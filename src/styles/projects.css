@@ -1,7 +1,6 @@
 #projects {
     display: flex;
     justify-content: flex-start;
-    background: pink;
   }
   
   #project-section {

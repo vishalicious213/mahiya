@@ -4,20 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
-import { Switch, Route } from 'react-router-dom';
-import AboutMe from './components/AboutMe';
+// import { Switch, Route } from 'react-router-dom';
+// import AboutMe from './components/AboutMe';
 // import { ContentProvider } from './components/ContentContext'
 
 ReactDOM.render(
   <React.StrictMode>
       {/* <ContentProvider> */}
           <BrowserRouter>
-            {/* <App /> */}
+            <App />
 
-            <Switch>
+            {/* <Switch>
               <Route path='/about-me'><AboutMe /></Route>
               <Route exact path='/'><App /></Route>
-            </Switch>
+            </Switch> */}
           </BrowserRouter>
       {/* </ContentProvider> */}
   </React.StrictMode>,

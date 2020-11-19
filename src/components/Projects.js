@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import plant1 from '../img/plant-watering-app1.png'
 import plant2 from '../img/plant-watering-app2.png'
 import activity1 from '../img/activity-tracker-app1.png'
@@ -19,25 +20,29 @@ function Projects() {
             <h2 id='project-section-title'>Projects</h2>
 
             <div className='project'>
+            {/* <Link to='/plants'> */}
+            {/* <p className='side-menu-item' value={props.content} onClick={handleChange}>about me</p> */}
               <div className='project-info'>
-
                 <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
                     <img className='app-img' src={plant1} alt='plant-watering app'></img>
                     <img className='app-img' src={plant2} alt='plant-watering app'></img>
                 </a>
 
+              <Link to='/plants'>
                 <div className='project-text-container'>
                   <div>
                     <p className='project-title'>Plant watering app</p>
                     <p className='project-role'>UX & UI</p>
                   </div>
                 </div>
+              </Link>
               </div>
               <div>
                 <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
                   <i className="fas fa-arrow-right"></i>
                 </a>
               </div>
+            {/* </Link> */}
             </div>
 
             <div className='project'>

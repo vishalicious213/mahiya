@@ -1,30 +1,41 @@
 import React from 'react'
 import leftArrow from '../img/left-arrow.png'
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import '../styles/sidebar.css';
 
-function Sidebar() {
+function Sidebar(props) {
+    function handleChange(event) {
+      props.onChange(event.target.value)
+    }
+
     return (
       <div id='sidebar'>
         <div id='sidebar-top'>
+
           <a href='http://www.mahiya.design/'>
             <p className='side-menu-item'>work</p>
           </a>
-          <a href='http://www.mahiya.design/about-me/'>
+
+          {/* <a href='http://www.mahiya.design/about-me/'>
             <p className='side-menu-item'>about</p>
-          </a>
-          {/* <Link to='/about-me'>
-            <p className='side-menu-item'>about me</p>
-          </Link> */}
+          </a> */}
+
+          <Link to='/about-me'>
+            <p className='side-menu-item' value={props.content} onClick={handleChange}>about me</p>
+          </Link>
+
           <a href='http://www.mahiya.design/my-thoughts/'>
             <p className='side-menu-item'>my thoughts</p>
           </a>
+
           <a href='http://www.mahiya.design/'>
             <p className='side-menu-item'>design exercises</p>
           </a>          
+
           <a href='http://www.mahiya.design/resume/'>
             <p className='side-menu-item'>resume</p>
           </a>
+
         </div>
 
         <div id='sidebar-bottom'>
