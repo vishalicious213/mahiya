@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from '../../img/case-study/activity/1.jpg'
 import img2 from '../../img/case-study/activity/2.jpg'
 import img3 from '../../img/case-study/activity/3.jpg'
@@ -13,6 +13,10 @@ import img11 from '../../img/case-study/activity/11.jpg'
 import '../../styles/case-studies.css';
 
 function Activity() {
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    });
+
     return (
       <div className='case-studies'>
         <h2 className='app-title' id='app-title-2'>Activity tracker app</h2>

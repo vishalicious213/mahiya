@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from '../../img/case-study/plants/1.jpg'
 import img2 from '../../img/case-study/plants/2.jpg'
 import img3 from '../../img/case-study/plants/3.jpg'
@@ -23,6 +23,10 @@ import downArrow from '../../img/case-study/down-arrow.png'
 import '../../styles/case-studies.css';
 
 function Plants() {
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    });
+
     return (
       <div className='case-studies'>
         <h2 id='app-title'>Plant watering app</h2>

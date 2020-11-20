@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from '../../img/case-study/meal/1.jpg'
 import img2 from '../../img/case-study/meal/2.jpg'
 import img3 from '../../img/case-study/meal/3.jpg'
@@ -14,6 +14,10 @@ import img12 from '../../img/case-study/meal/12.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
+    useEffect(() => {
+      window.scrollTo(0, 0)
+    });
+
     return (
       <div className='case-studies'>
         <h2 className='app-title' id='app-title-3'>Mealventory app</h2>
@@ -27,7 +31,7 @@ function Meal() {
         <div className='app-screen-container'>
           <img className='app-screen-5' src={img1} alt='activity tracker app screenshot'></img>
           <img className='app-screen-5' src={img2} alt='activity tracker app screenshot'></img>
-          <img className='app-screen-5' src={img2} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-5' src={img3} alt='activity tracker app screenshot'></img>
         </div>
 
         <h3 className='case-section-font'>Accounting for all the food.</h3>
