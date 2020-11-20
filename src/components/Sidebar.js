@@ -8,37 +8,33 @@ function Sidebar() {
       <div id='sidebar'>
         <div id='sidebar-top'>
 
-          <a href='http://www.mahiya.design/'>
+          <Link to='/'>
             <p className='side-menu-item'>work</p>
-          </a>
-
-          {/* <a href='http://www.mahiya.design/about-me/'>
-            <p className='side-menu-item'>about</p>
-          </a> */}
+          </Link>
 
           <Link to='/about-me'>
             <p className='side-menu-item'>about me</p>
           </Link>
 
-          <a href='http://www.mahiya.design/my-thoughts/'>
+          <Link to='/'>
             <p className='side-menu-item'>my thoughts</p>
-          </a>
+          </Link>
 
-          <a href='http://www.mahiya.design/'>
+          <Link to='/'>
             <p className='side-menu-item'>design exercises</p>
-          </a>          
+          </Link>       
 
-          <a href='http://www.mahiya.design/resume/'>
+          <Link to='/'>
             <p className='side-menu-item'>resume</p>
-          </a>
+          </Link>
 
         </div>
 
         <div id='sidebar-bottom'>
-          <a id='sidebar-bottom-button-container' href='http://www.mahiya.design'>
+          <Link to='/' id='sidebar-bottom-button-container'>
             <img className='side-menu-arrow' src={leftArrow} alt='left-arrow home button' />
             <p>Home</p>
-          </a>
+          </Link>
         </div>
       </div>
     )
