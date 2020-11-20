@@ -3,11 +3,7 @@ import leftArrow from '../img/left-arrow.png'
 import { Link } from 'react-router-dom'
 import '../styles/sidebar.css';
 
-function Sidebar(props) {
-    function handleChange(event) {
-      props.onChange(event.target.value)
-    }
-
+function Sidebar() {
     return (
       <div id='sidebar'>
         <div id='sidebar-top'>
@@ -21,7 +17,7 @@ function Sidebar(props) {
           </a> */}
 
           <Link to='/about-me'>
-            <p className='side-menu-item' value={props.content} onClick={handleChange}>about me</p>
+            <p className='side-menu-item'>about me</p>
           </Link>
 
           <a href='http://www.mahiya.design/my-thoughts/'>
