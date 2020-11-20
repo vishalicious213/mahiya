@@ -61,12 +61,10 @@ function Projects() {
 
             <div className='project'>
               <div className='project-info'>
-
-                <a className='project-images' href='http://www.mahiya.design/mealventory-app/'>
+                <Link to='/meal' className='project-images'>
                   <img className='app-img' src={meal1} alt='mealventory app'></img>
                   <img className='app-img' src={meal2} alt='mealventory app'></img>
-                </a>
-
+                </Link>
                 <div className='project-text-container'>
                   <div>
                     <p className='project-title'>Mealventory app</p>
@@ -75,9 +73,9 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <a className='project-images' href='http://www.mahiya.design/mealventory-app/'>
+                <Link to='/meal' className='project-images'>
                   <i className="fas fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
 
