@@ -1,27 +1,17 @@
 import './App.css';
-// import React, { useContext } from 'react'
-import React, { useState } from 'react'
+import React from 'react'
+import { Switch, Route } from 'react-router-dom';
 import Header from './components/Header'
-// import Projects from './components/Projects'
 import Footer from './components/Footer'
 import Sidebar from './components/Sidebar'
-// import AboutMe from './components/AboutMe'
+import Projects from './components/Projects'
+import AboutMe from './components/AboutMe'
 import Plants from './components/case-studies/PlantWateringApp'
-// import { ContentContext } from './components/ContentContext'
+import Activity from './components/case-studies/ActivityTrackerApp'
+import Meal from './components/case-studies/Mealventory'
 
 function App() {
-  // const [content, setContent] = useState(<Projects />)
-  // const [content, setContent] = useState(<AboutMe />)
-  const [content] = useState(<Plants />)
-
-  // const [content] = useContext(ContentContext)
-  // console.log(content)
-  // let content = <Projects />
-  // let content = <AboutMe />
-  // let content = 1
-
   return (
-    // <ContentProvider>
     <div className="wrapper">
         <div className="header">
             <Header />
@@ -30,15 +20,18 @@ function App() {
             <Sidebar />
         </div>
         <div className="content">
-            {/* <Projects /> */}
-            {content}
-            {/* {content === 1 ? <Projects /> : <AboutMe />} */}
+            <Switch>
+              <Route path='/about-me'><AboutMe /></Route>
+              <Route path='/plants'><Plants /></Route>
+              <Route path='/activity'><Activity /></Route>
+              <Route path='/meal'><Meal /></Route>
+              <Route exact path='/'><Projects /></Route>
+            </Switch>
         </div>
         <div className="footer">
             <Footer />
         </div>
     </div>
-    // </ContentProvider>
   );
 }
 

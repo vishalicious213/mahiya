@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import plant1 from '../img/plant-watering-app1.png'
 import plant2 from '../img/plant-watering-app2.png'
 import activity1 from '../img/activity-tracker-app1.png'
@@ -20,13 +21,11 @@ function Projects() {
 
             <div className='project'>
               <div className='project-info'>
-
-                <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
+                <Link to='/plants' className='project-images'>
                     <img className='app-img' src={plant1} alt='plant-watering app'></img>
                     <img className='app-img' src={plant2} alt='plant-watering app'></img>
-                </a>
-
-                <div className='project-text-container'>
+                </Link>
+                <div to='/plants' className='project-text-container'>
                   <div>
                     <p className='project-title'>Plant watering app</p>
                     <p className='project-role'>UX & UI</p>
@@ -34,20 +33,18 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
+                <Link to='/plants' className='project-images'>
                   <i className="fas fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className='project'>
               <div className='project-info'>
-
-                <a className='project-images' href='http://www.mahiya.design/activity-tracker-app/'>
+                <Link to='/activity' className='project-images'>
                   <img className='app-img' src={activity1} alt='activity-tracker app'></img>
                   <img className='app-img' src={activity2} alt='activity-tracker app'></img>
-                </a>
-
+                </Link>
                 <div className='project-text-container'>
                   <div>
                     <p className='project-title'>Activity tracker app</p>
@@ -56,20 +53,18 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <a className='project-images' href='http://www.mahiya.design/activity-tracker-app/'>
+                <Link to='/activity' className='project-images'>
                   <i className="fas fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
 
             <div className='project'>
               <div className='project-info'>
-
-                <a className='project-images' href='http://www.mahiya.design/mealventory-app/'>
+                <Link to='/meal' className='project-images'>
                   <img className='app-img' src={meal1} alt='mealventory app'></img>
                   <img className='app-img' src={meal2} alt='mealventory app'></img>
-                </a>
-
+                </Link>
                 <div className='project-text-container'>
                   <div>
                     <p className='project-title'>Mealventory app</p>
@@ -78,9 +73,9 @@ function Projects() {
                 </div>
               </div>
               <div>
-                <a className='project-images' href='http://www.mahiya.design/mealventory-app/'>
+                <Link to='/meal' className='project-images'>
                   <i className="fas fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
             </div>
 
