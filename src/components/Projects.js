@@ -20,29 +20,23 @@ function Projects() {
             <h2 id='project-section-title'>Projects</h2>
 
             <div className='project'>
-            {/* <Link to='/plants'> */}
-            {/* <p className='side-menu-item' value={props.content} onClick={handleChange}>about me</p> */}
               <div className='project-info'>
-                <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
+                <Link to='/plants' className='project-images'>
                     <img className='app-img' src={plant1} alt='plant-watering app'></img>
                     <img className='app-img' src={plant2} alt='plant-watering app'></img>
-                </a>
-
-              <Link to='/plants'>
-                <div className='project-text-container'>
+                </Link>
+                <div to='/plants' className='project-text-container'>
                   <div>
                     <p className='project-title'>Plant watering app</p>
                     <p className='project-role'>UX & UI</p>
                   </div>
                 </div>
-              </Link>
               </div>
               <div>
-                <a className='project-images' href='http://www.mahiya.design/plant-watering-app/'>
+                <Link to='/plants' className='project-images'>
                   <i className="fas fa-arrow-right"></i>
-                </a>
+                </Link>
               </div>
-            {/* </Link> */}
             </div>
 
             <div className='project'>

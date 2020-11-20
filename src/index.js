@@ -1,25 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom'
-// import { Switch, Route } from 'react-router-dom';
-// import AboutMe from './components/AboutMe';
-// import { ContentProvider } from './components/ContentContext'
+import './index.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
-      {/* <ContentProvider> */}
-          <BrowserRouter>
-            <App />
-
-            {/* <Switch>
-              <Route path='/about-me'><AboutMe /></Route>
-              <Route exact path='/'><App /></Route>
-            </Switch> */}
-          </BrowserRouter>
-      {/* </ContentProvider> */}
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
