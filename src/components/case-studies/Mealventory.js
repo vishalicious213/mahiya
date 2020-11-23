@@ -13,6 +13,7 @@ import img11 from '../../img/case-study/meal/11.jpg'
 import img12 from '../../img/case-study/meal/12.jpg'
 import img13 from '../../img/case-study/meal/13.jpg'
 import img14 from '../../img/case-study/meal/14.jpg'
+import img15 from '../../img/case-study/meal/15.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
@@ -91,7 +92,14 @@ function Meal() {
             <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
           </div>
         </div>
-        <p className='case-font'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
+
+        <div className='text-and-img'>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img15} alt='Google Calendar schedule'></img>
+          </div>
+          <p className='case-font fifty-pad text-align-center'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
+        </div>
+
         <p className='case-font'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
 
         <h3 className='case-section-font'>Choosing color</h3>
