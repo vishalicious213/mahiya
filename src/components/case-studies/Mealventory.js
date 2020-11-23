@@ -11,6 +11,8 @@ import img9 from '../../img/case-study/meal/9.jpg'
 import img10 from '../../img/case-study/meal/10.jpg'
 import img11 from '../../img/case-study/meal/11.jpg'
 import img12 from '../../img/case-study/meal/12.jpg'
+import img13 from '../../img/case-study/meal/13.jpg'
+import img14 from '../../img/case-study/meal/14.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
@@ -79,8 +81,16 @@ function Meal() {
 
         <h3 className='case-section-font'>What might we include in the recipe?</h3>
         <p className='case-font'>In thinking about recipes, I considered what things are important for cooking. I took these ideas from popular apps like Yummili and Mealime.</p>
-        <p className='case-font'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
-        <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
+        <div className='text-and-img'>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img13} alt='Google Calendar schedule'></img>
+            <p className='case-font'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
+          </div>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img14} alt='Google Calendar schedule'></img>
+            <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
+          </div>
+        </div>
         <p className='case-font'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
         <p className='case-font'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
 
