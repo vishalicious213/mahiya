@@ -16,6 +16,11 @@ import img14 from '../../img/case-study/meal/14.jpg'
 import img15 from '../../img/case-study/meal/15.jpg'
 import img16 from '../../img/case-study/meal/16.jpg'
 import img17 from '../../img/case-study/meal/17.jpg'
+import img18 from '../../img/case-study/meal/18.jpg'
+import img19 from '../../img/case-study/meal/19.jpg'
+import img20 from '../../img/case-study/meal/20.jpg'
+import img21 from '../../img/case-study/meal/21.jpg'
+import img22 from '../../img/case-study/meal/22.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
@@ -115,6 +120,23 @@ function Meal() {
 
         <h3 className='case-section-font'>Choosing color</h3>
         <p className='case-font'>Blue denotes dependability, demands reliability. A lot of banking apps use this color for these reasons. I also noticed tracker apps generally tend to use a shade of blue. And because Mealventory is tracking your food, it aligns perfectly with our goal.</p>
+        <div className='text-and-img'>
+          <div className='text-and-img-2 right-margin'>
+            <p className='case-font colored-square-names'>Primary</p>
+            <img className='colored-squares' src={img18} alt='Google Calendar schedule'></img>
+          </div>
+          <div className='text-and-img-2'>
+            <p className='case-font colored-square-names'>Grays</p>
+            <div>
+              <img className='colored-squares' src={img19} alt='Google Calendar schedule'></img>
+              <img className='colored-squares' src={img20} alt='Google Calendar schedule'></img>
+              <img className='colored-squares' src={img21} alt='Google Calendar schedule'></img>
+              <img className='colored-squares' src={img22} alt='Google Calendar schedule'></img>
+            </div>
+          </div>
+        </div>
+
+        <h3 className='case-section-font'>Final solution</h3>
       </div>
     )
 }

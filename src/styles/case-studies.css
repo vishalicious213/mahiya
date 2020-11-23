@@ -196,3 +196,16 @@
     display: flex;
     align-items: center;
 }
+
+.colored-squares {
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.colored-square-names {
+    text-decoration: underline;
+}
+
+.right-margin {
+    margin-right: 5rem;
+}
