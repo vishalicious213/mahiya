@@ -1,6 +1,7 @@
 .case-studies {
     display: flex;
     flex-direction: column;
+    max-width: 48rem;
     /* outline: 1px solid red; */
     --text-color: #595959;
     --text-color-darker: #262626;

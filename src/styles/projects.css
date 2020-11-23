@@ -1,6 +1,7 @@
 #projects {
     display: flex;
     justify-content: flex-start;
+    max-width: 48rem;
   }
   
   #project-section {
