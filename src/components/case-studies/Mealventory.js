@@ -100,7 +100,12 @@ function Meal() {
           <p className='case-font fifty-pad text-align-center'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
         </div>
 
-        <p className='case-font'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
+        <div className='text-and-img'>
+          <p className='case-font fifty-pad text-align-center'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img15} alt='Google Calendar schedule'></img>
+          </div>
+        </div>
 
         <h3 className='case-section-font'>Choosing color</h3>
         <p className='case-font'>Blue denotes dependability, demands reliability. A lot of banking apps use this color for these reasons. I also noticed tracker apps generally tend to use a shade of blue. And because Mealventory is tracking your food, it aligns perfectly with our goal.</p>
