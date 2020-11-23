@@ -14,6 +14,8 @@ import img12 from '../../img/case-study/meal/12.jpg'
 import img13 from '../../img/case-study/meal/13.jpg'
 import img14 from '../../img/case-study/meal/14.jpg'
 import img15 from '../../img/case-study/meal/15.jpg'
+import img16 from '../../img/case-study/meal/16.jpg'
+import img17 from '../../img/case-study/meal/17.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
@@ -103,8 +105,12 @@ function Meal() {
         <div className='text-and-img'>
           <p className='case-font fifty-pad text-align-center'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
           <div className='fifty-pad'>
-            <img className='ninety' src={img15} alt='Google Calendar schedule'></img>
+            <img className='ninety' src={img16} alt='Google Calendar schedule'></img>
           </div>
+        </div>
+
+        <div className='fifty-pad'>
+          <img className='ninety' src={img17} alt='Google Calendar schedule'></img>
         </div>
 
         <h3 className='case-section-font'>Choosing color</h3>
