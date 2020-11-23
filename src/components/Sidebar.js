@@ -16,7 +16,7 @@ function Sidebar() {
             <p className='side-menu-item'>about me</p>
           </Link>
 
-          <Link to='/'>
+          <Link to='/thoughts'>
             <p className='side-menu-item'>my thoughts</p>
           </Link>
 
