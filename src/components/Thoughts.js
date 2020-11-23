@@ -20,20 +20,20 @@ function Thoughts() {
     }
 
     return (
-        <div>
+        <div id='thoughts'>
             <Thought 
                 title='App critique- Amazon’s subscribe and save' 
                 text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
             />
 
             <Thought 
-                title='App critique- Amazon’s subscribe and save' 
-                text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
+                title='How might we find the perfect leggings?' 
+                text='.....This is a recording of how I would “UX” finding the perfect leggings. '
             />
 
             <Thought 
-                title='App critique- Amazon’s subscribe and save' 
-                text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
+                title='A study of visual hierarchy in streaming websites' 
+                text='Creating designs from only imagination, simply for aesthetical achievements can fail to convey messages and important information. So let’s look at the principles behind some well-known landing pages and how they relay information to users.'
             />
         </div>
     )
