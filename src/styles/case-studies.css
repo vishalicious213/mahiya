@@ -169,6 +169,11 @@
     width: 50%;
 }
 
+.fifty-pad {
+    width: 50%;
+    padding-right: 1rem;
+}
+
 .text-and-img-2 {
     display: flex;
     flex-direction: column;
@@ -185,4 +190,22 @@
     align-items: flex-start;
     margin: 1rem 0;
     width: 100%;
+}
+
+.text-align-center {
+    display: flex;
+    align-items: center;
+}
+
+.colored-squares {
+    width: 4rem;
+    margin-right: 1rem;
+}
+
+.colored-square-names {
+    text-decoration: underline;
+}
+
+.right-margin {
+    margin-right: 5rem;
 }

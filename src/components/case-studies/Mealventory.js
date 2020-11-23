@@ -11,6 +11,16 @@ import img9 from '../../img/case-study/meal/9.jpg'
 import img10 from '../../img/case-study/meal/10.jpg'
 import img11 from '../../img/case-study/meal/11.jpg'
 import img12 from '../../img/case-study/meal/12.jpg'
+import img13 from '../../img/case-study/meal/13.jpg'
+import img14 from '../../img/case-study/meal/14.jpg'
+import img15 from '../../img/case-study/meal/15.jpg'
+import img16 from '../../img/case-study/meal/16.jpg'
+import img17 from '../../img/case-study/meal/17.jpg'
+import img18 from '../../img/case-study/meal/18.jpg'
+import img19 from '../../img/case-study/meal/19.jpg'
+import img20 from '../../img/case-study/meal/20.jpg'
+import img21 from '../../img/case-study/meal/21.jpg'
+import img22 from '../../img/case-study/meal/22.jpg'
 import '../../styles/case-studies.css';
 
 function Meal() {
@@ -79,13 +89,54 @@ function Meal() {
 
         <h3 className='case-section-font'>What might we include in the recipe?</h3>
         <p className='case-font'>In thinking about recipes, I considered what things are important for cooking. I took these ideas from popular apps like Yummili and Mealime.</p>
-        <p className='case-font'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
-        <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
-        <p className='case-font'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
-        <p className='case-font'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
+        <div className='text-and-img'>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img13} alt='Google Calendar schedule'></img>
+            <p className='case-font'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
+          </div>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img14} alt='Google Calendar schedule'></img>
+            <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
+          </div>
+        </div>
+
+        <div className='text-and-img'>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img15} alt='Google Calendar schedule'></img>
+          </div>
+          <p className='case-font fifty-pad text-align-center'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
+        </div>
+
+        <div className='text-and-img'>
+          <p className='case-font fifty-pad text-align-center'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
+          <div className='fifty-pad'>
+            <img className='ninety' src={img16} alt='Google Calendar schedule'></img>
+          </div>
+        </div>
+
+        <div className='fifty-pad'>
+          <img className='ninety' src={img17} alt='Google Calendar schedule'></img>
+        </div>
 
         <h3 className='case-section-font'>Choosing color</h3>
         <p className='case-font'>Blue denotes dependability, demands reliability. A lot of banking apps use this color for these reasons. I also noticed tracker apps generally tend to use a shade of blue. And because Mealventory is tracking your food, it aligns perfectly with our goal.</p>
+        <div className='text-and-img'>
+          <div className='text-and-img-2 right-margin'>
+            <p className='case-font colored-square-names'>Primary</p>
+            <img className='colored-squares' src={img18} alt='Google Calendar schedule'></img>
+          </div>
+          <div className='text-and-img-2'>
+            <p className='case-font colored-square-names'>Grays</p>
+            <div>
+              <img className='colored-squares' src={img19} alt='Google Calendar schedule'></img>
+              <img className='colored-squares' src={img20} alt='Google Calendar schedule'></img>
+              <img className='colored-squares' src={img21} alt='Google Calendar schedule'></img>
+              <img className='colored-squares' src={img22} alt='Google Calendar schedule'></img>
+            </div>
+          </div>
+        </div>
+
+        <h3 className='case-section-font'>Final solution</h3>
       </div>
     )
 }
