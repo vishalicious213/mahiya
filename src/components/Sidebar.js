@@ -20,7 +20,7 @@ function Sidebar() {
             <p className='side-menu-item'>my thoughts</p>
           </Link>
 
-          <Link to='/'>
+          <Link to='/exercises'>
             <p className='side-menu-item'>design exercises</p>
           </Link>       
 

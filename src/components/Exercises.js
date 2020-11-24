@@ -1,45 +1,40 @@
 import React, { useEffect } from 'react'
-import '../styles/thoughts.css'
-import { Link } from 'react-router-dom'
+import ex1 from '../img/exercises/ex1.png'
+import ex2 from '../img/exercises/ex2.png'
+import ex3 from '../img/exercises/ex3.png'
+import '../styles/exercises.css'
 
 function Exercises() {
     useEffect(() => {
         window.scrollTo(0, 0)
     });
 
-    const Thought = ({ image, title }) => {
+    const Exercise = ({ image, title }) => {
         return (
-            <section className='thought'>
-                <Link to={link}>
-                    <div className='thought-img'></div>
-                </Link>
-                <p className='thought-title'>{title}</p>
-                <p className='thought-text'>{text}</p>
-                <Link to='/thoughts'>
-                    <p className='read-more'>Read more</p>
-                </Link>
+            <section className='exercise'>
+                <div className='exercise-img-container'>
+                    <img className='exercise-img' src={image} alt='application screenshot'></img>
+                </div>
+                <p className='exercise-title'>{title}</p>
             </section>
         )
     }
 
     return (
-        <div id='thoughts'>
-            <Thought 
-                title='App critique- Amazon’s subscribe and save' 
-                text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
-                link='/thoughts'
+        <div id='exercises'>
+            <Exercise 
+                title="A designer's profile"
+                image={ex1}
             />
 
-            <Thought 
-                title='How might we find the perfect leggings?' 
-                text='.....This is a recording of how I would “UX” finding the perfect leggings. '
-                link='/thoughts'
+            <Exercise 
+                title='A mortgage calculator' 
+                image={ex2}
             />
 
-            <Thought 
-                title='A study of visual hierarchy in streaming websites' 
-                text='Creating designs from only imagination, simply for aesthetical achievements can fail to convey messages and important information. So let’s look at the principles behind some well-known landing pages and how they relay information to users.'
-                link='/thoughts'
+            <Exercise 
+                title='Fashion website in mobile view' 
+                image={ex3}
             />
         </div>
     )

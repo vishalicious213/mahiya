@@ -10,6 +10,7 @@ import Plants from './components/case-studies/PlantWateringApp'
 import Activity from './components/case-studies/ActivityTrackerApp'
 import Meal from './components/case-studies/Mealventory'
 import Thoughts from './components/Thoughts'
+import Exercises from './components/Exercises'
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
               <Route path='/activity'><Activity /></Route>
               <Route path='/meal'><Meal /></Route>
               <Route path='/thoughts'><Thoughts /></Route>
+              <Route path='/exercises'><Exercises /></Route>
               <Route exact path='/'><Projects /></Route>
             </Switch>
         </div>

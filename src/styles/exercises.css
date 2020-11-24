@@ -1,0 +1,28 @@
+#exercises {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4.5rem;
+}
+
+.exercise {
+    width: 20rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.exercise-img-container {
+    /* background: #c4c4c4; */
+    /* height: 20rem; */
+    width: 40rem;
+}
+
+.exercise-img {
+    width: 100%;
+}
+
+.exercise-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: var(--text-color);
+}
