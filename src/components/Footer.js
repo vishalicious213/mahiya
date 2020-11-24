@@ -4,15 +4,15 @@ import '../styles/footer.css'
 function Footer() {
     return (
       <div id='footer'>
-        <a target="_blank" href='https://dribbble.com/mahiya17'>
+        <a target="_blank" rel="noopener noreferrer" href='https://dribbble.com/mahiya17'>
           <div className='footer-icons' id='globe-icon'></div>
         </a>
 
-        <a target="_blank" href='http://www.linkedin.com/in/mahiya17'>
+        <a target="_blank" rel="noopener noreferrer" href='http://www.linkedin.com/in/mahiya17'>
           <div className='footer-icons' id='linkedin-icon'></div>
         </a>
 
-        <a target="_blank" href='https://mahiya17.medium.com/'>
+        <a target="_blank" rel="noopener noreferrer" href='https://mahiya17.medium.com/'>
           <div className='footer-icons' id='medium-icon'></div>
         </a>
 
