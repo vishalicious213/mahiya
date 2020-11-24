@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import ex1 from '../img/exercises/ex1.jpg'
-import ex2 from '../img/exercises/ex2.png'
-import ex3 from '../img/exercises/ex3.png'
+import ex2 from '../img/exercises/ex2.jpg'
+import ex3 from '../img/exercises/ex3.jpg'
 import '../styles/exercises.css'
 
 function Exercises() {
