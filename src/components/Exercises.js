@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import ex1 from '../img/exercises/ex1.png'
+import ex1 from '../img/exercises/ex1.jpg'
 import ex2 from '../img/exercises/ex2.png'
 import ex3 from '../img/exercises/ex3.png'
 import '../styles/exercises.css'
