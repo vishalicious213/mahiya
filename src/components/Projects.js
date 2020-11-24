@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import plant1 from '../img/plant-watering-app1.png'
-import plant2 from '../img/plant-watering-app2.png'
-import activity1 from '../img/activity-tracker-app1.png'
-import activity2 from '../img/activity-tracker-app2.png'
-import meal1 from '../img/mealventory-app1.png'
-import meal2 from '../img/mealventory-app2.png'
+import plant1 from '../img/plant-watering-app1.jpg'
+import plant2 from '../img/plant-watering-app2.jpg'
+import activity1 from '../img/activity-tracker-app1.jpg'
+import activity2 from '../img/activity-tracker-app2.jpg'
+import meal1 from '../img/mealventory-app1.jpg'
+import meal2 from '../img/mealventory-app2.jpg'
 import '../styles/projects.css';
 
 function Projects() {
