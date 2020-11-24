@@ -1,14 +1,38 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import plant1 from '../img/plant-watering-app1.png'
-import plant2 from '../img/plant-watering-app2.png'
-import activity1 from '../img/activity-tracker-app1.png'
-import activity2 from '../img/activity-tracker-app2.png'
-import meal1 from '../img/mealventory-app1.png'
-import meal2 from '../img/mealventory-app2.png'
+import plant1 from '../img/plant-watering-app1.jpg'
+import plant2 from '../img/plant-watering-app2.jpg'
+import activity1 from '../img/activity-tracker-app1.jpg'
+import activity2 from '../img/activity-tracker-app2.jpg'
+import meal1 from '../img/mealventory-app1.jpg'
+import meal2 from '../img/mealventory-app2.jpg'
 import '../styles/projects.css';
 
 function Projects() {
+    const Project = ({ link, img1, img2, title }) => {
+        return (
+        <div className='project'>
+            <div className='project-info'>
+                <Link to={link} className='project-images'>
+                    <img className='app-img' src={img1} alt='plant-watering app'></img>
+                    <img className='app-img' src={img2} alt='plant-watering app'></img>
+                </Link>
+                <div className='project-text-container'>
+                    <div>
+                        <p className='project-title'>{title}</p>
+                        <p className='project-role'>UX & UI</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <Link to={link} className='project-images'>
+                    <i className="fas fa-arrow-right"></i>
+                </Link>
+            </div>
+        </div>
+        )
+    }
+
     return (
       <div id='projects'>
         <section id='project-section'>
@@ -19,70 +43,31 @@ function Projects() {
           <section id='project-gallery'>
             <h2 id='project-section-title'>Projects</h2>
 
-            <div className='project'>
-              <div className='project-info'>
-                <Link to='/plants' className='project-images'>
-                    <img className='app-img' src={plant1} alt='plant-watering app'></img>
-                    <img className='app-img' src={plant2} alt='plant-watering app'></img>
-                </Link>
-                <div to='/plants' className='project-text-container'>
-                  <div>
-                    <p className='project-title'>Plant watering app</p>
-                    <p className='project-role'>UX & UI</p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <Link to='/plants' className='project-images'>
-                  <i className="fas fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
+            <Project 
+                link='/plants'
+                img1={plant1}
+                img2={plant2}
+                title='Plant watering app'
+            />
 
-            <div className='project'>
-              <div className='project-info'>
-                <Link to='/activity' className='project-images'>
-                  <img className='app-img' src={activity1} alt='activity-tracker app'></img>
-                  <img className='app-img' src={activity2} alt='activity-tracker app'></img>
-                </Link>
-                <div className='project-text-container'>
-                  <div>
-                    <p className='project-title'>Activity tracker app</p>
-                    <p className='project-role'>UX & UI</p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <Link to='/activity' className='project-images'>
-                  <i className="fas fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
+            <Project 
+                link='/activity'
+                img1={activity1}
+                img2={activity2}
+                title='Activity tracker app'
+            />
 
-            <div className='project'>
-              <div className='project-info'>
-                <Link to='/meal' className='project-images'>
-                  <img className='app-img' src={meal1} alt='mealventory app'></img>
-                  <img className='app-img' src={meal2} alt='mealventory app'></img>
-                </Link>
-                <div className='project-text-container'>
-                  <div>
-                    <p className='project-title'>Mealventory app</p>
-                    <p className='project-role'>UX & UI</p>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <Link to='/meal' className='project-images'>
-                  <i className="fas fa-arrow-right"></i>
-                </Link>
-              </div>
-            </div>
+            <Project 
+                link='/meal'
+                img1={meal1}
+                img2={meal2}
+                title='Mealventory app'
+            />
 
           </section>
         </section>
       </div>
     )
 }
-  
+
   export default Projects;

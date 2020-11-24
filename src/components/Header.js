@@ -5,13 +5,11 @@ import { Link } from 'react-router-dom'
 function Header() {
     return (
       <div id="header">
-          <div id='logo-container'>
-            <Link to='/'>
+            <Link id='logo-Link' to='/'>
               <img id='logo' src={logo17} alt='Mahiya Hoque'></img>
             </Link>
-          </div>
       </div>
     )
 }
-  
+
   export default Header;

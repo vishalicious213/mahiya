@@ -51,21 +51,21 @@ code {
   /* justify-content: center; */
 }
 
-#logo-container {
-  /* border: 1px solid red; */
-  width: 87.5%;
+#logo-Link {
+  /* border: 1px solid blue; */
+  width: 20rem;
 }
 
 #logo {
   /* border: 1px solid orange; */
   width: 100%;
 }
-
+/* 
 @media (min-width: 768px) {
-  #logo-container {
+  #logo-Link {
     width: 57.5%;
   }
-}
+} */
 
 
 /* 
