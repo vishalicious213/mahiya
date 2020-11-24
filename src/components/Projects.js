@@ -11,24 +11,24 @@ import '../styles/projects.css';
 function Projects() {
     const Project = ({ link, img1, img2, title }) => {
         return (
-          <div className='project'>
-          <div className='project-info'>
-            <Link to={link} className='project-images'>
-                <img className='app-img' src={img1} alt='plant-watering app'></img>
-                <img className='app-img' src={img2} alt='plant-watering app'></img>
-            </Link>
-            <div className='project-text-container'>
-              <div>
-                <p className='project-title'>{title}</p>
-                <p className='project-role'>UX & UI</p>
-              </div>
+        <div className='project'>
+            <div className='project-info'>
+                <Link to={link} className='project-images'>
+                    <img className='app-img' src={img1} alt='plant-watering app'></img>
+                    <img className='app-img' src={img2} alt='plant-watering app'></img>
+                </Link>
+                <div className='project-text-container'>
+                    <div>
+                        <p className='project-title'>{title}</p>
+                        <p className='project-role'>UX & UI</p>
+                    </div>
+                </div>
             </div>
-          </div>
-          <div>
-            <Link to={link} className='project-images'>
-              <i className="fas fa-arrow-right"></i>
-            </Link>
-          </div>
+            <div>
+                <Link to={link} className='project-images'>
+                    <i className="fas fa-arrow-right"></i>
+                </Link>
+            </div>
         </div>
         )
     }
