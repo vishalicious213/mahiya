@@ -90,3 +90,9 @@
 .thought-image {
     width: 100%;
 }
+
+.thought-caption {
+    color: var(--text-color);
+    font-size: 1rem;
+    text-align: center;
+}

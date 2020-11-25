@@ -24,7 +24,7 @@ function Subscribe() {
                 <div className='thought-image-100'>
                     <img className='thought-image' src={img1} alt='activity tracker app screenshot'></img>
                 </div>
-                <p>When I click the “change” link, my expectation is that I can change the date. It was only during my analysis for this article, I realized it simply tells you that by ordering now you won’t get a discount.</p>
+                <p className='thought-caption thought-image-100'>When I click the “change” link, my expectation is that I can change the date. It was only during my analysis for this article, I realized it simply tells you that by ordering now you won’t get a discount.</p>
                 <p className='thought-text-2'>I never even saw that they give you the option between getting now and getting no discount or getting later and getting a discount. I always add the item to the cart first and then from inside the cart, I subscribe to get the discount. But I only ever saw the minimum discount sometimes, never really thought much about it.</p>
             </div>
 
@@ -34,7 +34,7 @@ function Subscribe() {
             <div className='thought-image-60'>
                 <img className='thought-image' src={img2} alt='activity tracker app screenshot'></img>
             </div>
-            <p>no way to tell why the item on the left cannot be ordered now</p>
+            <p className='thought-caption thought-image-60'>no way to tell why the item on the left cannot be ordered now</p>
 
             <h3 className='thought-title-2'>Giving the impression that if you sub an item over, you’ll get a discount.</h3>
             <p className='thought-text-2'>When I go into the item description for an item I have already subscribed to, I’m prompted to create a new subscription to get the minimum discount. So I have multiple subscriptions for one item. This item had already unlocked its max discount but if I order right now, I only get the minimum discount. This information is not easily relayed anywhere.</p>
@@ -46,7 +46,7 @@ function Subscribe() {
             <div className='thought-image-60'>
                 <img className='thought-image' src={img4} alt='activity tracker app screenshot'></img>
             </div>
-            <p>There’s also currently no way to look up sub’d items within subscribe & save</p>
+            <p className='thought-caption thought-image-60'>There’s also currently no way to look up sub’d items within subscribe & save</p>
 
             <h3 className='thought-title-2'>Active subscription seems like it can expand, but it doesn’t.</h3>
             <p className='thought-text-2'>The active subscriptions could be a toggle or a dropdown menu or even expand within each section between active and inactive subs. Currently “active subscriptions” take you to a separate page where you select between active or inactive subscriptions.</p>
