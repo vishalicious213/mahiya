@@ -20,7 +20,12 @@ function Leggings() {
             </ol>
             <p>How might we purchase leggings with intention for specific features without spending a ton of money?</p>
 
-            
+            <h3>Exploration</h3>
+            <p>The features people desire in leggings is something I would need to dig out. For example, I like v-cuts in the front that are midrise and I sometimes like the scrunch. But I don’t want all my leggings to look the same so I would like the freedom to mix and match features. Someone else may only like high-rise v-cuts. The features that could exist and the features that people desire need to be defined.</p>
+
+            <p>Material is another important element. This could determine how hard you hit the gym on leg days. We’re already straining our minds with having to focus on our muscles; we don’t want to strain our body too by being too hot or too cold, having to constantly fix a wedgie or constantly pulling up these leggings because they’re not squat proof.</p>
+
+            <p>To find out the right type of material and the specific features people desire, we need a few friends with various body types to try on leggings from Alphalete, gymshark, bombshell sports and other fit-attire retailers. They would use these leggings everyday working out, journaling their experience with for example how they fit during activities, how cool or warm they are, and how they might feel and look. This analysis would then tell us what about these leggings are working and what’s not working.</p>
         </div>
     )
 }
