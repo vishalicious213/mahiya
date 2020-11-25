@@ -12,18 +12,15 @@ function Subscribe() {
                 <div id='center'>
                     <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
                 </div>
-                <h3 className='thought-title-2'>My goal</h3>
-                <p className='thought-text-2'>I needed to define the result I expected. So what kind of leggings do I really like?</p>
-                <p className='thought-text-2'>There are ones with a scrunch at your glutes, making them rounder, high waisted ones that make you contain your abdomen, squat proof leggings, regular waisted leggings, cross-wrap waist-banded ones, and v-cuts in the front (my favorite feature). These are only the features that I’m familiar with but I’m certain there are a ton more.</p>
-                <p className='thought-text-2'>If you have shopped at Fabletics, forever21, you might look at a pair on their website and decide because they look good on the model, they will also look good on you. But too many reviews of these leggings are actually negative, and you find yourself in a yearly subscription, paying a lot for low quality, not well-designed leggings. I have purchased my share of leggings from these retailers. In my experience, they sometimes lacked quality, usually didn’t have scrunches, v-cuts, or squat-proof qualities. They seem randomly put together, sometimes designed well unintentionally.</p>
-                <p className='thought-text-2'>So I kept looking and found Alphalete, GymShark, Bombshell Sportswear and other sports attire retailers that are more intentional with their leggings design containing those specific features. Only downside is, they were extremely pricey.</p>
-                <p className='thought-text-2'>So the problem with finding leggings are:</p>
-                <ol>
-                    <li className='thought-text-2'>Specific features - expensive</li>
-                    <li className='thought-text-2'>Cannot pick your own features or mix and match them in a pair</li>
-                    <li className='thought-text-2'>Cannot be intentional with the kinds of leggings we want to wear unless we want to spend x amount of money.</li>
-                </ol>
-                <p className='thought-text-2'>How might we purchase leggings with intention for specific features without spending a ton of money?</p>
+                <h3 className='thought-title-2'>Does not relay the information I need causing confusion.</h3>
+                <p className='thought-text-2'>Currently, I can go to any item that allows me to subscribe, purchase it one time or setup subscribe & save. However, I have never set up the subscribe & save from the beginning of its flow. It <b>auto-generates a date in the future</b>, which is <b>unchangeable</b>, and only recently I noticed a <b>“get it sooner” link</b> which adds it to the cart.</p>
+                <div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <p>When I click the “change” link, my expectation is that I can change the date. It was only during my analysis for this article, I realized it simply tells you that by ordering now you won’t get a discount.</p>
+                <p className='thought-text-2'>I never even saw that they give you the option between getting now and getting no discount or getting later and getting a discount. I always add the item to the cart first and then from inside the cart, I subscribe to get the discount. But I only ever saw the minimum discount sometimes, never really thought much about it.</p>
             </div>
 
             <h3 className='thought-title-2'>Exploration</h3>
