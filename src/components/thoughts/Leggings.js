@@ -10,7 +10,7 @@ function Leggings() {
             <p className='thought-text-2'>This is a recording of how I would "UX" the perfect leggings.</p>
 
             <div>
-                <div id='center'>
+                <div className='center'>
                     <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
                 </div>
                 <h3 className='thought-title-2'>My goal</h3>

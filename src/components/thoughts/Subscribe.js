@@ -16,7 +16,7 @@ function Subscribe() {
             <p className='thought-text-2'>This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.</p>
 
             <div>
-                <div id='center'>
+                <div className='center'>
                     <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
                 </div>
                 <h3 className='thought-title-2'>Does not relay the information I need causing confusion.</h3>
@@ -69,13 +69,15 @@ function Subscribe() {
             </div>
             <p className='thought-text-2'>Lots of type hierarchies, your eyes are guided to information that you’re not looking for and as a result now you need to recall your initial goal. It’s painful.</p>
 
-            <div id='center'>
-                <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
-            </div>
+            <div>
+                <div className='center'>
+                    <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
+                </div>
 
-            <h3 className='thought-title-2'>Final thoughts</h3>
-            <p className='thought-text-2'>During the writing of this article, I forced myself to really walk through the subscribe & save program. I now think this program was designed to create quick subscriptions rather than intentional ones. For example, because I order a lot of homeopathic remedies that aren’t often FDA approved, I have to research their ingredients, side-effects, reviews etc. I simply cannot impulsively subscribe to any natural remedies. So the program although saves me money, it doesn’t save me time.</p>
-            <p className='thought-text-2'>However, maybe there are items that you could quickly subscribe to without going to the item information. I see that within it, it offers everything the Amazon product lists offer, yet fails to answer subscription related questions in a timely manner. It almost gives the impression that the main goal maybe was to obscure what I’m subscribed to; but I understand this may have been an unintentional result. </p>
+                <h3 className='thought-title-2'>Final thoughts</h3>
+                <p className='thought-text-2'>During the writing of this article, I forced myself to really walk through the subscribe & save program. I now think this program was designed to create quick subscriptions rather than intentional ones. For example, because I order a lot of homeopathic remedies that aren’t often FDA approved, I have to research their ingredients, side-effects, reviews etc. I simply cannot impulsively subscribe to any natural remedies. So the program although saves me money, it doesn’t save me time.</p>
+                <p className='thought-text-2'>However, maybe there are items that you could quickly subscribe to without going to the item information. I see that within it, it offers everything the Amazon product lists offer, yet fails to answer subscription related questions in a timely manner. It almost gives the impression that the main goal maybe was to obscure what I’m subscribed to; but I understand this may have been an unintentional result. </p>
+            </div>
         </div>
     )
 }
