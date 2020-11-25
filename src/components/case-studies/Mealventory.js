@@ -21,7 +21,7 @@ import img19 from '../../img/case-study/meal/19.jpg'
 import img20 from '../../img/case-study/meal/20.jpg'
 import img21 from '../../img/case-study/meal/21.jpg'
 import img22 from '../../img/case-study/meal/22.jpg'
-import '../../styles/case-studies.css';
+import '../../styles/case-studies.css'
 
 function Meal() {
     useEffect(() => {

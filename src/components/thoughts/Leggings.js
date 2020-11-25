@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../styles/thoughts.css'
 
 function Leggings() {
     return (
@@ -26,6 +27,9 @@ function Leggings() {
             <p>Material is another important element. This could determine how hard you hit the gym on leg days. We’re already straining our minds with having to focus on our muscles; we don’t want to strain our body too by being too hot or too cold, having to constantly fix a wedgie or constantly pulling up these leggings because they’re not squat proof.</p>
 
             <p>To find out the right type of material and the specific features people desire, we need a few friends with various body types to try on leggings from Alphalete, gymshark, bombshell sports and other fit-attire retailers. They would use these leggings everyday working out, journaling their experience with for example how they fit during activities, how cool or warm they are, and how they might feel and look. This analysis would then tell us what about these leggings are working and what’s not working.</p>
+
+            <h3>Final thoughts</h3>
+            <p>Using this data, we would then design a solution where you could choose the things you want in a pair, rather than randomly selecting anything that looks good on your computer screen. I could pick the scrunches that also come with a v-cut front or pick a pair of v-cuts that are not high rise. Possibilities are endless. In this way we could buy the kinds of leggings that make us feel like a million bucks.</p>
         </div>
     )
 }

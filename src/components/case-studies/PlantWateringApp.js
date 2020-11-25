@@ -20,7 +20,7 @@ import img18 from '../../img/case-study/plants/18.jpg'
 import img19 from '../../img/case-study/plants/19.jpg'
 import img20 from '../../img/case-study/plants/20.jpg'
 import downArrow from '../../img/case-study/down-arrow.png'
-import '../../styles/case-studies.css';
+import '../../styles/case-studies.css'
 
 function Plants() {
     useEffect(() => {
