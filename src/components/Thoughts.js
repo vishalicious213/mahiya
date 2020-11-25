@@ -27,7 +27,7 @@ function Thoughts() {
             <Thought 
                 title='App critique- Amazon’s subscribe and save' 
                 text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
-                link='/thoughts'
+                link='/subscribe'
             />
 
             <Thought 

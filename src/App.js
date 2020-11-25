@@ -12,6 +12,7 @@ import Meal from './components/case-studies/Mealventory'
 import Thoughts from './components/Thoughts'
 import Exercises from './components/Exercises'
 import Leggings from './components/thoughts/Leggings'
+import Subscribe from './components/thoughts/Subscribe'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
               <Route path='/thoughts'><Thoughts /></Route>
               <Route path='/exercises'><Exercises /></Route>
               <Route path='/leggings'><Leggings /></Route>
+              <Route path='/subscribe'><Subscribe /></Route>
               <Route exact path='/'><Projects /></Route>
             </Switch>
         </div>

@@ -1,7 +1,7 @@
 #thoughts {
     display: flex;
     flex-wrap: wrap;
-    max-width: 42rem;
+    max-width: 48rem;
 }
 
 .thought {
@@ -36,6 +36,14 @@
     color: #08979C;
 }
 
+/* individual thought posts */
+
+#thoughts-2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 42rem;
+}
+
 .thought-text-2 {
     font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
@@ -53,7 +61,7 @@
     margin-bottom: 0;
 }
 
-#center {
+.center {
     display: flex;
     justify-content: center;
     margin-top: 2.5rem;
@@ -65,4 +73,30 @@
     font-size: 2.25rem;
     color: var(--text-color);
     margin-bottom: 0;
+}
+
+.thought-image-100 {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.thought-image-60 {
+    width: 60%;
+    margin-top: 1rem;
+}
+
+.thought-image-50 {
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.thought-image {
+    width: 100%;
+}
+
+.thought-caption {
+    color: var(--text-color);
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 0;
 }

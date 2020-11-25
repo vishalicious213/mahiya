@@ -3,14 +3,14 @@ import '../../styles/thoughts.css'
 
 function Leggings() {
     return (
-        <div id='thoughts'>
+        <div id='thoughts-2'>
             <h1 id='thought-heading'>How might we find the perfect leggings?</h1>
             <h3 className='thought-title-2'>My quest with leggings</h3>
             <p className='thought-text-2'>There was a time in my life when I used to train heavy. My lower body was so built I almost can’t believe they were mine (haha). Gone are those days. Recently however after a long five-year hiatus from that, I decided to begin some of those old routines. But because it’s been such a long time, I’m needing to train my mind to focus. So, I began watching hours of YouTube videos of women training while I’m training myself. This has been helpful but at one point I found myself needing training clothes like those on the YouTube videos. Only one problem: they’re extremely expensive, hard to find, and no way to know what you are looking for.</p>
             <p className='thought-text-2'>This is a recording of how I would "UX" the perfect leggings.</p>
 
             <div>
-                <div id='center'>
+                <div className='center'>
                     <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
                 </div>
                 <h3 className='thought-title-2'>My goal</h3>
