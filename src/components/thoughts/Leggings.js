@@ -9,6 +9,9 @@ function Leggings() {
             <p className='thought-text-2'>This is a recording of how I would "UX" the perfect leggings.</p>
 
             <div>
+                <div id='center'>
+                    <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
+                </div>
                 <h3 className='thought-title-2'>My goal</h3>
                 <p className='thought-text-2'>I needed to define the result I expected. So what kind of leggings do I really like?</p>
                 <p className='thought-text-2'>There are ones with a scrunch at your glutes, making them rounder, high waisted ones that make you contain your abdomen, squat proof leggings, regular waisted leggings, cross-wrap waist-banded ones, and v-cuts in the front (my favorite feature). These are only the features that I’m familiar with but I’m certain there are a ton more.</p>
