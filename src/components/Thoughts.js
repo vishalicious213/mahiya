@@ -33,7 +33,7 @@ function Thoughts() {
             <Thought 
                 title='How might we find the perfect leggings?' 
                 text='.....This is a recording of how I would “UX” finding the perfect leggings. '
-                link='/thoughts'
+                link='/leggings'
             />
 
             <Thought 
