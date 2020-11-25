@@ -1,7 +1,7 @@
 #thoughts {
     display: flex;
     flex-wrap: wrap;
-    max-width: 42rem;
+    max-width: 48rem;
 }
 
 .thought {
@@ -34,6 +34,14 @@
     font-size: 1.1rem;
     font-weight: 600;
     color: #08979C;
+}
+
+/* individual thought posts */
+
+#thoughts-2 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 42rem;
 }
 
 .thought-text-2 {

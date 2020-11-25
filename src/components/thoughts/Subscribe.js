@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../styles/thoughts.css'
 
-function Leggings() {
+function Subscribe() {
     return (
         <div id='thoughts-2'>
             <h1 id='thought-heading'>How might we find the perfect leggings?</h1>
@@ -38,4 +38,4 @@ function Leggings() {
     )
 }
 
-export default Leggings
+export default Subscribe
