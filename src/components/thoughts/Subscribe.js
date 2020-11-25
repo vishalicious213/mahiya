@@ -31,7 +31,7 @@ function Subscribe() {
             <h3 className='thought-title-2'>Can’t tell that an item is not in stock and limited options for its replacement.</h3>
             <p className='thought-text-2'>Initially, I didn’t understand why some items didn’t have the “need this item now” button. Only recently during my research, I noticed it’s because the item was not in stock but this also isn’t stated anywhere on the sub’d item.</p>
             <p className='thought-text-2'>When an item is out of stock, it shows the option to switch to a different product. Only issue is Amazon picks the product rather than letting me see the various items sold by different sellers. I think currently this item suggestion is generated using some categorization such as the same seller or the top-rated item but this context also isn’t provided.</p>
-            <div className='thought-image-50'>
+            <div className='thought-image-60'>
                 <img className='thought-image' src={img2} alt='activity tracker app screenshot'></img>
             </div>
             <p>no way to tell why the item on the left cannot be ordered now</p>
@@ -43,7 +43,7 @@ function Subscribe() {
             </div>
 
             <h3 className='thought-title-2'>Can’t find specific items among sub’d items.</h3>
-            <div className='thought-image-50'>
+            <div className='thought-image-60'>
                 <img className='thought-image' src={img4} alt='activity tracker app screenshot'></img>
             </div>
             <p>There’s also currently no way to look up sub’d items within subscribe & save</p>

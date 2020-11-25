@@ -76,16 +76,17 @@
 }
 
 .thought-image-100 {
-    outline: 1px solid red;
     width: 100%;
 }
 
+.thought-image-60 {
+    width: 60%;
+}
+
 .thought-image-50 {
-    outline: 1px solid red;
     width: 50%;
 }
 
 .thought-image {
-    outline: 1px solid blue;
     width: 100%;
 }
