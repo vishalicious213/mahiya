@@ -43,6 +43,18 @@ function Subscribe() {
             <p className='thought-text-2'>There is also an “add new subscriptions” flow within the subscriptions page but I could not use it because I can’t look up items, and I’m limited to only the suggestions given to me.</p>
             {/* <img></img> */}
 
+            <p className='thought-text-2'>The lengthy names of items could also be shortened to only show the first line maybe. They’re adding to the pain of scrolling and usually, the first line tells me what it is I need.</p>
+            <p className='thought-text-2'>I also wish I could look up specific subscriptions here because I have a lot of supplements that I get every month.</p>
+            <p className='thought-text-2'>The deliveries page is a nightmare and requires a lot of focus, remembering, and scrolling.</p>
+            {/* <img></img> */}
+
+            <p className='thought-text-2'>I always shy away from entering this deliveries page because it’s scary how much mental efforts it requires from me. I come here to look up specific items but this page is prioritized instead of the list of subscriptions. The result is, I often forget what I’m even there to do.</p>
+            {/* <img></img> */}
+            <p className='thought-text-2'>Lots of type hierarchies, your eyes are guided to information that you’re not looking for and as a result now you need to recall your initial goal. It’s painful.</p>
+
+            <div id='center'>
+                <p className='thought-text-2'>&#8226; &#8226; &#8226;</p>
+            </div>
 
             <h3 className='thought-title-2'>Final thoughts</h3>
             <p className='thought-text-2'>Using this data, we would then design a solution where you could choose the things you want in a pair, rather than randomly selecting anything that looks good on your computer screen. I could pick the scrunches that also come with a v-cut front or pick a pair of v-cuts that are not high rise. Possibilities are endless. In this way we could buy the kinds of leggings that make us feel like a million bucks.</p>
