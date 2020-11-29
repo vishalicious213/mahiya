@@ -20,6 +20,7 @@ import img18 from '../../img/case-study/plants/18.jpg'
 import img19 from '../../img/case-study/plants/19.jpg'
 import img20 from '../../img/case-study/plants/20.jpg'
 import downArrow from '../../img/case-study/down-arrow.png'
+import Projectx2 from '../Projectx2'
 import '../../styles/case-studies.css'
 
 function Plants() {
@@ -128,6 +129,8 @@ function Plants() {
         </div>
 
         <h3 className='case-section-font'>Prototype</h3>
+
+        <Projectx2 app='plants' />
       </div>
     )
 }

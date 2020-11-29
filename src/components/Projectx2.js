@@ -5,26 +5,48 @@ import activity1 from '../img/case-study/activity/1.jpg'
 import meal1 from '../img/mealventory-app1.jpg'
 import '../styles/projects-footer.css'
 
-function Projectx3() {
-
+function Projectx2({ app }) {
     const projectsArray = [
-        {image: 'plant1',
-        title: 'Plant watering app',
-        text: 'design',
-        link= '/plants'},
-
-        {image: 'activity1',
-        title: 'Activity tracker app',
-        text: 'strategy, design',
-        link= '/activity'},
-
-        {image: 'meal1',
-        title: 'Mealventory app',
-        text: 'design',
-        link= '/meal'},
+        {
+            image: {plant1},
+            title: 'Plant watering app',
+            text: 'design',
+            link: '/plants'
+        },
+        {
+            image: {activity1},
+            title: 'Activity tracker app',
+            text: 'strategy, design',
+            link: '/activity'
+        },
+        {
+            image: {meal1},
+            title: 'Mealventory app',
+            text: 'design',
+            link: '/meal'
+        }
     ]
 
+    let proj1 = ''
+    let proj2 = ''
+
+    if (app = 'plants') {
+        proj1 = projectsArray[1]
+        proj2 = projectsArray[2]
+    }
+
+    if (app = 'activity') {
+        proj1 = projectsArray[0]
+        proj2 = projectsArray[2]
+    }
+
+    if (app = 'meal') {
+        proj1 = projectsArray[0]
+        proj2 = projectsArray[1]
+    }
+
     const Project = ({ image, title, text, link }) => {
+
         return (
             <section className='project-3x'>
                 <Link to={link}>
@@ -45,7 +67,9 @@ function Projectx3() {
             <hr />
             <h2 id='project-3x-heading'>My Projects</h2>
             <section id='projects-footer'>
-                <Project 
+                <Project {...proj1} />
+                <Project {...proj2} />
+                {/* <Project 
                     title='Plant watering app' 
                     text='design'
                     link='/plants'
@@ -64,10 +88,10 @@ function Projectx3() {
                     text='design'
                     link='/meal'
                     image={meal1}
-                />
+                /> */}
             </section>
         </section>
     )
 }
 
-export default Projectx3
+export default Projectx2
