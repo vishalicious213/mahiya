@@ -31,21 +31,21 @@ function Projectx3() {
                 <Project 
                     title='Plant watering app' 
                     text='design'
-                    link='/subscribe'
+                    link='/plants'
                     image={plant1}
                 />
 
                 <Project 
                     title='Activity tracker app' 
                     text='strategy, design'
-                    link='/subscribe'
+                    link='/activity'
                     image={activity1}
                 />
 
                 <Project 
                     title='Mealventory app' 
                     text='design'
-                    link='/subscribe'
+                    link='/meal'
                     image={meal1}
                 />
             </section>
