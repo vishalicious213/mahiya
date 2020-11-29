@@ -5,22 +5,22 @@ import activity1 from '../img/case-study/activity/1.jpg'
 import meal1 from '../img/mealventory-app1.jpg'
 import '../styles/projects-footer.css'
 
-function Projectx2({ app }) {
+function Projectx2(props) {
     const projectsArray = [
         {
-            image: {plant1},
+            image: plant1,
             title: 'Plant watering app',
             text: 'design',
             link: '/plants'
         },
         {
-            image: {activity1},
+            image: activity1,
             title: 'Activity tracker app',
             text: 'strategy, design',
             link: '/activity'
         },
         {
-            image: {meal1},
+            image: meal1,
             title: 'Mealventory app',
             text: 'design',
             link: '/meal'
@@ -30,17 +30,18 @@ function Projectx2({ app }) {
     let proj1 = ''
     let proj2 = ''
 
-    if (app = 'plants') {
+    if (props.app === 'plants') {
         proj1 = projectsArray[1]
         proj2 = projectsArray[2]
-    }
+        console.log(proj1.image, proj2.image)
+    } else
 
-    if (app = 'activity') {
+    if (props.app === 'activity') {
         proj1 = projectsArray[0]
         proj2 = projectsArray[2]
-    }
+    } else
 
-    if (app = 'meal') {
+    if (props.app === 'meal') {
         proj1 = projectsArray[0]
         proj2 = projectsArray[1]
     }
@@ -62,6 +63,8 @@ function Projectx2({ app }) {
         )
     }
 
+    console.log(props.app, proj1.title, proj2.title)
+
     return (
         <section>
             <hr />
@@ -69,26 +72,6 @@ function Projectx2({ app }) {
             <section id='projects-footer'>
                 <Project {...proj1} />
                 <Project {...proj2} />
-                {/* <Project 
-                    title='Plant watering app' 
-                    text='design'
-                    link='/plants'
-                    image={plant1}
-                />
-
-                <Project 
-                    title='Activity tracker app' 
-                    text='strategy, design'
-                    link='/activity'
-                    image={activity1}
-                />
-
-                <Project 
-                    title='Mealventory app' 
-                    text='design'
-                    link='/meal'
-                    image={meal1}
-                /> */}
             </section>
         </section>
     )
