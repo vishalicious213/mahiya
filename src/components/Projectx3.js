@@ -5,9 +5,9 @@ import '../styles/projects-footer.css'
 function Projectx3() {
     const Project = ({ image, title, text, link }) => {
         return (
-            <section className='thought'>
+            <section className='project-3x'>
                 <Link to={link}>
-                    <div className='thought-img'></div>
+                    <div className='project-3x-img'></div>
                 </Link>
                 <p className='thought-title'>{title}</p>
                 <p className='thought-text'>{text}</p>
@@ -23,19 +23,19 @@ function Projectx3() {
             <h2>My Projects</h2>
             <section id='projects-footer'>
                 <Project 
-                    title='App critique- Amazon’s subscribe and save' 
+                    title='Plant watering app' 
                     text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
                     link='/subscribe'
                 />
 
                 <Project 
-                    title='App critique- Amazon’s subscribe and save' 
+                    title='Activity tracker app' 
                     text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
                     link='/subscribe'
                 />
 
                 <Project 
-                    title='App critique- Amazon’s subscribe and save' 
+                    title='Mealventory app' 
                     text='This is an analysis of what subscribe and save currently does and what I think it could do to accomplish my goals.'
                     link='/subscribe'
                 />

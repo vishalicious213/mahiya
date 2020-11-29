@@ -4,18 +4,20 @@
     max-width: 48rem;
 }
 
-.thought {
-    width: 20rem;
+.project-3x {
+    border: 1px solid red;
+    width: 12rem;
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
 }
 
-.thought-img {
+.project-3x-img {
     background: #c4c4c4;
-    height: 20rem;
-    width: 20rem;
+    height: 12rem;
+    width: 12rem;
 }
 
+/*
 .thought-title {
     font-family: 'Playfair Display', serif;
     font-weight: 600;
@@ -35,9 +37,9 @@
     font-weight: 600;
     color: #08979C;
 }
-
+*/
 /* individual thought posts */
-
+/*
 #thoughts-2 {
     display: flex;
     flex-wrap: wrap;
@@ -100,3 +102,4 @@
     text-align: center;
     margin-top: 0;
 }
+*/
