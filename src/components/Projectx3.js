@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import plant1 from '../img/plant-watering-app1.jpg'
-import activity1 from '../img/activity-tracker-app1.jpg'
+// import activity1 from '../img/activity-tracker-app1.jpg'
+import activity1 from '../img/case-study/activity/1.jpg'
 import meal1 from '../img/mealventory-app1.jpg'
 import '../styles/projects-footer.css'
 
@@ -11,18 +12,21 @@ function Projectx3() {
             <section className='project-3x'>
                 <Link to={link}>
                     <div className='project-3x-img-container'>
-                        <img src={image} alt={title}></img>
+                        <img className='project-3x-img' src={image} alt={title}></img>
                     </div>
                 </Link>
-                <p className='thought-title'>{title}</p>
-                <p className='thought-text'>{text}</p>
+                <div>
+                    <p className='project-3x-title'>{title}</p>
+                    <p className='project-3x-text'>{text}</p>
+                </div>
             </section>
         )
     }
 
     return (
         <section>
-            <h2>My Projects</h2>
+            <hr />
+            <h2 id='project-3x-heading'>My Projects</h2>
             <section id='projects-footer'>
                 <Project 
                     title='Plant watering app' 
