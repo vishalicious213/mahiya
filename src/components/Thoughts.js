@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
-import '../styles/thoughts.css'
 import { Link } from 'react-router-dom'
+import '../styles/thoughts.css'
 
 function Thoughts() {
     useEffect(() => {

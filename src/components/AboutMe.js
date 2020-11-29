@@ -3,6 +3,7 @@ import React, { useEffect } from 'react'
 import aboutme from '../img/about-me.jpg'
 import activity1 from '../img/activity-tracker-app1.jpg'
 import activity2 from '../img/activity-tracker-app2.jpg'
+import Projectx3 from './Projectx3'
 import '../styles/about-me.css';
 
 function AboutMe() {
@@ -32,11 +33,12 @@ function AboutMe() {
             <h3 className='text-header'>I would love to meet you to hear about your adventures!</h3>
             {/* <ContactForm /> */}
 
-            <h3 className='text-header'>My Projects</h3>
+            <Projectx3 />
+            {/* <h3 className='text-header'>My Projects</h3>
             <div className='project-images'>
                 <img className='app-img' src={activity1} alt='activity-tracker app'></img>
                 <img className='app-img' src={activity2} alt='activity-tracker app'></img>
-            </div>        
+            </div>         */}
         </div>    
     );
 }
