@@ -21,6 +21,7 @@ import img19 from '../../img/case-study/meal/19.jpg'
 import img20 from '../../img/case-study/meal/20.jpg'
 import img21 from '../../img/case-study/meal/21.jpg'
 import img22 from '../../img/case-study/meal/22.jpg'
+import Projectx2 from '../Projectx2'
 import '../../styles/case-studies.css'
 
 function Meal() {
@@ -137,6 +138,8 @@ function Meal() {
         </div>
 
         <h3 className='case-section-font'>Final solution</h3>
+
+        <Projectx2 app='meal' />
       </div>
     )
 }

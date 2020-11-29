@@ -33,7 +33,6 @@ function Projectx2(props) {
     if (props.app === 'plants') {
         proj1 = projectsArray[1]
         proj2 = projectsArray[2]
-        console.log(proj1.image, proj2.image)
     } else
 
     if (props.app === 'activity') {
@@ -62,8 +61,6 @@ function Projectx2(props) {
             </section>
         )
     }
-
-    console.log(props.app, proj1.title, proj2.title)
 
     return (
         <section>
