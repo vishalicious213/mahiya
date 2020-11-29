@@ -1,6 +1,7 @@
 import React from 'react'
 import leftArrow from '../img/left-arrow.png'
 import { Link } from 'react-router-dom'
+import Resume from '../resources/Mahiya-Hoque.pdf'
 import '../styles/sidebar.css';
 
 function Sidebar() {
@@ -24,9 +25,9 @@ function Sidebar() {
             <p className='side-menu-item'>design exercises</p>
           </Link>       
 
-          <Link to='/'>
+          <a href={Resume} target="_blank" rel="noopener noreferrer">
             <p className='side-menu-item'>resume</p>
-          </Link>
+          </a>
 
         </div>
 

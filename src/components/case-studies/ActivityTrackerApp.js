@@ -10,6 +10,7 @@ import img8 from '../../img/case-study/activity/8.jpg'
 import img9 from '../../img/case-study/activity/9.jpg'
 import img10 from '../../img/case-study/activity/10.jpg'
 import img11 from '../../img/case-study/activity/11.jpg'
+import Projectx2 from '../Projectx2'
 import '../../styles/case-studies.css'
 
 function Activity() {
@@ -103,6 +104,8 @@ function Activity() {
         </div>
 
         <h3 className='case-section-font'>Final solution</h3>
+
+        <Projectx2 app='activity' />
       </div>
     )
 }

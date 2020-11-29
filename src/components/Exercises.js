@@ -2,6 +2,7 @@ import React, { useEffect } from 'react'
 import ex1 from '../img/exercises/ex1.jpg'
 import ex2 from '../img/exercises/ex2.jpg'
 import ex3 from '../img/exercises/ex3.jpg'
+import Projectx3 from './Projectx3'
 import '../styles/exercises.css'
 
 function Exercises() {
@@ -36,6 +37,8 @@ function Exercises() {
                 title='Fashion website in mobile view' 
                 image={ex3}
             />
+
+            <Projectx3 />
         </div>
     )
 }
