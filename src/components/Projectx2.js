@@ -33,14 +33,10 @@ function Projectx2(props) {
     if (props.app === 'plants') {
         proj1 = projectsArray[1]
         proj2 = projectsArray[2]
-    } else
-
-    if (props.app === 'activity') {
+    } else if (props.app === 'activity') {
         proj1 = projectsArray[0]
         proj2 = projectsArray[2]
-    } else
-
-    if (props.app === 'meal') {
+    } else if (props.app === 'meal') {
         proj1 = projectsArray[0]
         proj2 = projectsArray[1]
     }

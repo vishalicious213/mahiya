@@ -1,8 +1,6 @@
 import React, { useEffect } from 'react'
 // import ContactForm from './ContactForm'
 import aboutme from '../img/about-me.jpg'
-// import activity1 from '../img/activity-tracker-app1.jpg'
-// import activity2 from '../img/activity-tracker-app2.jpg'
 import Projectx3 from './Projectx3'
 import '../styles/about-me.css';
 
@@ -34,11 +32,6 @@ function AboutMe() {
             {/* <ContactForm /> */}
 
             <Projectx3 />
-            {/* <h3 className='text-header'>My Projects</h3>
-            <div className='project-images'>
-                <img className='app-img' src={activity1} alt='activity-tracker app'></img>
-                <img className='app-img' src={activity2} alt='activity-tracker app'></img>
-            </div>         */}
         </div>    
     );
 }

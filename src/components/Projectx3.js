@@ -1,7 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import plant1 from '../img/plant-watering-app1.jpg'
-// import activity1 from '../img/activity-tracker-app1.jpg'
 import activity1 from '../img/case-study/activity/1.jpg'
 import meal1 from '../img/mealventory-app1.jpg'
 import '../styles/projects-footer.css'

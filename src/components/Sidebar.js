@@ -25,11 +25,9 @@ function Sidebar() {
             <p className='side-menu-item'>design exercises</p>
           </Link>       
 
-          {/* <Link to='/'> */}
           <a href={Resume} target="_blank" rel="noopener noreferrer">
             <p className='side-menu-item'>resume</p>
           </a>
-          {/* </Link> */}
 
         </div>
 
