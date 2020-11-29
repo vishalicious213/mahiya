@@ -1,4 +1,5 @@
 import React from 'react'
+import Projectx3 from '../Projectx3'
 import '../../styles/thoughts.css'
 
 function Leggings() {
@@ -34,6 +35,8 @@ function Leggings() {
 
             <h3 className='thought-title-2'>Final thoughts</h3>
             <p className='thought-text-2'>Using this data, we would then design a solution where you could choose the things you want in a pair, rather than randomly selecting anything that looks good on your computer screen. I could pick the scrunches that also come with a v-cut front or pick a pair of v-cuts that are not high rise. Possibilities are endless. In this way we could buy the kinds of leggings that make us feel like a million bucks.</p>
+
+            <Projectx3 />
         </div>
     )
 }

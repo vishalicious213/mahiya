@@ -6,6 +6,7 @@ import img4 from '../../img/thoughts/subscribe/4.jpg'
 import img5 from '../../img/thoughts/subscribe/5.jpg'
 import img6 from '../../img/thoughts/subscribe/6.jpg'
 import img7 from '../../img/thoughts/subscribe/7.jpg'
+import Projectx3 from '../Projectx3'
 import '../../styles/thoughts.css'
 
 function Subscribe() {
@@ -77,6 +78,8 @@ function Subscribe() {
                 <h3 className='thought-title-2'>Final thoughts</h3>
                 <p className='thought-text-2'>During the writing of this article, I forced myself to really walk through the subscribe & save program. I now think this program was designed to create quick subscriptions rather than intentional ones. For example, because I order a lot of homeopathic remedies that aren’t often FDA approved, I have to research their ingredients, side-effects, reviews etc. I simply cannot impulsively subscribe to any natural remedies. So the program although saves me money, it doesn’t save me time.</p>
                 <p className='thought-text-2'>However, maybe there are items that you could quickly subscribe to without going to the item information. I see that within it, it offers everything the Amazon product lists offer, yet fails to answer subscription related questions in a timely manner. It almost gives the impression that the main goal maybe was to obscure what I’m subscribed to; but I understand this may have been an unintentional result. </p>
+
+                <Projectx3 />
             </div>
         </div>
     )
