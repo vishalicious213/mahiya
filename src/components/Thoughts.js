@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import { Link } from 'react-router-dom'
+import Projectx3 from './Projectx3'
 import '../styles/thoughts.css'
 
 function Thoughts() {
@@ -56,6 +57,8 @@ function Thoughts() {
                 text='Creating designs from only imagination, simply for aesthetical achievements can fail to convey messages and important information. So let’s look at the principles behind some well-known landing pages and how they relay information to users.'
                 link='https://medium.com/swlh/analyzing-the-use-of-visual-hierarchy-2d9516da189e?source=friends_link&sk=a63d99aee5c8a2cb485e1fc7aa4fe8ac'
             />
+
+            <Projectx3 />
         </div>
     )
 }

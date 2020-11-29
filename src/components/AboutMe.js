@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react'
 // import ContactForm from './ContactForm'
 import aboutme from '../img/about-me.jpg'
-import activity1 from '../img/activity-tracker-app1.jpg'
-import activity2 from '../img/activity-tracker-app2.jpg'
+// import activity1 from '../img/activity-tracker-app1.jpg'
+// import activity2 from '../img/activity-tracker-app2.jpg'
 import Projectx3 from './Projectx3'
 import '../styles/about-me.css';
 
