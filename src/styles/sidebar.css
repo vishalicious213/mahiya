@@ -1,5 +1,4 @@
 #sidebar {
-    /* outline: 1px solid red; */
     /* margin-top: 1rem; */
   }
   
@@ -19,6 +18,10 @@
   #sidebar-bottom {
     display: none;
   }
+
+  .side-spacer {
+    margin-right: 1.5rem;
+  }
   
   @media (min-width: 768px) {
     #sidebar {
@@ -32,7 +35,7 @@
     .side-menu-item {
       text-align: right;
       color: gray;
-      font-size: 1.25rem;
+      font-size: 1.2rem;
       margin-bottom: .5rem;
       transition-duration: 1s;
       display: flex;
@@ -40,9 +43,7 @@
       text-decoration: none;
     }
 
-    .star, .hyper {
-      /* outline: 1px solid blue; */
-      /* color: blue; */
+    .hyper {
       margin: .25rem;
     }
   

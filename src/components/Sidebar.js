@@ -28,42 +28,26 @@ function Sidebar() {
 
           <Link className='side-menu-item' to='/' onClick={event => setItemPath('/')}>
             <p className='hyper'>work</p>
-            {/* <span className='star'>*</span> */}
             <Star itemPath='/' />
           </Link>
 
           <Link className='side-menu-item' to='/about-me' onClick={event => setItemPath('/about-me')}>
             <p className='hyper'>about me</p>
-            {/* <span className='star'>*</span> */}
             <Star itemPath='/about-me' />
           </Link>
 
           <Link className='side-menu-item' to='/thoughts' onClick={event => setItemPath('/thoughts')}>
             <p className='hyper'>my thoughts</p>
-            {/* <span className='star'>*</span> */}
             <Star itemPath='/thoughts' />
           </Link>
 
           <Link className='side-menu-item' to='/exercises' onClick={event => setItemPath('/exercies')}>
             <p className='hyper'>design exercises</p>
-            {/* <span className='star'>*</span> */}
             <Star itemPath='/exercises' />
           </Link>
 
-          {/* <Link to='/about-me'>
-            <p className='side-menu-item'>about me</p>
-          </Link>
-
-          <Link to='/thoughts'>
-            <p className='side-menu-item'>my thoughts</p>
-          </Link>
-
-          <Link to='/exercises'>
-            <p className='side-menu-item'>design exercises</p>
-          </Link>        */}
-
           <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <p className='side-menu-item'>resume</p>
+            <p className='side-menu-item side-spacer'>resume</p>
           </a>
 
         </div>
