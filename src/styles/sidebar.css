@@ -1,5 +1,6 @@
 #sidebar {
     /* margin-top: 1rem; */
+    display: none;
   }
   
   #sidebar-top > a, #sidebar-bottom > a {
@@ -36,6 +37,7 @@
   
   @media (min-width: 768px) {
     #sidebar {
+      display: block;
       margin-right: 2rem;
       position: sticky;
       top: 0rem;

@@ -4,7 +4,7 @@
 
 @media (max-width: 768px) {
     #burger {
-        outline: 1px solid red;
+        /* outline: 1px solid red; */
         display: flex;
         align-items: flex-end;
         justify-content: flex-end;
