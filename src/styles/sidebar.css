@@ -7,11 +7,23 @@
   }
   
   .side-menu-item {
-    margin: .25rem;
+    margin: 0;
+    text-decoration: none;
+  }
+
+  .activeMenu {
+    margin: 0;
+    color: darkturquoise;
+  }
+
+  .inactiveMenu {
+    margin: 0;
+    color: gray;
   }
   
-  .side-menu-item:hover {
+  .side-menu-item:hover, .inactiveMenu:hover {
     color: darkturquoise;
+    transition-duration: 1s;
   }
   
   #sidebar-bottom {
@@ -40,10 +52,6 @@
       display: flex;
       justify-content: flex-end;
       text-decoration: none;
-    }
-
-    .hyper {
-      margin: .25rem;
     }
   
     .activeMenu {

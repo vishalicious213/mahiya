@@ -25,25 +25,21 @@ function Sidebar() {
         <div id='sidebar-top'>
 
           <Link className='side-menu-item' to='/' onClick={event => setItemPath('/')}>
-            {/* <p className='hyper'>work</p> */}
             <MenuItem name='work' itemPath='/' />
             <Star itemPath='/' />
           </Link>
 
           <Link className='side-menu-item' to='/about-me' onClick={event => setItemPath('/about-me')}>
-            {/* <p className='hyper'>about me</p> */}
             <MenuItem name='about me' itemPath='/about-me' />
             <Star itemPath='/about-me' />
           </Link>
 
           <Link className='side-menu-item' to='/thoughts' onClick={event => setItemPath('/thoughts')}>
-            {/* <p className='hyper'>my thoughts</p> */}
             <MenuItem name='my thoughts' itemPath='/thoughts' />
             <Star itemPath='/thoughts' />
           </Link>
 
           <Link className='side-menu-item' to='/exercises' onClick={event => setItemPath('/exercises')}>
-            {/* <p className='hyper'>design exercises</p> */}
             <MenuItem name='design exercises' itemPath='/exercises' />
             <Star itemPath='/exercises' />
           </Link>
