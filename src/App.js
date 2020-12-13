@@ -13,7 +13,7 @@ import Thoughts from './components/Thoughts'
 import Exercises from './components/Exercises'
 import Leggings from './components/thoughts/Leggings'
 import Subscribe from './components/thoughts/Subscribe'
-import Fade from 'react-reveal/Fade'
+// import Fade from 'react-reveal/Fade'
 
 function App() {
   return (
@@ -34,9 +34,9 @@ function App() {
               <Route path='/exercises'><Exercises /></Route>
               <Route path='/leggings'><Leggings /></Route>
               <Route path='/subscribe'><Subscribe /></Route>
-              <Fade bottom duration={3000}>
+              {/* <Fade bottom duration={3000}> */}
                   <Route exact path='/'><Projects /></Route>
-              </Fade>
+              {/* </Fade> */}
             </Switch>
         </div>
         <div className="footer">
