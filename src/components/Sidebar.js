@@ -20,6 +20,20 @@ function Sidebar() {
       )
     }
 
+    const HomeButton = (props) => {
+      if (itemPath === '/') {
+        return null
+      } else
+        return (
+          <div id='sidebar-bottom'>
+          <Link to='/' id='sidebar-bottom-button-container'>
+            <img className='side-menu-arrow' src={leftArrow} alt='left-arrow home button' />
+            <p>Home</p>
+          </Link>
+        </div>
+        )
+    }
+
     return (
       <div id='sidebar'>
         <div id='sidebar-top'>
@@ -50,12 +64,7 @@ function Sidebar() {
 
         </div>
 
-        <div id='sidebar-bottom'>
-          <Link to='/' id='sidebar-bottom-button-container'>
-            <img className='side-menu-arrow' src={leftArrow} alt='left-arrow home button' />
-            <p>Home</p>
-          </Link>
-        </div>
+        <HomeButton />
       </div>
     )
 }
