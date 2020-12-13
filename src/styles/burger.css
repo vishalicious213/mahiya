@@ -19,7 +19,6 @@
     }
 
     #burger-menu {
-        border: 1px dotted red;
         position: fixed;
         top: 10rem;
         width: 100%;
@@ -34,11 +33,15 @@
         text-decoration: none;
         color: gray;
         font-size: 1.2rem;
-        margin-bottom: .5rem;
+        margin: .1rem 0;
+        padding: .4rem 0;
+        width: 100%;
+        text-align: center;
     }
 
     .burger-menu-item:hover {
-        color: darkturquoise;
-        transition-duration: 1s;
+        color: white;
+        background: rgba(0, 206, 209, .3);
+        transition-duration: .25s;
       }
 }
