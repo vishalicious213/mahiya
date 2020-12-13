@@ -24,9 +24,9 @@
     #sidebar {
       margin-right: 2rem;
       position: sticky;
-      top: 2rem;
+      top: 0rem;
       height: 80vh;
-      margin-top: 3rem;
+      margin-top: 2.5rem;
     }
     
     .side-menu-item {
@@ -35,8 +35,21 @@
       font-size: 1.25rem;
       margin-bottom: .5rem;
       transition-duration: 1s;
+      display: flex;
+      justify-content: flex-end;
+      text-decoration: none;
+    }
+
+    .star, .hyper {
+      /* outline: 1px solid blue; */
+      color: blue;
+      margin: .25rem;
     }
   
+    .red {
+      color: red;
+    }
+
     #sidebar-bottom {
       display: block;
       position: absolute;
