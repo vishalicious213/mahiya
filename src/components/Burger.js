@@ -6,7 +6,7 @@ import '../styles/burger.css';
 function Burger() {
     const [menuOpen, setMenuOpen] = useState(false)
 
-    const MenuButton = (props) => {
+    const MenuButton = () => {
         if (menuOpen === true) {
             return (
                 <div>
@@ -17,13 +17,6 @@ function Burger() {
                         onClick={event => setMenuOpen(!menuOpen)}
                     />
                 </div>
-                // <section>
-                //     <div>work</div>
-                //     <div>about me</div>
-                //     <div>my thoughts</div>
-                //     <div>design exercises</div>
-                //     <div>resume</div>
-                // </section>
             )
         } else
             return (
@@ -38,11 +31,26 @@ function Burger() {
             )
     }
 
+    const BurgerMenu = () => {
+        if (menuOpen === true) {
+            return (
+                <section>
+                    <div>work</div>
+                    <div>about me</div>
+                    <div>my thoughts</div>
+                    <div>design exercises</div>
+                    <div>resume</div>
+                </section>
+            )
+        } else
+            return null
+    }
+
 
     return (
         <div id='burger'>
             <MenuButton />
-
+            <BurgerMenu />
         </div>
     )
 }
