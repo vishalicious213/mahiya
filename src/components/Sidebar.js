@@ -19,7 +19,7 @@ function Sidebar() {
       console.log(pathname)
       console.log(props.itemPath)
       return(
-      <span className={`${props.itemPath===pathname ? 'red' : 'star'}`}>*</span>
+      <span className={`${props.itemPath===pathname ? 'active' : 'inactive'}`}>&#x0020;</span>
     )}
 
     return (
@@ -38,17 +38,19 @@ function Sidebar() {
             <Star itemPath='/about-me' />
           </Link>
 
-          {/* <div className='side-menu-item link'>
-              <Link to='/'>
-                <p>work <span>*</span></p>
-              </Link>
-          </div> */}
-          
-          {/* <Link className='side-menu-item' to='/'>
-            <p>work <span>*</span></p>
-          </Link> */}
+          <Link className='side-menu-item' to='/thoughts' onClick={event => setItemPath('/thoughts')}>
+            <p className='hyper'>my thoughts</p>
+            {/* <span className='star'>*</span> */}
+            <Star itemPath='/thoughts' />
+          </Link>
 
-          <Link to='/about-me'>
+          <Link className='side-menu-item' to='/exercises' onClick={event => setItemPath('/exercies')}>
+            <p className='hyper'>design exercises</p>
+            {/* <span className='star'>*</span> */}
+            <Star itemPath='/exercises' />
+          </Link>
+
+          {/* <Link to='/about-me'>
             <p className='side-menu-item'>about me</p>
           </Link>
 
@@ -58,7 +60,7 @@ function Sidebar() {
 
           <Link to='/exercises'>
             <p className='side-menu-item'>design exercises</p>
-          </Link>       
+          </Link>        */}
 
           <a href={Resume} target="_blank" rel="noopener noreferrer">
             <p className='side-menu-item'>resume</p>

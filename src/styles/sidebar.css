@@ -42,12 +42,26 @@
 
     .star, .hyper {
       /* outline: 1px solid blue; */
-      color: blue;
+      /* color: blue; */
       margin: .25rem;
     }
   
-    .red {
-      color: red;
+    .active {
+      width: 1rem;
+      margin-bottom: .5rem;
+      background-image: url(../img/dot-active.svg);
+      background-repeat: no-repeat;
+      background-position: 50% 85%;
+      padding-top: 1rem;
+    }
+
+    .inactive {
+      width: 1rem;
+      margin-bottom: .5rem;
+      background-image: url(../img/dot-inactive.svg);
+      background-repeat: no-repeat;
+      background-position: 50% 85%;
+      padding-top: 1rem;
     }
 
     #sidebar-bottom {
