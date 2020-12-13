@@ -7,8 +7,9 @@
   .footer-icons {
     background-repeat: no-repeat;
     background-position: center;
-    width: 3.5rem;
-    height: 3.5rem;
+    background-size: 1rem;
+    width: 2rem;
+    height: 2rem;
     border: 2px solid #08979C;
     border-radius: 50%;
     margin: .75rem;
