@@ -13,6 +13,7 @@ import Thoughts from './components/Thoughts'
 import Exercises from './components/Exercises'
 import Leggings from './components/thoughts/Leggings'
 import Subscribe from './components/thoughts/Subscribe'
+import Burger from './components/Burger'
 // import Fade from 'react-reveal/Fade'
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
             <Header />
         </div>
         <div className="burger">
-            <Sidebar />
+            <Burger />
         </div>
         <div className="sidebar">
             <Sidebar />
