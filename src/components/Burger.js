@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom'
 import burgerIcon from '../img/burger.svg'
 import cancelIcon from '../img/cancel.svg'
+import Resume from '../resources/Mahiya-Hoque.pdf'
 import '../styles/burger.css';
 
 function Burger() {
@@ -35,17 +37,16 @@ function Burger() {
         if (menuOpen === true) {
             return (
                 <section id='burger-menu'>
-                    <div>work</div>
-                    <div>about me</div>
-                    <div>my thoughts</div>
-                    <div>design exercises</div>
-                    <div>resume</div>
+                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/'>work</Link>
+                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/about-me'>about me</Link>
+                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/thoughts'>my thoughts</Link>
+                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/exercises'>design exercises</Link>
+                    <a onClick={event => setMenuOpen(!menuOpen)} href={Resume} target="_blank" rel="noopener noreferrer">resume</a>
                 </section>
             )
         } else
             return null
     }
-
 
     return (
         <div id='burger'>
