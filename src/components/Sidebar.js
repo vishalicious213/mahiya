@@ -1,32 +1,51 @@
-import React from 'react'
+import React, { useState } from 'react'
 import leftArrow from '../img/left-arrow.png'
 import { Link } from 'react-router-dom'
 import Resume from '../resources/Mahiya-Hoque.pdf'
 import '../styles/sidebar.css';
 
 function Sidebar() {
+    const pathname = window.location.pathname
+    const [itemPath, setItemPath] = useState(pathname)
+
+    const Star = (props) => {
+      return (
+        <span className={`${props.itemPath===itemPath ? 'active' : 'inactive'}`}>&#x0020;</span>
+      )
+  }
+
+    const MenuItem = (props) => {
+      return (
+        <p className={`${props.itemPath===itemPath ? 'activeMenu' : 'inactiveMenu'}`}>{props.name}</p>
+      )
+    }
+
     return (
       <div id='sidebar'>
         <div id='sidebar-top'>
 
-          <Link to='/'>
-            <p className='side-menu-item'>work</p>
+          <Link className='side-menu-item' to='/' onClick={event => setItemPath('/')}>
+            <MenuItem name='work' itemPath='/' />
+            <Star itemPath='/' />
           </Link>
 
-          <Link to='/about-me'>
-            <p className='side-menu-item'>about me</p>
+          <Link className='side-menu-item' to='/about-me' onClick={event => setItemPath('/about-me')}>
+            <MenuItem name='about me' itemPath='/about-me' />
+            <Star itemPath='/about-me' />
           </Link>
 
-          <Link to='/thoughts'>
-            <p className='side-menu-item'>my thoughts</p>
+          <Link className='side-menu-item' to='/thoughts' onClick={event => setItemPath('/thoughts')}>
+            <MenuItem name='my thoughts' itemPath='/thoughts' />
+            <Star itemPath='/thoughts' />
           </Link>
 
-          <Link to='/exercises'>
-            <p className='side-menu-item'>design exercises</p>
-          </Link>       
+          <Link className='side-menu-item' to='/exercises' onClick={event => setItemPath('/exercises')}>
+            <MenuItem name='design exercises' itemPath='/exercises' />
+            <Star itemPath='/exercises' />
+          </Link>
 
           <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <p className='side-menu-item'>resume</p>
+            <p className='side-menu-item side-spacer'>resume</p>
           </a>
 
         </div>
