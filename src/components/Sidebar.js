@@ -5,18 +5,18 @@ import Resume from '../resources/Mahiya-Hoque.pdf'
 import '../styles/sidebar.css';
 
 function Sidebar() {
-    const [itemPath, setItemPath] = useState('/')
     const pathname = window.location.pathname
+    const [itemPath, setItemPath] = useState(pathname)
 
     const Star = (props) => {
       return (
-        <span className={`${props.itemPath===pathname ? 'active' : 'inactive'}`}>&#x0020;</span>
+        <span className={`${props.itemPath===itemPath ? 'active' : 'inactive'}`}>&#x0020;</span>
       )
   }
 
     const MenuItem = (props) => {
       return (
-        <p className={`${props.itemPath===pathname ? 'activeMenu' : 'inactiveMenu'}`}>{props.name}</p>
+        <p className={`${props.itemPath===itemPath ? 'activeMenu' : 'inactiveMenu'}`}>{props.name}</p>
       )
     }
 
@@ -42,7 +42,7 @@ function Sidebar() {
             <Star itemPath='/thoughts' />
           </Link>
 
-          <Link className='side-menu-item' to='/exercises' onClick={event => setItemPath('/exercies')}>
+          <Link className='side-menu-item' to='/exercises' onClick={event => setItemPath('/exercises')}>
             {/* <p className='hyper'>design exercises</p> */}
             <MenuItem name='design exercises' itemPath='/exercises' />
             <Star itemPath='/exercises' />
