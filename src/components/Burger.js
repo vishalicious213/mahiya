@@ -34,7 +34,7 @@ function Burger() {
     const BurgerMenu = () => {
         if (menuOpen === true) {
             return (
-                <section>
+                <section id='burger-menu'>
                     <div>work</div>
                     <div>about me</div>
                     <div>my thoughts</div>
