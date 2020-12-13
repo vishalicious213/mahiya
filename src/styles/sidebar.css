@@ -47,6 +47,16 @@
       margin: .25rem;
     }
   
+    .activeMenu {
+      margin: .25rem;
+      color: darkturquoise;
+    }
+
+    .inactiveMenu {
+      margin: .25rem;
+      color: gray;
+    }
+
     .active {
       width: 1rem;
       margin-bottom: .5rem;

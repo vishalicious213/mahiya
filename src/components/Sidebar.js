@@ -6,43 +6,45 @@ import '../styles/sidebar.css';
 
 function Sidebar() {
     const [itemPath, setItemPath] = useState('/')
-
     const pathname = window.location.pathname
-    const url = window.location.href
-    const origin = window.location.origin
-
-    console.log('path ', pathname)
-    console.log('url ', url)
-    console.log('origin ', origin)
 
     const Star = (props) => {
-      console.log(pathname)
-      console.log(props.itemPath)
-      return(
-      <span className={`${props.itemPath===pathname ? 'active' : 'inactive'}`}>&#x0020;</span>
-    )}
+      return (
+        <span className={`${props.itemPath===pathname ? 'active' : 'inactive'}`}>&#x0020;</span>
+      )
+  }
+
+    const MenuItem = (props) => {
+      return (
+        <p className={`${props.itemPath===pathname ? 'activeMenu' : 'inactiveMenu'}`}>{props.name}</p>
+      )
+    }
 
     return (
       <div id='sidebar'>
         <div id='sidebar-top'>
 
           <Link className='side-menu-item' to='/' onClick={event => setItemPath('/')}>
-            <p className='hyper'>work</p>
+            {/* <p className='hyper'>work</p> */}
+            <MenuItem name='work' itemPath='/' />
             <Star itemPath='/' />
           </Link>
 
           <Link className='side-menu-item' to='/about-me' onClick={event => setItemPath('/about-me')}>
-            <p className='hyper'>about me</p>
+            {/* <p className='hyper'>about me</p> */}
+            <MenuItem name='about me' itemPath='/about-me' />
             <Star itemPath='/about-me' />
           </Link>
 
           <Link className='side-menu-item' to='/thoughts' onClick={event => setItemPath('/thoughts')}>
-            <p className='hyper'>my thoughts</p>
+            {/* <p className='hyper'>my thoughts</p> */}
+            <MenuItem name='my thoughts' itemPath='/thoughts' />
             <Star itemPath='/thoughts' />
           </Link>
 
           <Link className='side-menu-item' to='/exercises' onClick={event => setItemPath('/exercies')}>
-            <p className='hyper'>design exercises</p>
+            {/* <p className='hyper'>design exercises</p> */}
+            <MenuItem name='design exercises' itemPath='/exercises' />
             <Star itemPath='/exercises' />
           </Link>
 
