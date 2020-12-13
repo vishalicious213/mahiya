@@ -37,11 +37,11 @@ function Burger() {
         if (menuOpen === true) {
             return (
                 <section id='burger-menu'>
-                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/'>work</Link>
-                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/about-me'>about me</Link>
-                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/thoughts'>my thoughts</Link>
-                    <Link onClick={event => setMenuOpen(!menuOpen)} to='/exercises'>design exercises</Link>
-                    <a onClick={event => setMenuOpen(!menuOpen)} href={Resume} target="_blank" rel="noopener noreferrer">resume</a>
+                    <Link className='burger-menu-item' onClick={event => setMenuOpen(!menuOpen)} to='/'>work</Link>
+                    <Link className='burger-menu-item' onClick={event => setMenuOpen(!menuOpen)} to='/about-me'>about me</Link>
+                    <Link className='burger-menu-item' onClick={event => setMenuOpen(!menuOpen)} to='/thoughts'>my thoughts</Link>
+                    <Link className='burger-menu-item' onClick={event => setMenuOpen(!menuOpen)} to='/exercises'>design exercises</Link>
+                    <a className='burger-menu-item' onClick={event => setMenuOpen(!menuOpen)} href={Resume} target="_blank" rel="noopener noreferrer">resume</a>
                 </section>
             )
         } else
