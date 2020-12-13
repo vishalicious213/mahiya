@@ -17,6 +17,9 @@
 .sidebar {
   grid-area: sd;
 }
+.burger {
+  grid-area: bg;
+}
 
 .wrapper {
   max-width: 910px;
@@ -25,7 +28,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto auto;
   grid-template-areas: 
-    "hd hd sd"
+    "hd hd bg"
     "main main main"
     "ft ft ft";
 }
