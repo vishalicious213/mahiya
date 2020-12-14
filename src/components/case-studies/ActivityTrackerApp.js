@@ -32,9 +32,13 @@ function Activity() {
         <p className='case-font'>There’s no real way begin a healthy lifestyle if you’re of the older population and someone who’s very busy with life. All the products and workout programs out there do not address the challenges that hold back a lot of individuals from getting fit.</p>
 
         <p className='case-section-font'>Solution overview</p>
-        <div className='app-screen-container'>
-          <img className='app-screen' src={img1} alt='activity tracker app screenshot'></img>
-          <img className='app-screen' src={img2} alt='activity tracker app screenshot'></img>
+        <div className='app-screen-container-3'>
+          <div className='box'>
+            <img className='app-screen-box' src={img1} alt='activity tracker app screenshot'></img>
+          </div>
+          <div className='box'>
+            <img className='app-screen-box img-pad-top' src={img2} alt='activity tracker app screenshot'></img>
+          </div>
         </div>
 
         <h3 className='subsection-font'>What are the current solutions accomplishing and where are they failing?</h3>

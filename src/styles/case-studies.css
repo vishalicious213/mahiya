@@ -175,6 +175,25 @@
     margin-right: 1rem;
 }
 
+.app-screen-container-3 {
+    display: flex;
+    margin: 1rem 0;
+    width: 100%;
+    background: rgba(255, 241, 240, .2);
+}
+
+.box {
+    width: 35%;
+}
+
+.app-screen-box {
+    width: 90%;
+}
+
+.img-pad-top {
+    margin-top: 11rem;
+}
+
 /* MEALVENTORY APP */
 
 #app-title-3 {
