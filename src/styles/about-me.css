@@ -29,3 +29,7 @@
     font-weight: 400;
     color: var(--text-color);
   }
+  
+  #email {
+    color: var(--text-color);
+  }
