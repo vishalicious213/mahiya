@@ -58,7 +58,7 @@ function Plants() {
           </ol>
         </section>
 
-        <h3 className='case-section-font'>Key takeaways</h3>
+        <h3 className='subsection-font'>Key takeaways</h3>
         <p className='case-font'>I spoke with four planters and my mother about their gardening needs, goals, and blockers. Here are my key takeaways:</p>
         <img className='full-img' src={img3} alt='application design notes'></img>
         <ol className='alpha-list'>
@@ -75,10 +75,10 @@ function Plants() {
           <li>It’s challenging to remember the varying needs of each plant because house plants tend to have particular care instructions.</li>
         </ul>
 
-        <h3 className='case-section-font'>Creating empathy</h3>
+        <h3 className='subsection-font'>Creating empathy</h3>
         <p className='case-font'>Because I’m not the one experiencing these challanges, I needed to empathize with the planters who do. I defined the typical planter who needs a solution to these challenges.</p>
 
-        <h3 className='case-section-font'>The Feng Shui Enthusiast</h3>
+        <h3 className='subsection-font'>The Feng Shui Enthusiast</h3>
         <div className='text-and-img'>
           <p className='case-font'>Loves adopting plants, but can’t get them organized to save her life. Her partner thinks she owns too many plants for their small apartment. She feels frustrated because often these plants have different needs and not many ways to tell them apart.</p>
           <img className='face' src={img4} alt='smling womans face'></img>
@@ -87,7 +87,7 @@ function Plants() {
 
         <img className='full-img' src={img5} alt='user experience chart'></img>
 
-        <h3 className='case-section-font'>Information Architecture</h3>
+        <h3 className='subsection-font'>Information Architecture</h3>
         <p className='case-font'>Using my new found growth, I was ready to create the userflow using some predetermined tasks.</p>
         <div>
           <img className='app-screen-4' src={img6} alt='plant watering app screenshot'></img>
@@ -98,7 +98,9 @@ function Plants() {
 
         <img className='full-img' src={img8} alt='hierarchical tree chart'></img>
 
-        <h3 className='case-section-font'>How might we differentiate between watered and unwatered plants?</h3>
+        <h3 className='case-section-font'>Design</h3>
+
+        <h3 className='subsection-font'>How might we differentiate between watered and unwatered plants?</h3>
         <p className='case-font'>I had a couples ideas on how to denote a plant that needs water from a plant that’s not ready to be watered yet. I looked at how apps apply different states to selected and deselected items. I also considered symbols as a way to differentiate.</p>
 
         <div className='paper-img-container'>
@@ -111,7 +113,7 @@ function Plants() {
         <img className='paper-img' src={img15} alt='paper prototype for user interface'></img>
         </div>
 
-        <h3 className='case-section-font'>Tracking watering</h3>
+        <h3 className='subsection-font'>Tracking watering</h3>
         <p className='case-font'>Because indoor plant care is individual to each plants, users need to be able to see water history and set watering frequencies for them.</p>
 
         <img className='app-screen-2' src={img16} alt='paper prototype for user interface'></img>
@@ -120,7 +122,7 @@ function Plants() {
 
         <img className='app-screen-2' src={img17} alt='paper prototype for user interface'></img>
 
-        <h3 className='case-section-font'>Final solution</h3>
+        <h3 className='subsection-font'>Final solution</h3>
         <p className='case-font'>I thought if a water droplet could signify dehydration, then perhaps you could tap that plant and mark it watered. But this is where I needed to get grounded with the goal of my users: they need to see all the plants that are dehydrated at once.</p>
 
         <div className='paper-img-container'>
@@ -129,7 +131,7 @@ function Plants() {
         <img className='app-screen-3' src={img20} alt='paper prototype for user interface'></img>
         </div>
 
-        <h3 className='case-section-font'>Prototype</h3>
+        <h3 className='subsection-font'>Prototype</h3>
 
         <Projectx2 app='plants' />
       </article>
