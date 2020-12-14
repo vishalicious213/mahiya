@@ -38,17 +38,20 @@ function Meal() {
         <h3 className='case-section-font'>Problem</h3>
         <p className='case-font'>Inventorying grocery is a daunting task. The process requires throwing away bad food, figuring out what to do with the food that’s still good, coming up with a meal plan and making a grocery list.</p>
 
-        <p className='case-section-font'>Solution overview</p>
+        <p className='subsection-font'>Solution overview</p>
         <div className='app-screen-container'>
           <img className='app-screen-5' src={img1} alt='activity tracker app screenshot'></img>
           <img className='app-screen-5' src={img2} alt='activity tracker app screenshot'></img>
           <img className='app-screen-5' src={img3} alt='activity tracker app screenshot'></img>
         </div>
 
-        <h3 className='case-section-font'>Accounting for all the food.</h3>
+        <h3 className='case-section-font'>Design</h3>
+
+        <h3 className='subsection-font'>Accounting for all the food.</h3>
         <p className='case-font'>One of the things meal planning apps often offer is listing your food into a container, typically it’s called a pantry. But the downside to having only a pantry is if you’re someone with multiple pantries or freezers, you won’t know how to locate your food without additional context.</p>
-        
-        <h3 className='case-section-font'>So how might we come up with a food organization system for everyone?</h3>
+        <br></br>
+        <p className='case-font'>So how might we come up with a food organization system for everyone?</p>
+        <br></br>
         <p className='case-font'>Initially I thought I was solving for how to organize your food and I thought it would be beneficial to give users the option to organize however they wish. In thinking this way, I considered tags. I thoughts tags are used by some popular apps like airtable as a way of grouping like items.</p>
         <div className='app-screen-container'>
           <img className='app-screen-6' src={img4} alt='activity tracker app screenshot'></img>
