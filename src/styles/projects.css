@@ -4,10 +4,6 @@
     max-width: 48rem;
   }
   
-  #project-section {
-    /* max-width: 95%; */
-  }
-
   #highlight {
     background: #fffb8f;
   }
@@ -23,7 +19,6 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 3rem;
-    /* background: gainsboro; */
   }
   
   .project-info {
@@ -56,6 +51,11 @@
     font-family: 'Playfair Display', serif;
     font-size: 1.56rem;
     font-weight: 700;
+  }
+
+  .project-role {
+    font-size: 1.25rem;
+    color: #595959;
   }
   
   .fa-arrow-right {

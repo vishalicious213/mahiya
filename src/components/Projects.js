@@ -9,7 +9,7 @@ import meal2 from '../img/mealventory-app2.jpg'
 import '../styles/projects.css';
 
 function Projects() {
-    const Project = ({ link, img1, img2, title }) => {
+    const Project = ({ link, img1, img2, title, role }) => {
         return (
         <div className='project'>
             <Link to={link} className='project-images'>
@@ -26,7 +26,7 @@ function Projects() {
                 <div className='project-text-container'>
                     <div>
                         <p className='project-title'>{title}</p>
-                        <p className='project-role'>UX & UI</p>
+                        <p className='project-role'>{role}</p>
                     </div>
                 </div>
             </div>
@@ -49,6 +49,7 @@ function Projects() {
                 img1={plant1}
                 img2={plant2}
                 title='Plant watering app'
+                role='strategy, design'
             />
 
             <Project 
@@ -56,6 +57,7 @@ function Projects() {
                 img1={activity1}
                 img2={activity2}
                 title='Activity tracker app'
+                role='strategy, design'
             />
 
             <Project 
@@ -63,6 +65,7 @@ function Projects() {
                 img1={meal1}
                 img2={meal2}
                 title='Mealventory app'
+                role='design'
             />
 
           </section>
