@@ -9,12 +9,23 @@
   }
   
   #about-me-img-container {
-    /* outline: 1px solid red; */
-    width: 150%;
+    width: 80%;
     margin: 1rem;
   }
   
   #about-me-img {
     /* outline: 1px solid blue; */
     width: 100%;
+    border-radius: 50%;
+  }
+
+  #byline-container-about {
+    width: 90%;
+  }
+
+  #byline-about {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    color: var(--text-color);
   }
