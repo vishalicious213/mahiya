@@ -43,8 +43,8 @@
 }
 
 .case-section-font {
-    font: raleway;
-    font-size: 1.3rem;
+    font-family: Playfair Display;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--text-color);
     margin-top: 2.5rem;
@@ -68,17 +68,16 @@
 .full-img {
     width: 100%;
     margin-top: 1rem;
-    outline: 1px solid red;
 }
 
 .down-arrow {
-    width: 5rem;
+    width: 2rem;
     margin: 2rem auto;
 }
 
 .blue-section {
     background: #F0F5FF;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     padding-bottom: 2.5rem;
 }
 

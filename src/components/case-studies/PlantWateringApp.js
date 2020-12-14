@@ -29,7 +29,7 @@ function Plants() {
     });
 
     return (
-      <div className='case-studies'>
+      <article className='case-studies'>
         <h2 id='app-title' className='app-title'>Plant watering app</h2>
 
         <p className='case-font'>Designed to organize, track, and record plant watering with an emphasis on the wellbeing of indoor plants.</p>
@@ -47,6 +47,7 @@ function Plants() {
           <img className='app-screen' src={img2} alt='plant watering app screenshot'></img>
         </div>
 
+        <h3 className='case-section-font'>Research</h3>
         <section className='blue-section'>
           <h3 className='case-section-font'>How might we help planters remember to water their plants?</h3>
           <p className='case-font'>The problem is pretty broad. I thought maybe everybody needed watering reminder. But my mother who is an avid gardner seemed to not need any help remembering to water. So I asked:</p>
@@ -63,7 +64,7 @@ function Plants() {
         <ol className='alpha-list'>
           <li>Gardeners and those with large backyards tend not to need help with remembering to water.</li>
           <li>Most outdoor plants are easily taken care of with rain and missing water a few days does not harm them.</li>
-          <li className='bold'>Planters however, who do not have a large backyard or live indoor in small spaces have drastically different struggles-</li>
+          <li>Planters however, who do not have a large backyard or live indoor in small spaces have drastically different struggles-</li>
         </ol>
 
         <img className='down-arrow' src={downArrow} alt='downward-pointing arrow'></img>
@@ -131,7 +132,7 @@ function Plants() {
         <h3 className='case-section-font'>Prototype</h3>
 
         <Projectx2 app='plants' />
-      </div>
+      </article>
     )
 }
   
