@@ -12,9 +12,12 @@
     font-style: normal;
     font-weight: 700;
     font-size: 2.3rem;
-    color: #531DAB;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
+}
+
+#app-title {
+    color: #531DAB;
 }
 
 .bold {

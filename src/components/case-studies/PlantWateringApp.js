@@ -30,7 +30,7 @@ function Plants() {
 
     return (
       <div className='case-studies'>
-        <h2 id='app-title'>Plant watering app</h2>
+        <h2 id='app-title' className='app-title'>Plant watering app</h2>
 
         <p className='case-font'>Designed to organize, track, and record plant watering with an emphasis on the wellbeing of indoor plants.</p>
         <p className='case-font-gray'>DURATION</p>
