@@ -28,7 +28,7 @@ function AboutMe() {
             <p className='text-content'>I’m a volunteer team-member for the redesign efforts of the DSA Labor website.</p>
             <p className='text-content'>I’m also coming up with a tool  that friends and colleagues can use to queue their favorite songs insteading of needing to pause and wait while somebody finds their favorite song on YouTube or spotify (ughh!!)</p>
 
-            <h3 className='text-header'>I would love to meet you to hear about your adventures!</h3>
+            <h3 className='text-header'>I would love to hear from you about your adventures! Drop me a line at mahiya17@gmail.com</h3>
             {/* <ContactForm /> */}
 
             <Projectx3 />
