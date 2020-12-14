@@ -148,6 +148,12 @@
     color: #f4511e;
 }
 
+.quarter-img {
+    width: 25%;
+    margin-top: 1rem;
+    height: 15rem;
+}
+
 .third-img {
     width: 33%;
     margin-top: 1rem;
@@ -156,11 +162,17 @@
 .half-img {
     width: 50%;
     margin-top: 1rem;
+    height: 15rem;
 }
 
 .two-thirds-img {
     width: 66%;
     margin-top: 1rem;
+}
+
+.app-screen-50 {
+    width: 45%;
+    margin-right: 1rem;
 }
 
 /* MEALVENTORY APP */
