@@ -49,7 +49,7 @@ function Plants() {
 
         <h3 className='case-section-font'>Research</h3>
         <section className='blue-section'>
-          <h3 className='case-section-font'>How might we help planters remember to water their plants?</h3>
+          <h3 className='subsection-font'>How might we help planters remember to water their plants?</h3>
           <p className='case-font'>The problem is pretty broad. I thought maybe everybody needed watering reminder. But my mother who is an avid gardner seemed to not need any help remembering to water. So I asked:</p>
           <ol className='alpha-list'>
             <li className='bold'>who needs reminder to water their plants?</li>

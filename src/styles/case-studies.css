@@ -50,6 +50,12 @@
     margin-top: 2.5rem;
 }
 
+.subsection-font {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    color: #262626;
+}
+
 .alpha-list {
     list-style-type: lower-alpha;
 }
