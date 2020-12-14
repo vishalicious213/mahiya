@@ -66,6 +66,11 @@
     width: 100%;
 }
 
+.app-img-center {
+    display: flex;
+    justify-content: center;
+}
+
 .app-screen {
     width: 35%;
     margin-right: 1rem;
