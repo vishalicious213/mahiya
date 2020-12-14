@@ -5,16 +5,18 @@
   }
   
   #project-section {
-    /* border: 1px solid red; */
-    max-width: 95%;
+    /* max-width: 95%; */
+    border: 1px solid red;
   }
-  
+
   #highlight {
     background: #fffb8f;
   }
   
   #project-section-title {
     font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
     color: gray;
   }
   
@@ -26,35 +28,38 @@
   }
   
   .project-info {
-    /* border: 1px solid orange; */
     display: flex;
-    width: 90%;
-  }
-  
-  .project-images {
-    /* border: 1px solid red; */
-    width: 70%;
-  }
-  
-  .app-img {
+    flex-direction: column;
     width: 50%;
   }
   
-  .project-text-container {
+  .project-images {
     display: flex;
-    align-items: center;
-    margin-left: 1rem;
+    width: 50%;
+    margin-right: 2rem;
+  }
+  
+  .project-arrow {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .app-img {
+    width: 50%;
+    margin-right: 1rem;
+  }
+  
+  .project-text-container {
+    margin-top: 4rem;
   }
   
   .project-title {
-    /* border: 1px solid purple; */
     font-family: 'Playfair Display', serif;
-    font-size: 1.1rem;
-    font-weight: 600;
+    font-size: 1.56rem;
+    font-weight: 700;
   }
   
   .fa-arrow-right {
-    /* border: 1px solid red; */
     color: darkturquoise;
     font-size: 1.75rem;
   }

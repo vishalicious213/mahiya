@@ -12,22 +12,23 @@ function Projects() {
     const Project = ({ link, img1, img2, title }) => {
         return (
         <div className='project'>
+            <Link to={link} className='project-images'>
+                <img className='app-img' src={img1} alt='plant-watering app'></img>
+                <img className='app-img' src={img2} alt='plant-watering app'></img>
+            </Link>
+
             <div className='project-info'>
-                <Link to={link} className='project-images'>
-                    <img className='app-img' src={img1} alt='plant-watering app'></img>
-                    <img className='app-img' src={img2} alt='plant-watering app'></img>
-                </Link>
+                <div className='project-arrow'>
+                    <Link to={link}>
+                        <i className="fas fa-arrow-right"></i>
+                    </Link>
+                </div>
                 <div className='project-text-container'>
                     <div>
                         <p className='project-title'>{title}</p>
                         <p className='project-role'>UX & UI</p>
                     </div>
                 </div>
-            </div>
-            <div>
-                <Link to={link} className='project-images'>
-                    <i className="fas fa-arrow-right"></i>
-                </Link>
             </div>
         </div>
         )
@@ -37,7 +38,7 @@ function Projects() {
       <div id='projects'>
         <section id='project-section'>
           <div id='byline-container'>
-            <p id='byline'>My mission is to create communities with <span id='highlight'>compassion, empathy, and understanding.</span></p>
+            <h1 id='byline'>My mission is to create communities with <span id='highlight'>compassion, empathy, and understanding.</span></h1>
           </div>
 
           <section id='project-gallery'>
