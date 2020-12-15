@@ -29,7 +29,7 @@ function Projectx3() {
             <section id='projects-footer'>
                 <Project 
                     title='Plant watering app' 
-                    text='design'
+                    text='strategy, design'
                     link='/plants'
                     image={plant1}
                 />

@@ -1,5 +1,4 @@
 #sidebar {
-    /* margin-top: 1rem; */
     display: none;
   }
   
@@ -48,7 +47,7 @@
     .side-menu-item {
       text-align: right;
       color: gray;
-      font-size: 1.2rem;
+      font-size: .9rem;
       margin-bottom: .5rem;
       transition-duration: 1s;
       display: flex;
@@ -121,3 +120,9 @@
     }
   }
   
+  @media (min-width: 930px) {
+    .side-menu-item {
+      font-size: 1.2rem;
+      margin-bottom: .5rem;
+    }
+  }

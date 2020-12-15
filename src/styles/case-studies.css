@@ -12,9 +12,12 @@
     font-style: normal;
     font-weight: 700;
     font-size: 2.3rem;
-    color: #531DAB;
     margin-top: 3rem;
     margin-bottom: 1.5rem;
+}
+
+#app-title {
+    color: #531DAB;
 }
 
 .bold {
@@ -40,11 +43,17 @@
 }
 
 .case-section-font {
-    font: raleway;
-    font-size: 1.3rem;
+    font-family: Playfair Display;
+    font-size: 1.8rem;
     font-weight: 700;
     color: var(--text-color);
     margin-top: 2.5rem;
+}
+
+.subsection-font {
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    color: #262626;
 }
 
 .alpha-list {
@@ -57,6 +66,11 @@
     width: 100%;
 }
 
+.app-img-center {
+    display: flex;
+    justify-content: center;
+}
+
 .app-screen {
     width: 35%;
     margin-right: 1rem;
@@ -65,17 +79,16 @@
 .full-img {
     width: 100%;
     margin-top: 1rem;
-    outline: 1px solid red;
 }
 
 .down-arrow {
-    width: 5rem;
+    width: 2rem;
     margin: 2rem auto;
 }
 
 .blue-section {
     background: #F0F5FF;
-    margin-top: 2.5rem;
+    margin-top: 1.5rem;
     padding-bottom: 2.5rem;
 }
 
@@ -135,6 +148,12 @@
     color: #f4511e;
 }
 
+.quarter-img {
+    width: 25%;
+    margin-top: 1rem;
+    height: 15rem;
+}
+
 .third-img {
     width: 33%;
     margin-top: 1rem;
@@ -143,11 +162,36 @@
 .half-img {
     width: 50%;
     margin-top: 1rem;
+    height: 15rem;
 }
 
 .two-thirds-img {
     width: 66%;
     margin-top: 1rem;
+}
+
+.app-screen-50 {
+    width: 45%;
+    margin-right: 1rem;
+}
+
+.app-screen-container-3 {
+    display: flex;
+    margin: 1rem 0;
+    width: 100%;
+    background: rgba(255, 241, 240, .2);
+}
+
+.box {
+    width: 35%;
+}
+
+.app-screen-box {
+    width: 90%;
+}
+
+.img-pad-top {
+    margin-top: 11rem;
 }
 
 /* MEALVENTORY APP */
@@ -168,6 +212,7 @@
 
 .fifty-percent {
     width: 50%;
+    margin: 1rem auto;
 }
 
 .fifty-pad {
@@ -186,11 +231,24 @@
 }
 
 .app-screen-container-2 {
-    /* border: 1px solid blue; */
     display: flex;
     align-items: flex-start;
     margin: 1rem 0;
     width: 100%;
+}
+
+.app-screen-container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+#img-stack {
+    width: 35%;
+    display: flex;
+    flex-direction: column;;
 }
 
 .text-align-center {
@@ -209,4 +267,9 @@
 
 .right-margin {
     margin-right: 5rem;
+}
+
+.text-and-img-3 {
+    display: flex;
+    margin-top: 1rem;
 }

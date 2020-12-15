@@ -38,88 +38,90 @@ function Meal() {
         <h3 className='case-section-font'>Problem</h3>
         <p className='case-font'>Inventorying grocery is a daunting task. The process requires throwing away bad food, figuring out what to do with the food that’s still good, coming up with a meal plan and making a grocery list.</p>
 
-        <p className='case-section-font'>Solution overview</p>
+        <p className='subsection-font'>Solution overview</p>
         <div className='app-screen-container'>
           <img className='app-screen-5' src={img1} alt='activity tracker app screenshot'></img>
           <img className='app-screen-5' src={img2} alt='activity tracker app screenshot'></img>
           <img className='app-screen-5' src={img3} alt='activity tracker app screenshot'></img>
         </div>
 
-        <h3 className='case-section-font'>Accounting for all the food.</h3>
+        <h3 className='case-section-font'>Design</h3>
+
+        <h3 className='subsection-font'>Accounting for all the food.</h3>
         <p className='case-font'>One of the things meal planning apps often offer is listing your food into a container, typically it’s called a pantry. But the downside to having only a pantry is if you’re someone with multiple pantries or freezers, you won’t know how to locate your food without additional context.</p>
-        
-        <h3 className='case-section-font'>So how might we come up with a food organization system for everyone?</h3>
+        <br></br>
+        <p className='case-font'>So how might we come up with a food organization system for everyone?</p>
+        <br></br>
         <p className='case-font'>Initially I thought I was solving for how to organize your food and I thought it would be beneficial to give users the option to organize however they wish. In thinking this way, I considered tags. I thoughts tags are used by some popular apps like airtable as a way of grouping like items.</p>
         <div className='app-screen-container'>
           <img className='app-screen-6' src={img4} alt='activity tracker app screenshot'></img>
           <img className='app-screen-6' src={img5} alt='activity tracker app screenshot'></img>
         </div>
 
-        <div className='app-screen-container text-and-img'>
-          <p className='case-font fify-percent'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
+          <p className='case-font'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
           <img className='app-screen fifty-percent' src={img6} alt='activity tracker app screenshot'></img>
-        </div>
 
         <p className='case-font'>Coming up with the inventory flow has not been easy. At first I was under the impression that you could leave food outside the containers. But I later realized that the whole idea behind this app is to save you money and food but that won’t happen if we’re unorganized from the beginning.  If I encourage users to not have to add food into their individual categories then I’m creating more work for them in the future.</p>
 
-        <div className='text-and-img'>
-          <div className='fifty-percent'><img className='ninety' src={img7} alt='activity tracker app screenshot'></img></div>
-          <div className='text-and-img-2 fifty-percent'>
-            <div><img className='ninety' src={img8} alt='activity tracker app screenshot'></img></div>
-            <p className='case-font ninety'>So I grounded myself to the goal of this app which really is to get organized around the food I already have. By tracking what I have, I will spend less money at the grocery store.</p>
-          </div>
-        </div>
-
         <div className='app-screen-container-2'>
-          <img className='app-screen-5' src={img9} alt='activity tracker app screenshot'></img>
-          <img className='app-screen-5' src={img10} alt='activity tracker app screenshot'></img>
-          <img className='app-screen-5' src={img11} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-6' src={img7} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-6' src={img8} alt='activity tracker app screenshot'></img>
         </div>
 
-        <h3 className='case-section-font'>The meal plan</h3>
-        <p className='case-font'>Now that I’m aware what food I have, I need an idea of what to cook. The goal behind the problem is automating the whole process of meal planning, from taking inventory to figuring out what I’ll be eating to what I need to get from the store. The idea is to save time, money, and food.</p>
-        <p className='case-font'>So while thinking through the meal plan flow, it made sense to automatically generate a meal plan based on user preferences and in-stock items. But because this requires a professional cook to create this feature, I decided to include a meal suggestion instead.</p>
+        <p className='case-font ninety'>So I grounded myself to the goal of this app which really is to get organized around the food I already have. By tracking what I have, I will spend less money at the grocery store.</p>
 
-        <h3 className='case-section-font'>How might we add meals?</h3>
+        <div className='app-screen-container-4'>
+          <div id='img-stack'>
+            <img className='ninety' src={img9} alt='activity tracker app screenshot'></img>
+            <img className='ninety' src={img11} alt='activity tracker app screenshot'></img>
+          </div>
+          <img className='app-screen-5' src={img10} alt='activity tracker app screenshot'></img>
+        </div>
+
+        <h3 className='subsection-font'>The meal plan</h3>
+        <p className='case-font'>Now that I’m aware what food I have, I need an idea of what to cook. The goal behind the problem is automating the whole process of meal planning, from taking inventory to figuring out what I’ll be eating to what I need to get from the store. The idea is to save time, money, and food.</p>
+        <br></br>
+        <p className='case-font'>So while thinking through the meal plan flow, it made sense to automatically generate a meal plan based on user preferences and in-stock items. But because this requires a professional cook to create this feature, I decided to include a meal suggestion instead.</p>
+        <br></br>
+        <p className='case-font'>How might we add meals?</p>
+        <br></br>
         <p className='case-font'>The three main ways a user is able to add meals is through the app’s suggestions, through their own cookbook, which is a collection of their own recipes, and import from an outside resource.</p>
+        <br></br>
         <p className='case-font'>Finally, user needs to be able to delete anything that was added recently or otherwise change up anything that was done.</p>
 
-        <div className='app-screen-container'>
+        <div className='app-screen-container app-img-center'>
           <img className='third-img' src={img12} alt='Google Calendar schedule'></img>
         </div>
 
-        <h3 className='case-section-font'>What might we include in the recipe?</h3>
+        <h3 className='subsection-font'>What might we include in the recipe?</h3>
         <p className='case-font'>In thinking about recipes, I considered what things are important for cooking. I took these ideas from popular apps like Yummili and Mealime.</p>
-        <div className='text-and-img'>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img13} alt='Google Calendar schedule'></img>
-            <p className='case-font'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
+        
+          <div className='text-and-img-3'>
+            <img className='fifty-pad' src={img13} alt='Google Calendar schedule'></img>
+            <p className='case-font fifty-pad'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
           </div>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img14} alt='Google Calendar schedule'></img>
-            <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
-          </div>
-        </div>
 
-        <div className='text-and-img'>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img15} alt='Google Calendar schedule'></img>
+          <div className='text-and-img-3'>
+            <img className='fifty-pad' src={img14} alt='Google Calendar schedule'></img>
+            <p className='case-font fifty-pad'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
           </div>
-          <p className='case-font fifty-pad text-align-center'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
-        </div>
+        
 
-        <div className='text-and-img'>
+          <div className='text-and-img-3'>
+            <p className='case-font fifty-pad text-align-center'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
+            <img className='fifty-pad' src={img15} alt='Google Calendar schedule'></img>
+          </div>
+
+        <div className='text-and-img-3'>
           <p className='case-font fifty-pad text-align-center'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img16} alt='Google Calendar schedule'></img>
-          </div>
+          <img className='fifty-pad' src={img16} alt='Google Calendar schedule'></img>
         </div>
 
-        <div className='fifty-pad'>
+        <div className='text-and-img-3'>
           <img className='ninety' src={img17} alt='Google Calendar schedule'></img>
         </div>
 
-        <h3 className='case-section-font'>Choosing color</h3>
+        <h3 className='subsection-font'>Choosing color</h3>
         <p className='case-font'>Blue denotes dependability, demands reliability. A lot of banking apps use this color for these reasons. I also noticed tracker apps generally tend to use a shade of blue. And because Mealventory is tracking your food, it aligns perfectly with our goal.</p>
         <div className='text-and-img'>
           <div className='text-and-img-2 right-margin'>
@@ -137,7 +139,7 @@ function Meal() {
           </div>
         </div>
 
-        <h3 className='case-section-font'>Final solution</h3>
+        <h3 className='subsection-font'>Final solution</h3>
 
         <Projectx2 app='meal' />
       </div>
