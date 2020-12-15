@@ -78,19 +78,22 @@ function Meal() {
           <img className='app-screen-5' src={img10} alt='activity tracker app screenshot'></img>
         </div>
 
-        <h3 className='case-section-font'>The meal plan</h3>
+        <h3 className='subsection-font'>The meal plan</h3>
         <p className='case-font'>Now that I’m aware what food I have, I need an idea of what to cook. The goal behind the problem is automating the whole process of meal planning, from taking inventory to figuring out what I’ll be eating to what I need to get from the store. The idea is to save time, money, and food.</p>
+        <br></br>
         <p className='case-font'>So while thinking through the meal plan flow, it made sense to automatically generate a meal plan based on user preferences and in-stock items. But because this requires a professional cook to create this feature, I decided to include a meal suggestion instead.</p>
-
-        <h3 className='case-section-font'>How might we add meals?</h3>
+        <br></br>
+        <p className='case-font'>How might we add meals?</p>
+        <br></br>
         <p className='case-font'>The three main ways a user is able to add meals is through the app’s suggestions, through their own cookbook, which is a collection of their own recipes, and import from an outside resource.</p>
+        <br></br>
         <p className='case-font'>Finally, user needs to be able to delete anything that was added recently or otherwise change up anything that was done.</p>
 
-        <div className='app-screen-container'>
+        <div className='app-screen-container app-img-center'>
           <img className='third-img' src={img12} alt='Google Calendar schedule'></img>
         </div>
 
-        <h3 className='case-section-font'>What might we include in the recipe?</h3>
+        <h3 className='subsection-font'>What might we include in the recipe?</h3>
         <p className='case-font'>In thinking about recipes, I considered what things are important for cooking. I took these ideas from popular apps like Yummili and Mealime.</p>
         <div className='text-and-img'>
           <div className='fifty-pad'>
