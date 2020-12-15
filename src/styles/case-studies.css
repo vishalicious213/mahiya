@@ -106,6 +106,7 @@
 
 .text-and-img {
     display: flex;
+    outline: 1px solid orange;
 }
 
 .face {
@@ -218,6 +219,7 @@
 .fifty-pad {
     width: 50%;
     padding-right: 1rem;
+    outline: 1px solid red;
 }
 
 .text-and-img-2 {
@@ -267,4 +269,9 @@
 
 .right-margin {
     margin-right: 5rem;
+}
+
+.text-and-img-3 {
+    display: flex;
+    margin-top: 1rem;
 }

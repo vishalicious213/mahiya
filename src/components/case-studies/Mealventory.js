@@ -95,16 +95,17 @@ function Meal() {
 
         <h3 className='subsection-font'>What might we include in the recipe?</h3>
         <p className='case-font'>In thinking about recipes, I considered what things are important for cooking. I took these ideas from popular apps like Yummili and Mealime.</p>
-        <div className='text-and-img'>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img13} alt='Google Calendar schedule'></img>
-            <p className='case-font'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
+        
+          <div className='text-and-img-3'>
+            <img className='fifty-pad' src={img13} alt='Google Calendar schedule'></img>
+            <p className='case-font fifty-pad'>Yummili displays their calory counts on the recipes along with how long it would take to make a recipe and how many ingredients it has.</p>
           </div>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img14} alt='Google Calendar schedule'></img>
-            <p className='case-font'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
+
+          <div className='text-and-img-3'>
+            <img className='fifty-pad' src={img14} alt='Google Calendar schedule'></img>
+            <p className='case-font fifty-pad'>Then it lists all the ingredients, gives you the option to add them to your shopping list, and tells you the servings. And it also schedules a time when you’ll prepare this meal.</p>
           </div>
-        </div>
+        
 
         <div className='text-and-img'>
           <div className='fifty-pad'>
