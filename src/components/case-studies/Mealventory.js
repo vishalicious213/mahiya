@@ -107,25 +107,21 @@ function Meal() {
           </div>
         
 
-        <div className='text-and-img'>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img15} alt='Google Calendar schedule'></img>
+          <div className='text-and-img-3'>
+            <p className='case-font fifty-pad text-align-center'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
+            <img className='fifty-pad' src={img15} alt='Google Calendar schedule'></img>
           </div>
-          <p className='case-font fifty-pad text-align-center'>Mealime on the other hand has a slew of options in a popup menu including printing and sharing recipe, nutrition facts etc.</p>
-        </div>
 
-        <div className='text-and-img'>
+        <div className='text-and-img-3'>
           <p className='case-font fifty-pad text-align-center'>Mealime also has a tabs function to go from cookware, ingredients, to seeing instructions. It’s quiet less overwhelming than yummily’s that requires scrolling.</p>
-          <div className='fifty-pad'>
-            <img className='ninety' src={img16} alt='Google Calendar schedule'></img>
-          </div>
+          <img className='fifty-pad' src={img16} alt='Google Calendar schedule'></img>
         </div>
 
         <div className='fifty-pad'>
           <img className='ninety' src={img17} alt='Google Calendar schedule'></img>
         </div>
 
-        <h3 className='case-section-font'>Choosing color</h3>
+        <h3 className='subsection-font'>Choosing color</h3>
         <p className='case-font'>Blue denotes dependability, demands reliability. A lot of banking apps use this color for these reasons. I also noticed tracker apps generally tend to use a shade of blue. And because Mealventory is tracking your food, it aligns perfectly with our goal.</p>
         <div className='text-and-img'>
           <div className='text-and-img-2 right-margin'>
@@ -143,7 +139,7 @@ function Meal() {
           </div>
         </div>
 
-        <h3 className='case-section-font'>Final solution</h3>
+        <h3 className='subsection-font'>Final solution</h3>
 
         <Projectx2 app='meal' />
       </div>
