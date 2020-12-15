@@ -58,20 +58,25 @@ function Meal() {
           <img className='app-screen-6' src={img5} alt='activity tracker app screenshot'></img>
         </div>
 
-        <div className='app-screen-container text-and-img'>
-          <p className='case-font fify-percent'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
+          <p className='case-font'>I considered music apps for their categorization capabilities. Spotify stood out because of its versatile sorting; you’re able to see multiple playlists, recently played songs, and new music suggestions all in one screen.</p>
           <img className='app-screen fifty-percent' src={img6} alt='activity tracker app screenshot'></img>
-        </div>
 
         <p className='case-font'>Coming up with the inventory flow has not been easy. At first I was under the impression that you could leave food outside the containers. But I later realized that the whole idea behind this app is to save you money and food but that won’t happen if we’re unorganized from the beginning.  If I encourage users to not have to add food into their individual categories then I’m creating more work for them in the future.</p>
 
-        <div className='text-and-img'>
+        {/* <div className='text-and-img'>
           <div className='fifty-percent'><img className='ninety' src={img7} alt='activity tracker app screenshot'></img></div>
           <div className='text-and-img-2 fifty-percent'>
             <div><img className='ninety' src={img8} alt='activity tracker app screenshot'></img></div>
             <p className='case-font ninety'>So I grounded myself to the goal of this app which really is to get organized around the food I already have. By tracking what I have, I will spend less money at the grocery store.</p>
           </div>
+        </div> */}
+
+        <div className='app-screen-container-2'>
+          <img className='app-screen-6' src={img7} alt='activity tracker app screenshot'></img>
+          <img className='app-screen-6' src={img8} alt='activity tracker app screenshot'></img>
         </div>
+
+        <p className='case-font ninety'>So I grounded myself to the goal of this app which really is to get organized around the food I already have. By tracking what I have, I will spend less money at the grocery store.</p>
 
         <div className='app-screen-container-2'>
           <img className='app-screen-5' src={img9} alt='activity tracker app screenshot'></img>
