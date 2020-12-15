@@ -231,11 +231,24 @@
 }
 
 .app-screen-container-2 {
-    /* border: 1px solid blue; */
     display: flex;
     align-items: flex-start;
     margin: 1rem 0;
     width: 100%;
+}
+
+.app-screen-container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+    width: 100%;
+}
+
+#img-stack {
+    width: 35%;
+    display: flex;
+    flex-direction: column;;
 }
 
 .text-align-center {
