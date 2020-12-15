@@ -117,7 +117,7 @@ function Meal() {
           <img className='fifty-pad' src={img16} alt='Google Calendar schedule'></img>
         </div>
 
-        <div className='fifty-pad'>
+        <div className='text-and-img-3'>
           <img className='ninety' src={img17} alt='Google Calendar schedule'></img>
         </div>
 
