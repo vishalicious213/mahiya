@@ -6,6 +6,7 @@ import activity1 from '../img/activity-tracker-app1.jpg'
 import activity2 from '../img/activity-tracker-app2.jpg'
 import meal1 from '../img/mealventory-app1.jpg'
 import meal2 from '../img/mealventory-app2.jpg'
+import arrowRight from '../img/arrow-right.svg'
 import '../styles/projects.css';
 
 function Projects() {
@@ -20,7 +21,8 @@ function Projects() {
             <div className='project-info'>
                 <div className='project-arrow'>
                     <Link to={link}>
-                        <i className="fas fa-arrow-right"></i>
+                        {/* <i className="fas fa-arrow-right"></i> */}
+                        <img src={arrowRight} alt='right-arrow' />
                     </Link>
                 </div>
                 <div className='project-text-container'>
