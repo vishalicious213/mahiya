@@ -40,8 +40,9 @@
       margin-right: 2rem;
       position: sticky;
       top: 0rem;
-      height: 80vh;
-      margin-top: 2.5rem;
+      height: 100vh;
+      /* margin-top: 2.5rem; */
+      padding-top: 10.5rem;
     }
     
     .side-menu-item {
