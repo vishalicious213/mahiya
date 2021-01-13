@@ -40,7 +40,7 @@ function Projects() {
       <div id='projects'>
         <section id='project-section'>
           <div id='byline-container'>
-            <h1 id='byline'>My mission is to create communities with <span id='highlight'>compassion, empathy, and understanding.</span></h1>
+            <h1 id='byline'>My mission is to create communities with <span id='highlight-2'>compassion,</span> <span id='highlight'>empathy, and understanding.</span></h1>
           </div>
 
           <section id='project-gallery'>
