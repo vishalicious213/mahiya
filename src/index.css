@@ -36,13 +36,13 @@ code {
   font-family: 'Raleway', sans-serif;
   font-size: 1.45rem;
   line-height: 1.75;
-  color: var(--text-color);
+  color: var(--grey2);
 }
 
 .text-header {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
-  color: var(--text-color);
+  color: var(--grey2);
 }
 
 #byline-container {
@@ -53,7 +53,7 @@ code {
   font-family: 'Playfair Display', serif;
   font-size: 2.45rem;
   font-weight: 400;
-  color: var(--text-color);
+  color: var(--grey2);
 }
 
 /* HEADER */
