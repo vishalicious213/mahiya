@@ -1,11 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import plant1 from '../img/plant-watering-app1.jpg'
-import plant2 from '../img/plant-watering-app2.jpg'
-import activity1 from '../img/activity-tracker-app1.jpg'
-import activity2 from '../img/activity-tracker-app2.jpg'
-import meal1 from '../img/mealventory-app1.jpg'
-import meal2 from '../img/mealventory-app2.jpg'
+import plant1 from '../img/plantWatering1.png'
+import plant2 from '../img/plantWatering2.png'
+import activity1 from '../img/activityTracker1.png'
+import activity2 from '../img/activityTracker2.png'
+import meal1 from '../img/mealventory1.png'
+import meal2 from '../img/mealventory2.png'
 import arrowRight from '../img/arrow-right.svg'
 import '../styles/projects.css';
 
@@ -14,8 +14,8 @@ function Projects() {
         return (
         <div className='project'>
             <Link to={link} className='project-images'>
-                <img className='app-img' src={img1} alt='plant-watering app'></img>
-                <img className='app-img' src={img2} alt='plant-watering app'></img>
+                <img className='app-img' src={img1} alt={title}></img>
+                <img className='app-img' src={img2} alt={title}></img>
             </Link>
 
             <div className='project-info'>
