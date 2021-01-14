@@ -9,7 +9,7 @@
   }
   
   #about-me-img-container {
-    width: 80%;
+    width: 70%;
     margin: 1rem;
   }
   
@@ -21,8 +21,14 @@
 
   #byline-container-about {
     display: flex;
+    flex-direction: column;
     align-items: center;
     width: 90%;
+  }
+
+  #signature {
+    font-family: 'LuxusBrut';
+    font-size: 2.25rem;
   }
 
   #byline-about {

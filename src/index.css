@@ -9,6 +9,13 @@
   --grey3: #262626; /* darker */
 }
 
+@font-face {
+  font-family: 'LuxusBrut';
+  src: url('./img/LuxusBrut.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
