@@ -1,18 +1,24 @@
 #projects {
     display: flex;
     justify-content: flex-start;
-    max-width: 48rem;
+    /* max-width: 48rem; */
+    width: 100%;
   }
   
   #highlight {
-    background: #fffb8f;
+    background: #B5F5EC;
+  }
+
+  #highlight-2 {
+    background: #13C2C2;
   }
   
   #project-section-title {
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 700;
-    color: gray;
+    color: var(--grey1);
+    margin-top: 4rem;
   }
   
   .project {
@@ -55,10 +61,10 @@
 
   .project-role {
     font-size: 1.25rem;
-    color: #595959;
+    color: var(--grey2);
   }
   
   .fa-arrow-right {
-    color: darkturquoise;
+    color: var(--green2);
     font-size: 1.75rem;
   }

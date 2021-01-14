@@ -44,7 +44,7 @@ function Sidebar() {
           </Link>
 
           <Link className='side-menu-item' to='/about-me' onClick={event => setItemPath('/about-me')}>
-            <MenuItem name='about me' itemPath='/about-me' />
+            <MenuItem name='about' itemPath='/about-me' />
             <Star itemPath='/about-me' />
           </Link>
 
@@ -59,7 +59,7 @@ function Sidebar() {
           </Link>
 
           <a href={Resume} target="_blank" rel="noopener noreferrer">
-            <p className='side-menu-item side-spacer'>resume</p>
+            <p className='side-menu-item side-spacer'>Resume</p>
           </a>
 
         </div>

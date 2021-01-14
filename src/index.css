@@ -1,6 +1,19 @@
 :root {
   --text-color: #595959;
   --text-color-darker: #262626;
+
+  --green1: #13C2C2; /* lighter */
+  --green2: #08979C; /* darker */
+  --grey1: #8C8C8C; /* lighter */
+  --grey2: #595959; /* medium */
+  --grey3: #262626; /* darker */
+}
+
+@font-face {
+  font-family: 'LuxusBrut';
+  src: url('./img/LuxusBrut.woff');
+  font-weight: normal;
+  font-style: normal;
 }
 
 body {
@@ -23,13 +36,13 @@ code {
   font-family: 'Raleway', sans-serif;
   font-size: 1.45rem;
   line-height: 1.75;
-  color: var(--text-color);
+  color: var(--grey2);
 }
 
 .text-header {
   font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
-  color: var(--text-color);
+  color: var(--grey2);
 }
 
 #byline-container {
@@ -40,7 +53,7 @@ code {
   font-family: 'Playfair Display', serif;
   font-size: 2.45rem;
   font-weight: 400;
-  color: var(--text-color);
+  color: var(--grey2);
 }
 
 /* HEADER */

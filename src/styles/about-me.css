@@ -1,35 +1,44 @@
 #about-me {
     /* max-width: 700px; */
     max-width: 48rem;
+    margin-top: 1rem;
   }
   
   #about-me-top {
-    /* outline: 1px solid green; */
     display: flex;
+    align-items: center;
   }
   
   #about-me-img-container {
-    width: 80%;
+    width: 50%;
     margin: 1rem;
   }
   
   #about-me-img {
-    /* outline: 1px solid blue; */
     width: 100%;
     border-radius: 50%;
   }
 
   #byline-container-about {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     width: 90%;
+  }
+
+  #signature {
+    font-family: 'LuxusBrut';
+    font-size: 2.25rem;
+    margin-bottom: 1rem;
   }
 
   #byline-about {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    color: var(--text-color);
+    color: var(--grey2);
+    padding-left: 6rem;
+    padding-right: 2rem;
+    margin-top: 0;
   }
   
   #email {

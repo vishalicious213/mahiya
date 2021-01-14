@@ -13,11 +13,12 @@ function AboutMe() {
         <div id='about-me'>
 
             <div id='about-me-top'>
+                <div id='byline-container-about'>
+                    <h2 id='signature'>Hi there, I'm Mahiya</h2>
+                    <h1 id='byline-about'>my mission is to create a sense of belonging.</h1>
+                </div>
                 <div id='about-me-img-container'>
                     <img id='about-me-img' src={aboutme} alt='Mahiya Hoque'></img>
-                </div>
-                <div id='byline-container-about'>
-                    <h1 id='byline-about'>Hi there, I’m Mahiya and my mission is to create a sense of community.</h1>
                 </div>
             </div>
 

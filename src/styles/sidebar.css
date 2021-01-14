@@ -13,16 +13,16 @@
 
   .activeMenu {
     margin: 0;
-    color: darkturquoise;
+    color: var(--green2);
   }
 
   .inactiveMenu {
     margin: 0;
-    color: gray;
+    color: var(--grey3);
   }
   
   .side-menu-item:hover, .inactiveMenu:hover {
-    color: darkturquoise;
+    color: var(--green1);
     transition-duration: 1s;
   }
   
@@ -31,24 +31,26 @@
   }
 
   .side-spacer {
-    margin-right: 1.5rem;
+    padding-right: 1.2rem;
   }
   
   @media (min-width: 768px) {
     #sidebar {
       display: block;
-      margin-right: 2rem;
+      /* margin-right: 2rem; */
       position: sticky;
       top: 0rem;
-      height: 80vh;
-      margin-top: 2.5rem;
+      height: 100vh;
+      padding-top: 10.5rem;
+      padding-right: 2rem;
     }
     
     .side-menu-item {
       text-align: right;
-      color: gray;
+      color: var(--grey3);
       font-size: .9rem;
       margin-bottom: .5rem;
+      margin-right: 2.5rem;
       transition-duration: 1s;
       display: flex;
       justify-content: flex-end;
@@ -57,12 +59,12 @@
   
     .activeMenu {
       margin: .25rem;
-      color: darkturquoise;
+      color: var(--green2);
     }
 
     .inactiveMenu {
       margin: .25rem;
-      color: gray;
+      color: var(--grey3);
     }
 
     .active {
@@ -94,29 +96,30 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      margin-right: 5.5rem;
     }
   
     #sidebar-bottom-button-container > p {
       margin-right: .25rem;
       margin-left: .5rem;
-      color: gray;
+      color: var(--grey3);
       font-size: 1.25rem;
       transition-duration: 1s;
     }
   
     #sidebar-bottom-button-container > p:hover {
-      color: darkturquoise;
+      color: var(--green1);
     }
   
     .side-menu-arrow {
-      border: 1px solid var(--text-color);
+      border: 1px solid var(--grey2);
       border-radius: 50%;
       padding: .5rem;
       transition-duration: 1s;
     }
   
     .side-menu-arrow:hover {
-      border: 1px solid darkturquoise;
+      border: 1px solid var(--green1);
     }
   }
   
