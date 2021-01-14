@@ -4,17 +4,16 @@
   }
   
   #about-me-top {
-    /* outline: 1px solid green; */
     display: flex;
+    align-items: center;
   }
   
   #about-me-img-container {
-    width: 70%;
+    width: 50%;
     margin: 1rem;
   }
   
   #about-me-img {
-    /* outline: 1px solid blue; */
     width: 100%;
     border-radius: 50%;
   }
@@ -22,20 +21,23 @@
   #byline-container-about {
     display: flex;
     flex-direction: column;
-    align-items: center;
     width: 90%;
   }
 
   #signature {
     font-family: 'LuxusBrut';
     font-size: 2.25rem;
+    margin-bottom: 1rem;
   }
 
   #byline-about {
     font-family: 'Playfair Display', serif;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--text-color);
+    padding-left: 6rem;
+    padding-right: 2rem;
+    margin-top: 0;
   }
   
   #email {
