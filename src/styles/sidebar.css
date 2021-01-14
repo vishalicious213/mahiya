@@ -96,6 +96,7 @@
       display: flex;
       justify-content: flex-end;
       align-items: center;
+      margin-right: 5.5rem;
     }
   
     #sidebar-bottom-button-container > p {
