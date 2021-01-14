@@ -1,7 +1,8 @@
 #projects {
     display: flex;
     justify-content: flex-start;
-    max-width: 48rem;
+    /* max-width: 48rem; */
+    width: 100%;
   }
   
   #highlight {
@@ -16,7 +17,7 @@
     font-family: 'Playfair Display', serif;
     font-size: 2rem;
     font-weight: 700;
-    color: gray;
+    color: var(--grey1);
     margin-top: 4rem;
   }
   
@@ -60,10 +61,10 @@
 
   .project-role {
     font-size: 1.25rem;
-    color: #595959;
+    color: var(--grey2);
   }
   
   .fa-arrow-right {
-    color: darkturquoise;
+    color: var(--green2);
     font-size: 1.75rem;
   }

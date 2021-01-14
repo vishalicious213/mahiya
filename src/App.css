@@ -11,7 +11,7 @@
 }
 .content {
   grid-area: main;
-  margin-left: 1rem;
+  /* margin-left: 1rem; */
   /* background: pink; */
 }
 .sidebar {
@@ -22,7 +22,6 @@
 }
 
 .wrapper {
-  /* border: 1px solid red; */
   max-width: 910px;
   display: grid;
   /* grid-auto-rows: minmax(100px, auto); */
@@ -36,11 +35,11 @@
 
 @media (min-width: 768px) {
   .wrapper {
-      grid-template-columns: repeat(9, 1fr);
+      grid-template-columns: repeat(10, 1fr);
       grid-template-areas: 
-        "sd sd hd   hd   hd   hd   hd   hd   hd"
-        "sd sd main main main main main main main"
-        "sd sd ft   ft   ft   ft   ft   ft   ft";
+        "sd sd sd hd   hd   hd   hd   hd   hd   hd"
+        "sd sd sd main main main main main main main"
+        "sd sd sd ft   ft   ft   ft   ft   ft   ft";
   }
 
   .header, .content {

@@ -1,6 +1,12 @@
 :root {
   --text-color: #595959;
   --text-color-darker: #262626;
+
+  --green1: #13C2C2; /* lighter */
+  --green2: #08979C; /* darker */
+  --grey1: #8C8C8C; /* lighter */
+  --grey2: #595959; /* medium */
+  --grey3: #262626; /* darker */
 }
 
 body {
