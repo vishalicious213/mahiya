@@ -1,8 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import plant1 from '../img/plant-watering-app1.jpg'
-import activity1 from '../img/case-study/activity/1.jpg'
-import meal1 from '../img/mealventory-app1.jpg'
+import plant1 from '../img/projects/plant-3x.jpg'
+import activity1 from '../img/projects/act-3x.jpg'
+import meal1 from '../img/projects/meal-3x.jpg'
 import '../styles/projects-footer.css'
 
 function Projectx3() {
@@ -28,17 +28,17 @@ function Projectx3() {
             <h2 id='project-3x-heading'>My Projects</h2>
             <section id='projects-footer'>
                 <Project 
-                    title='Plant watering app' 
-                    text='strategy, design'
-                    link='/plants'
-                    image={plant1}
-                />
-
-                <Project 
                     title='Activity tracker app' 
                     text='strategy, design'
                     link='/activity'
                     image={activity1}
+                />
+
+                <Project 
+                    title='Plant watering app' 
+                    text='strategy, design'
+                    link='/plants'
+                    image={plant1}
                 />
 
                 <Project 
